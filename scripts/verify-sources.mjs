@@ -8,8 +8,24 @@ import { resolve } from "node:path";
 const manifestPath = process.argv[2] ?? "data/sources/jingui-sibu.json";
 const manifest = JSON.parse(await readFile(resolve(manifestPath), "utf8"));
 const errors = [];
+const requiredManifestFields = ["source_id", "work_id", "edition_id", "title", "license", "retrieved_at", "files"];
+for (const field of requiredManifestFields) {
+  if (!manifest[field] || (Array.isArray(manifest[field]) && manifest[field].length === 0)) {
+    errors.push(`来源清单缺少字段: ${field}`);
+  }
+}
+if (manifest.retrieved_at && Number.isNaN(Date.parse(manifest.retrieved_at))) errors.push("获取日期无效");
 
-for (const file of manifest.files) {
+const localPaths = new Set();
+
+for (const file of manifest.files ?? []) {
+  if (localPaths.has(file.local_path)) errors.push(`来源文件路径重复: ${file.local_path}`);
+  localPaths.add(file.local_path);
+  if (!file.source_url?.startsWith("https://")) errors.push(`来源页面不是 HTTPS: ${file.local_path}`);
+  if (!file.download_url?.startsWith("https://")) errors.push(`下载地址不是 HTTPS: ${file.local_path}`);
+  if (!Number.isInteger(file.pages) || file.pages < 1) errors.push(`页数登记无效: ${file.local_path}`);
+  if (!Number.isInteger(file.bytes) || file.bytes < 1) errors.push(`文件尺寸登记无效: ${file.local_path}`);
+  if (!/^[a-f0-9]{64}$/.test(file.sha256 ?? "")) errors.push(`SHA-256 格式无效: ${file.local_path}`);
   const path = resolve(file.local_path);
   const info = await stat(path);
   const buffer = await readFile(path);

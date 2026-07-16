@@ -39,6 +39,8 @@ schemas/    机器可校验的数据规范
 
 项目骨架已建立；下一步是编写笠翁堂《伤寒论》三版本的只读导入器和数据校验。
 
+当前版本：`0.2.0`。执行 `npm run check` 可完成测试、导入、来源验证、条文异文、方剂异文、质量报告和两套浏览报告的端到端验收。
+
 ## 本地导入
 
 ```bash
@@ -59,3 +61,5 @@ npm run verify:import
 可选 OCR 流水线 `scripts/ocr-djvu.mjs` 需要 `tesseract` 与 `chi_tra_vert` 语言模型。OCR 结果始终标记为 `machine_ocr`；未通过人工逐页核对前，不得导入为校定原文。
 
 运行 `npm run generate:variants && npm run generate:report` 后打开 `dist/report.html`。校勘状态与备注保存在浏览器本地，可导出为 JSON；导出结构由 `schemas/review-export.schema.json` 约束。
+
+方剂对照执行 `npm run generate:formula-variants && npm run generate:formula-report`，打开 `dist/formulas.html`。维护者可用 `npm run status` 查看当前数据规模和审核缺口。

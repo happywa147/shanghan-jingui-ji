@@ -19,7 +19,6 @@ if (!Array.isArray(source.versions)) {
   throw new Error("来源文件缺少 versions 数组");
 }
 
-const importedAt = new Date().toISOString();
 const sourceId = `liwengtang:${createHash("sha256").update(sourceBuffer).digest("hex")}`;
 
 const editions = source.versions.map((version) => ({
@@ -110,11 +109,18 @@ for (const unit of source.versions.find((version) => version.id === "song")?.["�
 
 const result = {
   manifest: {
+    schema_version: 1,
     importer: "scripts/import-liwengtang.mjs",
-    imported_at: importedAt,
     source_file: basename(sourcePath),
     source_id: sourceId,
-    source_sha256: sourceId.split(":")[1]
+    source_sha256: sourceId.split(":")[1],
+    counts: {
+      editions: editions.length,
+      text_units: textUnits.length,
+      alignments: alignments.length,
+      formulas: formulas.length,
+      text_formula_links: textFormulaLinks.length
+    }
   },
   editions,
   text_units: textUnits,
