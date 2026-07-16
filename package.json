@@ -6,6 +6,7 @@
   "scripts": {
     "test": "node --test",
     "check": "npm test && npm run import:liwengtang && npm run verify:import && npm run verify:sources && npm run generate:variants && npm run generate:report",
+    "setup:sources": "node scripts/download-sources.mjs",
     "import:liwengtang": "node scripts/import-liwengtang.mjs ../liwengtang/shanghan_data/shanghan_all.json",
     "verify:import": "node scripts/verify-import.mjs",
     "verify:sources": "node scripts/verify-sources.mjs",

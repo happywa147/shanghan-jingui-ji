@@ -12,6 +12,7 @@
     {
       "local_path": "data/raw/jingui-sibu-1.djvu",
       "source_url": "https://commons.wikimedia.org/wiki/File:Sibu_Congkan0368-張仲景-金匱要略方論-2-1.djvu",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Sibu_Congkan0368-%E5%BC%B5%E4%BB%B2%E6%99%AF-%E9%87%91%E5%8C%B1%E8%A6%81%E7%95%A5%E6%96%B9%E8%AB%96-2-1.djvu",
       "pages": 128,
       "bytes": 5056142,
       "sha256": "3bb8baf04af7b82efb25ec312b52a729c0e04726bef59044fe075ae255b9ea31"
@@ -19,6 +20,7 @@
     {
       "local_path": "data/raw/jingui-sibu-2.djvu",
       "source_url": "https://commons.wikimedia.org/wiki/File:Sibu_Congkan0369-張仲景-金匱要略方論-2-2.djvu",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Sibu_Congkan0369-%E5%BC%B5%E4%BB%B2%E6%99%AF-%E9%87%91%E5%8C%B1%E8%A6%81%E7%95%A5%E6%96%B9%E8%AB%96-2-2.djvu",
       "pages": 136,
       "bytes": 5673658,
       "sha256": "a96536bd0c149d60d2da36ea7ca80d06127f117875704eda9392735c2c4ea9b6"

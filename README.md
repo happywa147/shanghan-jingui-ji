@@ -54,7 +54,7 @@ npm run verify:import
 
 校验会检查文本单元与对照 ID 重复、空原文、悬空引用和非法信度。
 
-《金匮要略》影像来源执行 `npm run verify:sources` 校验。该命令需要 `djvulibre`（macOS 可用 `brew install djvulibre`），核对文件尺寸、SHA-256 和 DjVu 页数。
+运行 `npm run setup:sources` 可按来源清单下载《金匮要略》影像；已有文件哈希正确时不会重复下载。随后执行 `npm run verify:sources` 校验。校验命令需要 `djvulibre`（macOS 可用 `brew install djvulibre`），核对文件尺寸、SHA-256 和 DjVu 页数。
 
 可选 OCR 流水线 `scripts/ocr-djvu.mjs` 需要 `tesseract` 与 `chi_tra_vert` 语言模型。OCR 结果始终标记为 `machine_ocr`；未通过人工逐页核对前，不得导入为校定原文。
 
