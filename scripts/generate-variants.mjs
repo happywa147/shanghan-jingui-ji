@@ -10,8 +10,8 @@ const data = JSON.parse(await readFile(resolve(importPath), "utf8"));
 const unitById = new Map(data.text_units.map((unit) => [unit.id, unit]));
 
 const variants = data.alignments.map((alignment) => {
-  const sourceText = alignment.source_unit_ids.map((id) => unitById.get(id).original_text).join("\n");
-  const targetText = alignment.target_unit_ids.map((id) => unitById.get(id).original_text).join("\n");
+  const sourceText = alignment.source_unit_ids.map((id) => unitById.get(id).source_main_text ?? unitById.get(id).source_edited_text).join("\n");
+  const targetText = alignment.target_unit_ids.map((id) => unitById.get(id).source_main_text ?? unitById.get(id).source_edited_text).join("\n");
   const operations = characterDiff(sourceText, targetText);
   const changed = operations
     .filter((operation) => operation.type !== "equal")

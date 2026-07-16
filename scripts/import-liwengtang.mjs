@@ -37,13 +37,26 @@ const textUnits = source.versions.flatMap((version) =>
     work_id: "shanghan_lun",
     edition_id: `shanghan_lun:${version.id}`,
     source_id: sourceId,
+    volume: unit["卷"] ?? null,
     chapter: unit["篇"] ?? null,
-    original_locator: unit.id,
+    source_record_locator: unit.id,
+    locators: [{
+      kind: "source_record",
+      source_record_id: unit.id,
+      scan_file: null,
+      scan_page: null,
+      folio: null,
+      line: null,
+      region: null
+    }],
     received_number: unit["通用条号"] ?? null,
     structure_level: unit["缩进"] ?? null,
-    original_text: unit["原文"],
-    normalized_text: unit["原文繁"] ?? null,
-    editorial_notes: [],
+    source_edited_text: unit["原文"],
+    source_traditional_text: unit["原文繁"] ?? null,
+    source_main_text: unit["主文"] ?? null,
+    diplomatic_transcription: null,
+    source_collation: unit["校勘"] ?? [],
+    editorial_notes: ["字段名为来源整理文本；未经扫描影像逐字核对，不作底本原貌声明。"],
     review_status: "imported"
   }))
 );
@@ -89,23 +102,34 @@ const editionBySourceName = {
   "桂林": "guilin",
   "康平": "kangping"
 };
-const alignments = [];
+const alignmentCandidates = [];
 for (const unit of source.versions.find((version) => version.id === "song")?.["条文"] ?? []) {
   for (const [sourceName, targetEdition] of Object.entries(editionBySourceName)) {
     const comparison = unit["对照"]?.[sourceName];
     if (!comparison) continue;
-    alignments.push({
-      id: `alignment:shanghan_lun:song:${unit.id}:${targetEdition}:${comparison.id}`,
-      work_id: "shanghan_lun",
-      source_unit_ids: [`shanghan_lun:song:${unit.id}`],
-      target_unit_ids: [`shanghan_lun:${targetEdition}:${comparison.id}`],
-      relation_type: "approximate",
-      confidence: comparison["信度"] ?? null,
-      provenance: "imported",
-      review_status: "imported"
-    });
+    alignmentCandidates.push({ unit, comparison, targetEdition });
   }
 }
+
+const alignmentGroups = Map.groupBy(
+  alignmentCandidates,
+  ({ targetEdition, comparison }) => `${targetEdition}:${comparison.id}`
+);
+const alignments = [...alignmentGroups.entries()].map(([targetKey, candidates]) => {
+  const [targetEdition, targetId] = targetKey.split(":");
+  const sourceUnitIds = candidates.map(({ unit }) => `shanghan_lun:song:${unit.id}`);
+  return {
+    id: `alignment:shanghan_lun:song:${sourceUnitIds.map((id) => id.split(":").at(-1)).join("+")}:${targetEdition}:${targetId}`,
+    work_id: "shanghan_lun",
+    source_unit_ids: sourceUnitIds,
+    target_unit_ids: [`shanghan_lun:${targetEdition}:${targetId}`],
+    relation_type: sourceUnitIds.length > 1 ? "merge" : "approximate",
+    confidence: Math.min(...candidates.map(({ comparison }) => comparison["信度"] ?? 0)),
+    provenance: "imported",
+    algorithm: { name: "liwengtang-source-map", version: "1" },
+    review_status: "imported"
+  };
+});
 
 const result = {
   manifest: {

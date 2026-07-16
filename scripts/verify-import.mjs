@@ -11,7 +11,7 @@ const unitIds = new Set();
 for (const unit of data.text_units ?? []) {
   if (unitIds.has(unit.id)) errors.push(`文本单元 ID 重复: ${unit.id}`);
   unitIds.add(unit.id);
-  if (!unit.original_text) errors.push(`原文为空: ${unit.id}`);
+  if (!unit.source_edited_text) errors.push(`来源整理文本为空: ${unit.id}`);
 }
 
 const alignmentIds = new Set();
@@ -50,7 +50,7 @@ if (errors.length) {
 
 const countByTargetEdition = new Map();
 for (const alignment of data.alignments ?? []) {
-  const edition = alignment.target_unit_ids[0].split(":")[1];
+  const edition = alignment.target_unit_ids[0]?.split(":")[1] ?? "unmatched";
   countByTargetEdition.set(edition, (countByTargetEdition.get(edition) ?? 0) + 1);
 }
 

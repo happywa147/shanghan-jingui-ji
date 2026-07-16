@@ -9,20 +9,44 @@
     "work_id",
     "edition_id",
     "source_id",
-    "original_locator",
-    "original_text"
+    "source_record_locator",
+    "locators",
+    "source_edited_text",
+    "diplomatic_transcription"
   ],
   "properties": {
     "id": { "type": "string", "minLength": 1 },
     "work_id": { "type": "string", "enum": ["shanghan_lun", "jingui_yaolue"] },
     "edition_id": { "type": "string", "minLength": 1 },
     "source_id": { "type": "string", "minLength": 1 },
+    "volume": { "type": ["string", "null"] },
     "chapter": { "type": ["string", "null"] },
-    "original_locator": { "type": "string", "minLength": 1 },
+    "source_record_locator": { "type": "string", "minLength": 1 },
+    "locators": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["kind", "source_record_id", "scan_file", "scan_page", "folio", "line", "region"],
+        "properties": {
+          "kind": { "type": "string", "enum": ["source_record", "scan"] },
+          "source_record_id": { "type": ["string", "null"] },
+          "scan_file": { "type": ["string", "null"] },
+          "scan_page": { "type": ["integer", "null"], "minimum": 1 },
+          "folio": { "type": ["string", "null"] },
+          "line": { "type": ["string", "null"] },
+          "region": { "type": ["string", "null"] }
+        }
+      }
+    },
     "received_number": { "type": ["integer", "null"], "minimum": 1 },
     "structure_level": { "type": ["integer", "null"], "minimum": 0 },
-    "original_text": { "type": "string", "minLength": 1 },
-    "normalized_text": { "type": ["string", "null"] },
+    "source_edited_text": { "type": "string", "minLength": 1 },
+    "source_traditional_text": { "type": ["string", "null"] },
+    "source_main_text": { "type": ["string", "null"] },
+    "diplomatic_transcription": { "type": ["string", "null"] },
+    "source_collation": { "type": "array", "items": { "type": "object" }, "default": [] },
     "editorial_notes": {
       "type": "array",
       "items": { "type": "string" },

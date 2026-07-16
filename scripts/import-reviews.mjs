@@ -13,7 +13,9 @@ if (!reviewPath) {
 
 const reviewExport = JSON.parse(await readFile(resolve(reviewPath), "utf8"));
 const imported = JSON.parse(await readFile(resolve(importPath), "utf8"));
-if (reviewExport.schema_version !== 1 || typeof reviewExport.reviews !== "object") {
+if (reviewExport.schema_version !== 2 || typeof reviewExport.reviews !== "object" ||
+    !reviewExport.reviewer?.id || !["first_review", "second_review", "adjudicator"].includes(reviewExport.reviewer.role) ||
+    typeof reviewExport.input_revision !== "string") {
   throw new Error("审核导出格式不受支持");
 }
 
@@ -27,6 +29,8 @@ for (const [alignmentId, review] of Object.entries(reviewExport.reviews)) {
   if (Number.isNaN(Date.parse(review.updated_at))) throw new Error(`审核时间无效: ${alignmentId}`);
   validated.push({
     alignment_id: alignmentId,
+    reviewer: reviewExport.reviewer,
+    input_revision: reviewExport.input_revision,
     status: review.status,
     note: review.note,
     updated_at: review.updated_at,
@@ -36,7 +40,7 @@ for (const [alignmentId, review] of Object.entries(reviewExport.reviews)) {
 
 validated.sort((a, b) => a.alignment_id.localeCompare(b.alignment_id));
 await writeFile(resolve(outputPath), `${JSON.stringify({
-  schema_version: 1,
+  schema_version: 2,
   source_exported_at: reviewExport.exported_at,
   reviews: validated
 }, null, 2)}\n`);

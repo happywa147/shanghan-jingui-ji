@@ -4,6 +4,7 @@ import { createHash } from "node:crypto";
 import { readFile, stat } from "node:fs/promises";
 import { execFileSync } from "node:child_process";
 import { resolve } from "node:path";
+import { resolveInside } from "../lib/safe-path.mjs";
 
 const manifestPath = process.argv[2] ?? "data/sources/jingui-sibu.json";
 const manifest = JSON.parse(await readFile(resolve(manifestPath), "utf8"));
@@ -26,7 +27,9 @@ for (const file of manifest.files ?? []) {
   if (!Number.isInteger(file.pages) || file.pages < 1) errors.push(`页数登记无效: ${file.local_path}`);
   if (!Number.isInteger(file.bytes) || file.bytes < 1) errors.push(`文件尺寸登记无效: ${file.local_path}`);
   if (!/^[a-f0-9]{64}$/.test(file.sha256 ?? "")) errors.push(`SHA-256 格式无效: ${file.local_path}`);
-  const path = resolve(file.local_path);
+  let path;
+  try { path = resolveInside("data/raw", file.local_path); }
+  catch (error) { errors.push(error.message); continue; }
   const info = await stat(path);
   const buffer = await readFile(path);
   const hash = createHash("sha256").update(buffer).digest("hex");

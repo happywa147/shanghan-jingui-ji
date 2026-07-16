@@ -12,10 +12,11 @@ const song = formulasByEdition.get("shanghan_lun:song") ?? [];
 
 const comparisons = [];
 for (const targetEdition of ["shanghan_lun:guilin", "shanghan_lun:kangping"]) {
-  const targetByName = new Map((formulasByEdition.get(targetEdition) ?? []).map((formula) => [formula.name, formula]));
+  const targetByName = Map.groupBy(formulasByEdition.get(targetEdition) ?? [], (formula) => formula.name);
   for (const source of song) {
-    const target = targetByName.get(source.name);
-    if (!target) continue;
+    const targets = targetByName.get(source.name) ?? [];
+    if (targets.length !== 1) continue;
+    const [target] = targets;
     const sameIngredients = ingredientsEqual(source.ingredients, target.ingredients);
     const usageEqual = (source.preparation_and_use ?? "") === (target.preparation_and_use ?? "");
     comparisons.push({
@@ -26,6 +27,10 @@ for (const targetEdition of ["shanghan_lun:guilin", "shanghan_lun:kangping"]) {
       target_edition_id: targetEdition,
       source_ingredients: source.ingredients,
       target_ingredients: target.ingredients,
+      source_preparation_and_use: source.preparation_and_use,
+      target_preparation_and_use: target.preparation_and_use,
+      source_review_status: source.review_status,
+      target_review_status: target.review_status,
       ingredients_equal: sameIngredients,
       preparation_and_use_equal: usageEqual,
       has_difference: !sameIngredients || !usageEqual,

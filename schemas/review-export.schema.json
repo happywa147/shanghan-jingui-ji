@@ -4,10 +4,21 @@
   "title": "伤寒金匮集人工审核导出",
   "type": "object",
   "additionalProperties": false,
-  "required": ["schema_version", "exported_at", "reviews"],
+  "required": ["schema_version", "exported_at", "reviewer", "input_revision", "reviews"],
   "properties": {
-    "schema_version": { "const": 1 },
+    "schema_version": { "const": 2 },
     "exported_at": { "type": "string", "format": "date-time" },
+    "input_revision": { "type": "string", "minLength": 1 },
+    "reviewer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "role", "identity_verified"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "role": { "type": "string", "enum": ["first_review", "second_review", "adjudicator"] },
+        "identity_verified": { "const": false }
+      }
+    },
     "reviews": {
       "type": "object",
       "additionalProperties": {
