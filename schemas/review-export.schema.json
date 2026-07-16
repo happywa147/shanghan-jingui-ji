@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shanghan-jingui-ji.local/schemas/review-export.schema.json",
+  "title": "伤寒金匮集人工审核导出",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "exported_at", "reviews"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "exported_at": { "type": "string", "format": "date-time" },
+    "reviews": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["status", "note", "updated_at"],
+        "properties": {
+          "status": { "type": "string", "enum": ["unreviewed", "confirmed", "rejected", "needs_work"] },
+          "note": { "type": "string" },
+          "updated_at": { "type": "string", "format": "date-time" }
+        }
+      }
+    }
+  }
+}

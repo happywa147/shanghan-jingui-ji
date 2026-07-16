@@ -1,0 +1,33 @@
+{
+  "source_id": "jingui:sibu-congkan-yuqiao",
+  "work_id": "jingui_yaolue",
+  "edition_id": "jingui_yaolue:sibu_yuqiao",
+  "title": "金匱要略方論",
+  "edition_description": "《四部叢刊初編》景上海涵芬樓藏明嘉靖俞橋刊本",
+  "authors": ["漢·張機述", "晉·王叔和編", "宋·林億等詮次"],
+  "license": "Public Domain Mark 1.0；PD-scan",
+  "source_page": "https://commons.wikimedia.org/wiki/Category:金匱要略方論",
+  "retrieved_at": "2026-07-16",
+  "files": [
+    {
+      "local_path": "data/raw/jingui-sibu-1.djvu",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sibu_Congkan0368-張仲景-金匱要略方論-2-1.djvu",
+      "pages": 128,
+      "bytes": 5056142,
+      "sha256": "3bb8baf04af7b82efb25ec312b52a729c0e04726bef59044fe075ae255b9ea31"
+    },
+    {
+      "local_path": "data/raw/jingui-sibu-2.djvu",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sibu_Congkan0369-張仲景-金匱要略方論-2-2.djvu",
+      "pages": 136,
+      "bytes": 5673658,
+      "sha256": "a96536bd0c149d60d2da36ea7ca80d06127f117875704eda9392735c2c4ea9b6"
+    }
+  ],
+  "quality": {
+    "image_complete": true,
+    "embedded_text": false,
+    "ocr_status": "pending",
+    "human_review_status": "pending"
+  }
+}

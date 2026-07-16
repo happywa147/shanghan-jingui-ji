@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shanghan-jingui-ji.local/schemas/text-unit.schema.json",
+  "title": "伤寒金匮集文本单元",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "work_id",
+    "edition_id",
+    "source_id",
+    "original_locator",
+    "original_text"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "work_id": { "type": "string", "enum": ["shanghan_lun", "jingui_yaolue"] },
+    "edition_id": { "type": "string", "minLength": 1 },
+    "source_id": { "type": "string", "minLength": 1 },
+    "chapter": { "type": ["string", "null"] },
+    "original_locator": { "type": "string", "minLength": 1 },
+    "received_number": { "type": ["integer", "null"], "minimum": 1 },
+    "structure_level": { "type": ["integer", "null"], "minimum": 0 },
+    "original_text": { "type": "string", "minLength": 1 },
+    "normalized_text": { "type": ["string", "null"] },
+    "editorial_notes": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "review_status": {
+      "type": "string",
+      "enum": ["imported", "machine_checked", "human_checked", "approved"],
+      "default": "imported"
+    }
+  }
+}

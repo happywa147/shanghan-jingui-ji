@@ -1,0 +1,16 @@
+{
+  "name": "shanghan-jingui-ji",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "check": "npm test && npm run import:liwengtang && npm run verify:import && npm run verify:sources && npm run generate:variants && npm run generate:report",
+    "import:liwengtang": "node scripts/import-liwengtang.mjs ../liwengtang/shanghan_data/shanghan_all.json",
+    "verify:import": "node scripts/verify-import.mjs",
+    "verify:sources": "node scripts/verify-sources.mjs",
+    "verify:ocr": "node scripts/verify-ocr.mjs data/imported/jingui-sibu-1-ocr.json data/imported/jingui-sibu-2-ocr.json",
+    "generate:variants": "node scripts/generate-variants.mjs",
+    "generate:report": "node scripts/generate-report.mjs"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shanghan-jingui-ji.local/schemas/formula.schema.json",
+  "title": "伤寒金匮集方剂",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "work_id", "edition_id", "source_id", "original_locator", "name", "ingredients", "review_status"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "work_id": { "type": "string", "enum": ["shanghan_lun", "jingui_yaolue"] },
+    "edition_id": { "type": "string", "minLength": 1 },
+    "source_id": { "type": "string", "minLength": 1 },
+    "original_locator": { "type": "string", "minLength": 1 },
+    "name": { "type": "string", "minLength": 1 },
+    "category": { "type": ["string", "null"] },
+    "first_chapter": { "type": ["string", "null"] },
+    "preparation_and_use": { "type": ["string", "null"] },
+    "postscript": { "type": ["string", "null"] },
+    "ingredients": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["sequence", "substance", "dose_original", "preparation"],
+        "properties": {
+          "sequence": { "type": "integer", "minimum": 1 },
+          "substance": { "type": "string", "minLength": 1 },
+          "dose_original": { "type": ["string", "null"] },
+          "preparation": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "review_status": { "type": "string", "enum": ["imported", "machine_checked", "human_checked", "approved"] }
+  }
+}

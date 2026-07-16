@@ -1,0 +1,14 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+coverage/
+*.log
+
+# 原始古籍文件可能体积较大，确认版权和来源后再显式纳入版本控制。
+data/raw/*
+!data/raw/.gitkeep
+data/imported/*
+!data/imported/.gitkeep

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shanghan-jingui-ji.local/schemas/alignment.schema.json",
+  "title": "伤寒金匮集跨版本对应关系",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "work_id",
+    "source_unit_ids",
+    "target_unit_ids",
+    "relation_type",
+    "provenance",
+    "review_status"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "work_id": { "type": "string", "enum": ["shanghan_lun", "jingui_yaolue"] },
+    "source_unit_ids": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "target_unit_ids": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "relation_type": {
+      "type": "string",
+      "enum": ["exact", "approximate", "split", "merge", "related"]
+    },
+    "confidence": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+    "provenance": { "type": "string", "enum": ["imported", "algorithm", "human"] },
+    "review_status": {
+      "type": "string",
+      "enum": ["imported", "machine_checked", "human_checked", "approved"]
+    },
+    "notes": { "type": ["string", "null"] }
+  }
+}

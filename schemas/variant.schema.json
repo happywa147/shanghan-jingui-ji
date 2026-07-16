@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shanghan-jingui-ji.local/schemas/variant.schema.json",
+  "title": "伤寒金匮集机器异文候选",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["alignment_id", "source_text", "target_text", "operations", "review_status"],
+  "properties": {
+    "alignment_id": { "type": "string", "minLength": 1 },
+    "source_text": { "type": "string" },
+    "target_text": { "type": "string" },
+    "operations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["type", "text"],
+        "properties": {
+          "type": { "type": "string", "enum": ["equal", "delete", "insert"] },
+          "text": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "difference_ratio": { "type": "number", "minimum": 0, "maximum": 1 },
+    "review_status": { "type": "string", "enum": ["machine_candidate", "human_checked", "approved"] }
+  }
+}
