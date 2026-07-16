@@ -40,7 +40,7 @@ schemas/    机器可校验的数据规范
 
 已完成笠翁堂《伤寒论》宋本、桂林古本、康平本的只读导入、Schema 校验、拆合对应、字符差异候选和方剂字段对照。所有对照仍属待审候选。
 
-当前版本：`0.3.0`。执行 `npm run check` 可完成测试、导入、来源验证、条文异文、方剂异文、质量报告和两套浏览报告的端到端验收。
+当前版本：`0.4.0`。执行 `npm run check` 可完成测试、导入、来源验证、条文异文、黄金样本候选队列、方剂差异分类、质量报告和两套浏览报告的端到端验收。
 
 ## 本地导入
 
@@ -64,5 +64,7 @@ npm run verify:import
 运行 `npm run generate:variants && npm run generate:report` 后打开 `docs/site/report.html`。校勘状态与备注保存在浏览器本地，导出时必须填写审核者标识与角色；导出结构由 `schemas/review-export.schema.json` 约束。
 
 方剂对照执行 `npm run generate:formula-variants && npm run generate:formula-report`，打开 `docs/site/formulas.html`。方剂页仅供文献研究，不可用于自行用药。维护者可用 `npm run status` 查看当前数据规模和审核缺口。
+
+`npm run generate:golden-candidates` 会按合并关系、低信度、高字符差异、无字符差异和版本覆盖生成 50 条复核队列。它们只是候选；初审与复审必须由不同人完成，分歧须由第三人裁决。填入审核后执行 `npm run review:promote-golden`，只有通过门禁的记录才会标记为 `golden`。
 
 CI 使用 Node.js 22 执行 `npm ci && npm run check:release`；完整本地验收另执行 `npm run check`，其中包含未入 Git 的金匮 DjVu 影像哈希与页数校验。

@@ -12,3 +12,4 @@ data/raw/*
 !data/raw/.gitkeep
 data/imported/*
 !data/imported/.gitkeep
+!data/review/

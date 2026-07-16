@@ -7,6 +7,7 @@ import addFormats from "ajv-formats";
 
 const data = JSON.parse(await readFile(resolve(process.argv[2] ?? "data/imported/liwengtang-shanghan.json"), "utf8"));
 const variants = JSON.parse(await readFile(resolve(process.argv[3] ?? "data/imported/liwengtang-variants.json"), "utf8"));
+const goldenCandidates = JSON.parse(await readFile(resolve(process.argv[4] ?? "data/review/golden-candidates.json"), "utf8"));
 const ajv = new Ajv({ allErrors: true, strict: true });
 addFormats(ajv);
 
@@ -14,7 +15,8 @@ const checks = [
   ["schemas/text-unit.schema.json", data.text_units],
   ["schemas/alignment.schema.json", data.alignments],
   ["schemas/formula.schema.json", data.formulas],
-  ["schemas/variant.schema.json", variants.variants]
+  ["schemas/variant.schema.json", variants.variants],
+  ["schemas/golden-candidate.schema.json", goldenCandidates.candidates]
 ];
 let failures = 0;
 for (const [schemaPath, records] of checks) {

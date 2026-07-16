@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shanghan-jingui-ji.local/schemas/golden-candidate.schema.json",
+  "title": "黄金样本候选",
+  "type": "object",
+  "$defs": {
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["reviewer_id", "decision", "proposed_relation_type", "evidence_refs", "note", "reviewed_at"],
+      "properties": {
+        "reviewer_id": { "type": "string", "minLength": 1 },
+        "decision": { "type": "string", "enum": ["accept", "reject"] },
+        "proposed_relation_type": { "type": "string", "enum": ["exact", "approximate", "split", "merge", "related", "no_match", "undetermined", "addition", "omission"] },
+        "evidence_refs": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+        "note": { "type": "string" },
+        "reviewed_at": { "type": "string", "format": "date-time" }
+      }
+    }
+  },
+  "additionalProperties": false,
+  "required": ["alignment_id", "target_edition", "relation_type", "machine_confidence", "difference_ratio", "source_text", "target_text", "selection_reason", "review_state", "first_review", "second_review", "adjudication", "golden_status"],
+  "properties": {
+    "alignment_id": { "type": "string", "minLength": 1 },
+    "target_edition": { "type": "string", "enum": ["guilin", "kangping"] },
+    "relation_type": { "type": "string", "enum": ["exact", "approximate", "split", "merge", "related", "no_match", "undetermined", "addition", "omission"] },
+    "machine_confidence": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+    "difference_ratio": { "type": "number", "minimum": 0, "maximum": 1 },
+    "source_text": { "type": "string" },
+    "target_text": { "type": "string" },
+    "selection_reason": { "type": "string", "minLength": 1 },
+    "review_state": { "type": "string", "enum": ["awaiting_first_review", "awaiting_second_review", "awaiting_adjudication", "complete"] },
+    "first_review": { "anyOf": [{ "$ref": "#/$defs/review" }, { "type": "null" }] },
+    "second_review": { "anyOf": [{ "$ref": "#/$defs/review" }, { "type": "null" }] },
+    "adjudication": { "anyOf": [{ "$ref": "#/$defs/review" }, { "type": "null" }] },
+    "golden_status": { "type": "string", "enum": ["candidate", "golden", "rejected"] }
+  }
+}

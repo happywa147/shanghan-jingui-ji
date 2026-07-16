@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { ingredientsEqual, normalizedIngredient } from "../lib/formula-comparison.mjs";
+import { formulaDifferences, ingredientsEqual, normalizedIngredient } from "../lib/formula-comparison.mjs";
 
 const ingredient = (substance, dose = null, preparation = null) => ({ substance, dose_original: dose, preparation });
 
@@ -18,4 +18,16 @@ test("剂量差异判定不同", () => {
 
 test("药味顺序差异判定不同", () => {
   assert.equal(ingredientsEqual([ingredient("桂枝"), ingredient("芍藥")], [ingredient("芍藥"), ingredient("桂枝")]), false);
+});
+
+test("煎服法只有标点差异时单独分类", () => {
+  const source = { ingredients: [], preparation_and_use: "水七升，煮取三升。" };
+  const target = { ingredients: [], preparation_and_use: "水七升。煮取三升" };
+  assert.deepEqual(formulaDifferences(source, target), ["usage_punctuation"]);
+});
+
+test("方剂差异按药味、剂量和炮制分类", () => {
+  const source = { ingredients: [{ substance: "桂枝", dose_original: "三两", preparation: "去皮" }] };
+  const target = { ingredients: [{ substance: "肉桂", dose_original: "二两", preparation: null }] };
+  assert.deepEqual(formulaDifferences(source, target), ["substance_or_order", "dose", "preparation"]);
 });

@@ -76,6 +76,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -167,6 +172,12 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "dose",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -234,6 +245,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -313,6 +329,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -367,6 +388,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "ingredient_count",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -427,6 +453,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "ingredient_count",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -518,6 +549,14 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "ingredient_count",
+        "substance_or_order",
+        "dose",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -603,6 +642,14 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "ingredient_count",
+        "substance_or_order",
+        "preparation",
+        "dose",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -706,6 +753,12 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": true,
+      "difference_types": [
+        "preparation",
+        "substance_or_order",
+        "dose"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -749,6 +802,8 @@
       "target_review_status": "imported",
       "ingredients_equal": true,
       "preparation_and_use_equal": true,
+      "difference_types": [],
+      "substantive_difference": false,
       "has_difference": false,
       "review_status": "machine_candidate"
     },
@@ -828,6 +883,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -895,6 +955,12 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "substance_or_order",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -974,6 +1040,13 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "substance_or_order",
+        "dose",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -1065,6 +1138,12 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": true,
+      "difference_types": [
+        "preparation",
+        "substance_or_order",
+        "dose"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -1132,6 +1211,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "dose",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -1235,6 +1319,13 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "substance_or_order",
+        "dose",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -1332,6 +1423,14 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "ingredient_count",
+        "substance_or_order",
+        "preparation",
+        "dose",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -1399,6 +1498,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -1514,6 +1618,12 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "dose",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -1659,6 +1769,14 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "ingredient_count",
+        "substance_or_order",
+        "dose",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -1756,6 +1874,14 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "ingredient_count",
+        "substance_or_order",
+        "dose",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -1859,6 +1985,13 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "dose",
+        "substance_or_order",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -1974,6 +2107,13 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "substance_or_order",
+        "dose",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -2053,6 +2193,13 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "substance_or_order",
+        "dose",
+        "preparation",
+        "usage_punctuation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -2120,6 +2267,10 @@
       "target_review_status": "imported",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "usage_punctuation"
+      ],
+      "substantive_difference": false,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -2175,6 +2326,12 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "dose",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -2242,6 +2399,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -2297,6 +2459,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -2352,6 +2519,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -2443,6 +2615,13 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "substance_or_order",
+        "dose",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -2546,6 +2725,13 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "substance_or_order",
+        "dose",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -2655,6 +2841,14 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "ingredient_count",
+        "substance_or_order",
+        "dose",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -2770,6 +2964,13 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "substance_or_order",
+        "dose",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -2836,6 +3037,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "ingredient_count",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -2963,6 +3169,13 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "substance_or_order",
+        "dose",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -3066,6 +3279,10 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": true,
+      "difference_types": [
+        "preparation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -3121,6 +3338,14 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "ingredient_count",
+        "dose",
+        "substance_or_order",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -3188,6 +3413,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -3249,6 +3479,12 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": true,
+      "difference_types": [
+        "ingredient_count",
+        "preparation",
+        "substance_or_order"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -3328,6 +3564,13 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "substance_or_order",
+        "dose",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -3395,6 +3638,10 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": true,
+      "difference_types": [
+        "preparation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -3456,6 +3703,13 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "ingredient_count",
+        "substance_or_order",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -3547,6 +3801,13 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "substance_or_order",
+        "dose",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -3626,6 +3887,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -3681,6 +3947,13 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "ingredient_count",
+        "substance_or_order",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -3724,6 +3997,10 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": true,
+      "difference_types": [
+        "preparation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -3785,6 +4062,14 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "ingredient_count",
+        "substance_or_order",
+        "preparation",
+        "dose",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -3828,6 +4113,10 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": true,
+      "difference_types": [
+        "preparation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -3876,6 +4165,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "ingredient_count",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -3912,6 +4206,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "ingredient_count",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -3991,6 +4290,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -4052,6 +4356,14 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "ingredient_count",
+        "substance_or_order",
+        "dose",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -4119,6 +4431,12 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": true,
+      "difference_types": [
+        "preparation",
+        "substance_or_order",
+        "dose"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -4192,6 +4510,14 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "ingredient_count",
+        "preparation",
+        "substance_or_order",
+        "dose",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -4259,6 +4585,13 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": true,
+      "difference_types": [
+        "ingredient_count",
+        "substance_or_order",
+        "preparation",
+        "dose"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -4338,6 +4671,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "usage_punctuation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -4387,6 +4725,13 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": true,
+      "difference_types": [
+        "ingredient_count",
+        "substance_or_order",
+        "preparation",
+        "dose"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -4466,6 +4811,13 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "dose",
+        "preparation",
+        "substance_or_order",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -4533,6 +4885,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -4576,6 +4933,12 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "dose",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -4631,6 +4994,12 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "dose",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -4686,6 +5055,12 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "dose",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -4729,6 +5104,12 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "dose",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -4784,6 +5165,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": true,
+      "difference_types": [
+        "substance_or_order",
+        "preparation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -4869,6 +5255,13 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": true,
+      "difference_types": [
+        "ingredient_count",
+        "substance_or_order",
+        "preparation",
+        "dose"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -4936,6 +5329,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -5051,6 +5449,10 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": true,
+      "difference_types": [
+        "preparation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -5148,6 +5550,14 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "ingredient_count",
+        "substance_or_order",
+        "dose",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -5251,6 +5661,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": true,
+      "difference_types": [
+        "substance_or_order",
+        "preparation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -5354,6 +5769,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -5403,6 +5823,12 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "ingredient_count",
+        "substance_or_order",
+        "usage_punctuation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -5470,6 +5896,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -5561,6 +5992,13 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "substance_or_order",
+        "dose",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -5640,6 +6078,12 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "substance_or_order",
+        "dose",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -5707,6 +6151,13 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "substance_or_order",
+        "dose",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -5743,6 +6194,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "ingredient_count",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -5798,6 +6254,13 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "substance_or_order",
+        "dose",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -5865,6 +6328,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "substance_or_order",
+        "usage_punctuation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -5932,6 +6400,12 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "substance_or_order",
+        "preparation",
+        "usage_punctuation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -5969,6 +6443,12 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": true,
+      "difference_types": [
+        "ingredient_count",
+        "substance_or_order",
+        "preparation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -6096,6 +6576,13 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "substance_or_order",
+        "dose",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -6139,6 +6626,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "substance_or_order",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -6194,6 +6686,10 @@
       "target_review_status": "imported",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -6218,6 +6714,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "ingredient_count",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -6261,6 +6762,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -6328,6 +6834,10 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": true,
+      "difference_types": [
+        "preparation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -6383,6 +6893,13 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "substance_or_order",
+        "dose",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -6414,6 +6931,10 @@
       "target_review_status": "imported",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -6445,6 +6966,10 @@
       "target_review_status": "imported",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "usage_punctuation"
+      ],
+      "substantive_difference": false,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -6488,6 +7013,8 @@
       "target_review_status": "imported",
       "ingredients_equal": true,
       "preparation_and_use_equal": true,
+      "difference_types": [],
+      "substantive_difference": false,
       "has_difference": false,
       "review_status": "machine_candidate"
     },
@@ -6531,6 +7058,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -6670,6 +7202,13 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "substance_or_order",
+        "dose",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -6773,6 +7312,13 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "substance_or_order",
+        "preparation",
+        "dose",
+        "usage_punctuation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -6840,6 +7386,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "substance_or_order",
+        "usage_punctuation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -6895,6 +7446,12 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "dose",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -6949,6 +7506,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "ingredient_count",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -7052,6 +7614,13 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "substance_or_order",
+        "dose",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -7119,6 +7688,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "ingredient_count",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -7198,6 +7772,10 @@
       "target_review_status": "imported",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -7289,6 +7867,12 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "dose",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -7356,6 +7940,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "dose",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -7435,6 +8024,12 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "dose",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -7514,6 +8109,13 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "substance_or_order",
+        "preparation",
+        "dose",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -7617,6 +8219,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "usage_punctuation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -7660,6 +8267,10 @@
       "target_review_status": "imported",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "usage_punctuation"
+      ],
+      "substantive_difference": false,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -7727,6 +8338,10 @@
       "target_review_status": "imported",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "usage_punctuation"
+      ],
+      "substantive_difference": false,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -7830,6 +8445,12 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "dose",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -7927,6 +8548,14 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "ingredient_count",
+        "dose",
+        "substance_or_order",
+        "preparation",
+        "usage_punctuation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -8042,6 +8671,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -8139,6 +8773,14 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "ingredient_count",
+        "substance_or_order",
+        "preparation",
+        "dose",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -8242,6 +8884,10 @@
       "target_review_status": "imported",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -8357,6 +9003,12 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "dose",
+        "preparation",
+        "usage_punctuation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -8424,6 +9076,10 @@
       "target_review_status": "imported",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "usage_punctuation"
+      ],
+      "substantive_difference": false,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -8503,6 +9159,13 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "substance_or_order",
+        "dose",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -8570,6 +9233,10 @@
       "target_review_status": "imported",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "usage_punctuation"
+      ],
+      "substantive_difference": false,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -8625,6 +9292,13 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "substance_or_order",
+        "dose",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -8680,6 +9354,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -8765,6 +9444,12 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "ingredient_count",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -8868,6 +9553,12 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "dose",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -8995,6 +9686,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "dose",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -9098,6 +9794,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "substance_or_order",
+        "usage_punctuation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -9165,6 +9866,10 @@
       "target_review_status": "imported",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -9226,6 +9931,14 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "ingredient_count",
+        "substance_or_order",
+        "dose",
+        "preparation",
+        "usage_punctuation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -9305,6 +10018,10 @@
       "target_review_status": "imported",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -9366,6 +10083,14 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "ingredient_count",
+        "dose",
+        "preparation",
+        "substance_or_order",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -9445,6 +10170,12 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "dose",
+        "usage_punctuation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -9536,6 +10267,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "dose",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -9615,6 +10351,10 @@
       "target_review_status": "imported",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -9658,6 +10398,10 @@
       "target_review_status": "imported",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -9701,6 +10445,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -9756,6 +10505,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "usage_punctuation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -9835,6 +10589,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -9914,6 +10673,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -9963,6 +10727,14 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "ingredient_count",
+        "substance_or_order",
+        "dose",
+        "preparation",
+        "usage_punctuation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -10030,6 +10802,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -10073,6 +10850,10 @@
       "target_review_status": "imported",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "usage_punctuation"
+      ],
+      "substantive_difference": false,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -10128,6 +10909,10 @@
       "target_review_status": "imported",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "usage_punctuation"
+      ],
+      "substantive_difference": false,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -10183,6 +10968,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "usage_punctuation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -10238,6 +11028,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "usage_punctuation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -10281,6 +11076,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "dose",
+        "usage_punctuation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -10330,6 +11130,12 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "ingredient_count",
+        "dose",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -10397,6 +11203,12 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "dose",
+        "preparation",
+        "usage_punctuation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -10488,6 +11300,13 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "substance_or_order",
+        "dose",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -10591,6 +11410,10 @@
       "target_review_status": "imported",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -10640,6 +11463,13 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "ingredient_count",
+        "substance_or_order",
+        "dose",
+        "usage_punctuation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -10707,6 +11537,10 @@
       "target_review_status": "imported",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -10798,6 +11632,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -10877,6 +11716,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "usage_punctuation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -10944,6 +11788,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "usage_punctuation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -10999,6 +11848,10 @@
       "target_review_status": "imported",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "usage_punctuation"
+      ],
+      "substantive_difference": false,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -11066,6 +11919,13 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "dose",
+        "substance_or_order",
+        "preparation",
+        "usage_punctuation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -11193,6 +12053,12 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "dose",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -11236,6 +12102,10 @@
       "target_review_status": "imported",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "usage_punctuation"
+      ],
+      "substantive_difference": false,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -11291,6 +12161,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -11358,6 +12233,12 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "dose",
+        "usage_punctuation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -11413,6 +12294,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "usage_punctuation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -11468,6 +12354,11 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "preparation",
+        "usage_punctuation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -11511,6 +12402,10 @@
       "target_review_status": "imported",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "usage_punctuation"
+      ],
+      "substantive_difference": false,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -11626,6 +12521,14 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "ingredient_count",
+        "substance_or_order",
+        "dose",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -11681,6 +12584,12 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "substance_or_order",
+        "preparation",
+        "preparation_and_use"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     },
@@ -11778,6 +12687,14 @@
       "target_review_status": "imported",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
+      "difference_types": [
+        "ingredient_count",
+        "dose",
+        "substance_or_order",
+        "preparation",
+        "usage_punctuation"
+      ],
+      "substantive_difference": true,
       "has_difference": true,
       "review_status": "machine_candidate"
     }
