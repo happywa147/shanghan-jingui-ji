@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-18T00:00:00.000Z",
+  "generator": "scripts/verify-review-workflow-simulation.mjs",
+  "inputs": [
+    {
+      "path": "data/imported/liwengtang-shanghan.json",
+      "sha256": "1cbc9062582fa6aee8f7d7a48da25d49541ec5fe89f5ef62ce84ae16527874bd",
+      "records": 779
+    },
+    {
+      "path": "data/review/golden-candidates.json",
+      "sha256": "5796bd0f192f9b5762d522168d9299597909883345d92a5e748a7dd97d8df268",
+      "records": 50
+    },
+    {
+      "path": "data/review/collation-preflight.json",
+      "sha256": "a47239f8f9e3ec7057b2121782f19620053667775bfc859a5cb308860cdf189a",
+      "records": 100
+    }
+  ],
+  "simulation": {
+    "reviewer_id": "ai-agent-simulation",
+    "identity_verified": false,
+    "exported_reviews": 1,
+    "imported_reviews": 1,
+    "promotion_attempted": true,
+    "promotion_blocked": true,
+    "block_reason": "审核者未通过有效身份/角色验证: ai-agent-simulation"
+  },
+  "invariants": {
+    "raw_inputs_unchanged": true,
+    "golden_candidate_sha_before": "5796bd0f192f9b5762d522168d9299597909883345d92a5e748a7dd97d8df268",
+    "golden_candidate_sha_after": "5796bd0f192f9b5762d522168d9299597909883345d92a5e748a7dd97d8df268",
+    "simulated_human_fields_written": false,
+    "simulated_gold_records": 0
+  },
+  "result": "PASS"
+}

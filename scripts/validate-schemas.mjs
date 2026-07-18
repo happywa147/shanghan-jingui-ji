@@ -10,6 +10,9 @@ const variants = JSON.parse(await readFile(resolve(process.argv[3] ?? "data/impo
 const goldenCandidates = JSON.parse(await readFile(resolve(process.argv[4] ?? "data/review/golden-candidates.json"), "utf8"));
 const formulaSafety = JSON.parse(await readFile(resolve(process.argv[5] ?? "data/imported/formula-safety.json"), "utf8"));
 const collationPreflight = JSON.parse(await readFile(resolve(process.argv[6] ?? "data/review/collation-preflight.json"), "utf8"));
+const sixEditionMatrix = JSON.parse(await readFile(resolve(process.argv[7] ?? "data/review/six-edition-matrix.json"), "utf8"));
+const reviewWorkflowEvidence = JSON.parse(await readFile(resolve(process.argv[8] ?? "data/review/review-workflow-evidence.json"), "utf8"));
+const prepublicationReadiness = JSON.parse(await readFile(resolve(process.argv[9] ?? "data/review/prepublication-readiness.json"), "utf8"));
 const ajv = new Ajv({ allErrors: true, strict: true });
 addFormats(ajv);
 
@@ -45,6 +48,18 @@ if (!validateCollationPreflight(collationPreflight)) {
   console.error("六主本对校预审包根结构校验失败");
   console.error(ajv.errorsText(validateCollationPreflight.errors, { separator: "\n" }));
   process.exit(1);
+}
+for (const [label, schemaPath, value] of [
+  ["六版本对校矩阵", "schemas/six-edition-matrix.schema.json", sixEditionMatrix],
+  ["审核闭环演练证据", "schemas/review-workflow-evidence.schema.json", reviewWorkflowEvidence],
+  ["预发布验收状态", "schemas/prepublication-readiness.schema.json", prepublicationReadiness]
+]) {
+  const validateEvidence = ajv.compile(JSON.parse(await readFile(resolve(schemaPath), "utf8")));
+  if (!validateEvidence(value)) {
+    console.error(`${label}根结构校验失败`);
+    console.error(ajv.errorsText(validateEvidence.errors, { separator: "\n" }));
+    process.exit(1);
+  }
 }
 const packageSchema = JSON.parse(await readFile(resolve("schemas/import-package.schema.json"), "utf8"));
 const validatePackage = ajv.compile(packageSchema);

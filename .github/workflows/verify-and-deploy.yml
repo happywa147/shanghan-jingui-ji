@@ -82,6 +82,8 @@ jobs:
           node-version: 22.18.0
           cache: npm
       - run: npm ci
+      - name: 公开预发布完整性硬门禁
+        run: npm run verify:public-prepublication
       - name: 公开发布真人审核硬门禁
         run: npm run verify:golden-release
       - name: 公开发布权利硬门禁

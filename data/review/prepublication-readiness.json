@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-18T00:00:00.000Z",
+  "generator": "scripts/generate-prepublication-readiness.mjs",
+  "inputs": [
+    {
+      "path": "data/sources/selected-editions.json",
+      "sha256": "932fa15d0356dceb0a44432dced780b5d49870ec52c7561c7c33109701925231"
+    },
+    {
+      "path": "data/sources/selected-ocr-batch.json",
+      "sha256": "9b09e78ac573a77106aaa717ce3619a7cef66e5141c944a9a9457bb15b6c79c9"
+    },
+    {
+      "path": "data/review/collation-preflight.json",
+      "sha256": "a47239f8f9e3ec7057b2121782f19620053667775bfc859a5cb308860cdf189a"
+    },
+    {
+      "path": "data/review/six-edition-matrix.json",
+      "sha256": "dc73c0ade2b19c9fc5382fe467660967eff3ce7ab7947399010013177aec9dd4"
+    },
+    {
+      "path": "data/review/expert-pool-plan.json",
+      "sha256": "1e8b67153b7628a7e7f4726bad401271f4988c126f6a26b26bbb659e38efef90"
+    },
+    {
+      "path": "data/review/reviewer-registry.json",
+      "sha256": "04118236b0ff1d8a90b5a0b0d576ba82ae0fd49d045dd4cabfe69d4375aede51"
+    },
+    {
+      "path": "data/review/golden-candidates.json",
+      "sha256": "5796bd0f192f9b5762d522168d9299597909883345d92a5e748a7dd97d8df268"
+    },
+    {
+      "path": "data/review/review-workflow-evidence.json",
+      "sha256": "fe9dd2d49f98ca0f98fb6406fd5dd779f87da9a9ee062f9aefd11f6125270099"
+    },
+    {
+      "path": "data/sources/edition-catalog.json",
+      "sha256": "44f97ec555a08d867e0b2c58db72e46780eb5b597bd0453b79300642cba80276"
+    }
+  ],
+  "metrics": {
+    "catalog_selected_editions": 6,
+    "selected_image_editions": 5,
+    "ocr_target_pages": 856,
+    "ocr_completed_pages": 0,
+    "anchors_total": 100,
+    "anchors_human_verified": 0,
+    "verified_human_experts": 0,
+    "human_golden_records": 0,
+    "matrix_state": "blocked",
+    "review_workflow_evidence": "PASS",
+    "website_required_files": 7,
+    "website_present_files": 7
+  },
+  "technical_preview": {
+    "ready": true,
+    "checks": [
+      {
+        "id": "six_catalog_editions",
+        "required": 6,
+        "actual": 6,
+        "pass": true
+      },
+      {
+        "id": "five_usable_image_editions",
+        "required": 5,
+        "actual": 5,
+        "pass": true
+      },
+      {
+        "id": "anchor_candidates_present",
+        "required": 100,
+        "actual": 100,
+        "pass": true
+      },
+      {
+        "id": "review_workflow_simulation",
+        "required": "PASS",
+        "actual": "PASS",
+        "pass": true
+      },
+      {
+        "id": "website_artifacts_present",
+        "required": 7,
+        "actual": 7,
+        "pass": true
+      }
+    ],
+    "blockers": []
+  },
+  "public_prepublication": {
+    "ready": false,
+    "checks": [
+      {
+        "id": "six_catalog_editions",
+        "required": 6,
+        "actual": 6,
+        "pass": true
+      },
+      {
+        "id": "five_usable_image_editions",
+        "required": 5,
+        "actual": 5,
+        "pass": true
+      },
+      {
+        "id": "anchor_candidates_present",
+        "required": 100,
+        "actual": 100,
+        "pass": true
+      },
+      {
+        "id": "review_workflow_simulation",
+        "required": "PASS",
+        "actual": "PASS",
+        "pass": true
+      },
+      {
+        "id": "website_artifacts_present",
+        "required": 7,
+        "actual": 7,
+        "pass": true
+      },
+      {
+        "id": "ocr_target_pages_complete",
+        "required": 856,
+        "actual": 0,
+        "pass": false
+      },
+      {
+        "id": "anchors_human_verified",
+        "required": 100,
+        "actual": 0,
+        "pass": false
+      },
+      {
+        "id": "verified_human_experts",
+        "required": 5,
+        "actual": 0,
+        "pass": false
+      },
+      {
+        "id": "human_golden_records",
+        "required": 20,
+        "actual": 0,
+        "pass": false
+      },
+      {
+        "id": "six_edition_matrix",
+        "required": "ready",
+        "actual": "blocked",
+        "pass": false
+      }
+    ],
+    "blockers": [
+      "ocr_target_pages_complete",
+      "anchors_human_verified",
+      "verified_human_experts",
+      "human_golden_records",
+      "six_edition_matrix"
+    ]
+  },
+  "external_gates": {
+    "copyright": "npm run verify:release-rights",
+    "website_release": "npm run test:e2e && npm run verify:artifacts"
+  }
+}

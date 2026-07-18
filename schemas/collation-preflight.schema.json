@@ -45,12 +45,33 @@
       "type": "array", "minItems": 100, "maxItems": 100,
       "items": {
         "type": "object", "additionalProperties": false,
-        "required": ["anchor_id", "work_id", "edition_id", "source_locator", "text_excerpt", "candidate_kind", "state", "blocking_reasons", "requires_human_review"],
+        "required": ["anchor_id", "work_id", "edition_id", "source_locator", "image_locator", "text_excerpt", "candidate_kind", "state", "blocking_reasons", "requires_human_review"],
         "properties": {
           "anchor_id": { "type": "string", "pattern": "^anchor:" },
           "work_id": { "enum": ["shanghan_lun", "jingui_yaolue"] },
           "edition_id": { "type": "string", "minLength": 1 },
           "source_locator": { "type": "string", "minLength": 1 },
+          "image_locator": {
+            "type": "object", "additionalProperties": false,
+            "required": ["status", "source_file", "source_sha256", "page", "folio", "region", "verified_by_human"],
+            "properties": {
+              "status": { "enum": ["missing", "candidate", "verified"] },
+              "source_file": { "type": ["string", "null"] },
+              "source_sha256": { "oneOf": [{ "type": "null" }, { "type": "string", "pattern": "^[a-f0-9]{64}$" }] },
+              "page": { "type": ["integer", "null"], "minimum": 1 },
+              "folio": { "type": ["string", "null"] },
+              "region": { "type": ["string", "null"] },
+              "verified_by_human": { "type": "boolean" }
+            },
+            "allOf": [
+              { "if": { "properties": { "status": { "const": "missing" } }, "required": ["status"] }, "then": {
+                "properties": { "source_file": { "const": null }, "source_sha256": { "const": null }, "page": { "const": null }, "folio": { "const": null }, "region": { "const": null }, "verified_by_human": { "const": false } }
+              }},
+              { "if": { "properties": { "status": { "const": "verified" } }, "required": ["status"] }, "then": {
+                "properties": { "source_file": { "type": "string", "minLength": 1 }, "source_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }, "page": { "type": "integer", "minimum": 1 }, "verified_by_human": { "const": true } }
+              }}
+            ]
+          },
           "text_excerpt": { "type": "string", "minLength": 1, "maxLength": 300 },
           "candidate_kind": { "enum": ["chapter", "text_unit", "formula"] },
           "state": { "enum": ["candidate_unverified", "blocked_missing_scan_locator"] },

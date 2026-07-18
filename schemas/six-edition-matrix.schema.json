@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shanghan-jingui-ji.local/schemas/six-edition-matrix.schema.json",
+  "title": "六版本对校矩阵",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "input_revision", "generated_at", "generator", "summary", "editions"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "input_revision": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "generator": { "const": "scripts/generate-six-edition-matrix.mjs" },
+    "summary": {
+      "type": "object", "additionalProperties": false,
+      "required": ["selected_editions", "anchors", "image_verified_anchors", "blocked_anchors", "release_state"],
+      "properties": {
+        "selected_editions": { "const": 6 }, "anchors": { "const": 100 },
+        "image_verified_anchors": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "blocked_anchors": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "release_state": { "enum": ["blocked", "ready"] }
+      }
+    },
+    "editions": {
+      "type": "array", "minItems": 6, "maxItems": 6,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["edition_id", "work_id", "selection_rank", "source", "license", "completeness", "image_quality", "text_status", "ocr_state", "anchor_count", "image_verified_anchor_count", "gate_state", "blocking_reasons"],
+        "properties": {
+          "edition_id": { "type": "string", "minLength": 1 },
+          "work_id": { "enum": ["shanghan_lun", "jingui_yaolue"] },
+          "selection_rank": { "type": "integer", "minimum": 1, "maximum": 3 },
+          "source": { "type": "string", "minLength": 1 }, "license": { "type": "string", "minLength": 1 },
+          "completeness": { "type": "string", "minLength": 1 }, "image_quality": { "type": "string", "minLength": 1 },
+          "text_status": { "type": "string", "minLength": 1 },
+          "ocr_state": { "enum": ["ready_for_ocr", "blocked", "transcription_only"] },
+          "anchor_count": { "type": "integer", "minimum": 0, "maximum": 100 },
+          "image_verified_anchor_count": { "type": "integer", "minimum": 0, "maximum": 100 },
+          "gate_state": { "enum": ["blocked", "ready"] },
+          "blocking_reasons": { "type": "array", "items": { "type": "string", "minLength": 1 } }
+        }
+      }
+    }
+  }
+}

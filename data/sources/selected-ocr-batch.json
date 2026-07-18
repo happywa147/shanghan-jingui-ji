@@ -1,0 +1,11 @@
+{
+  "source_id": "selected-editions-ocr-batch-2026-07-18",
+  "retrieved_at": "2026-07-18",
+  "files": [
+    {"local_path":"data/raw/jingui-sibu-1.djvu","pages":128,"bytes":5056142,"sha256":"3bb8baf04af7b82efb25ec312b52a729c0e04726bef59044fe075ae255b9ea31","ocr_ranges":[[1,128]]},
+    {"local_path":"data/raw/jingui-sibu-2.djvu","pages":136,"bytes":5673658,"sha256":"a96536bd0c149d60d2da36ea7ca80d06127f117875704eda9392735c2c4ea9b6","ocr_ranges":[[1,136]]},
+    {"local_path":"data/raw/zhaokaimei-zhongjing-quanshu.pdf","pages":617,"bytes":222463241,"sha256":"3e1138c8efff9348500a5157aedd505fa82723484d6c08aa5a51e78ff69c8916","ocr_ranges":[[260,496],[497,617]],"note":"260-496为《注解伤寒论》部分；497-617为《金匱要略方論》"},
+    {"local_path":"data/raw/wuqian-jingui.pdf","pages":84,"bytes":25158060,"sha256":"56e143cc86cec4353473b3c6ec5b1ab81c5fbd8c580c56eaf0ead2fe3556ed04","ocr_ranges":[[1,84]]},
+    {"local_path":"data/raw/kangping-shanghan.pdf","pages":150,"bytes":4289561,"sha256":"82d3b51cb99898959dd9acc99cec5321e8f8a08cafc81d4f5140b7be267e0804","ocr_ranges":[[1,150]],"note":"经文、注文和校者说明须后续按版面层级拆分"}
+  ]
+}

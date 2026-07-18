@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "input_revision": "9d3b22f77ef350be1445fa59e03ebe361d9be5ce46bacc9980da42f129b9cecc",
+  "generated_at": "2026-07-18T00:00:00.000Z",
+  "generator": "scripts/generate-six-edition-matrix.mjs",
+  "summary": {
+    "selected_editions": 6,
+    "anchors": 100,
+    "image_verified_anchors": 0,
+    "blocked_anchors": 100,
+    "release_state": "blocked"
+  },
+  "editions": [
+    {
+      "edition_id": "jingui:sibu-yuqiao",
+      "work_id": "jingui_yaolue",
+      "selection_rank": 1,
+      "source": "data/sources/jingui-sibu.json",
+      "license": "PD-old / PD-scan",
+      "completeness": "complete",
+      "image_quality": "high",
+      "text_status": "fixed_revision_transcription_imported",
+      "ocr_state": "transcription_only",
+      "anchor_count": 50,
+      "image_verified_anchor_count": 0,
+      "gate_state": "blocked",
+      "blocking_reasons": [
+        "当前文本没有逐条绑定扫描页码，不能视为影像核验本",
+        "影像定位尚未逐条完成人工核验"
+      ]
+    },
+    {
+      "edition_id": "jingui:zhaokaimei-1599",
+      "work_id": "jingui_yaolue",
+      "selection_rank": 2,
+      "source": "https://commons.wikimedia.org/wiki/File:ZHSY100537_仲景全書_漢張機撰_明萬曆二十七年趙開美刻本.pdf",
+      "license": "PD-old / PD-scan",
+      "completeness": "complete_collection_needs_page_range",
+      "image_quality": "medium",
+      "text_status": "pending_segmentation_and_ocr",
+      "ocr_state": "blocked",
+      "anchor_count": 0,
+      "image_verified_anchor_count": 0,
+      "gate_state": "blocked",
+      "blocking_reasons": [
+        "合集须先确定《金匱》起止页；不得把《伤寒》与《金匱》混切",
+        "尚未为该主本生成跨版本锚点候选",
+        "影像定位尚未逐条完成人工核验"
+      ]
+    },
+    {
+      "edition_id": "jingui:wuqian-1395",
+      "work_id": "jingui_yaolue",
+      "selection_rank": 3,
+      "source": "https://commons.wikimedia.org/wiki/File:ZHSY100392_金匱要略方_漢張機撰_晉王叔和輯_宋林億詮次_明洪武二十八年吳遷抄本.pdf",
+      "license": "file_page_verification_required",
+      "completeness": "catalogued_as_three_volumes_verify_folios",
+      "image_quality": "medium",
+      "text_status": "pending_download_and_folio_check",
+      "ocr_state": "blocked",
+      "anchor_count": 0,
+      "image_verified_anchor_count": 0,
+      "gate_state": "blocked",
+      "blocking_reasons": [
+        "须在导入前复核文件页许可、卷首卷尾及缺叶",
+        "尚未为该主本生成跨版本锚点候选",
+        "影像定位尚未逐条完成人工核验"
+      ]
+    },
+    {
+      "edition_id": "shanghan:zhaokaimei-1599",
+      "work_id": "shanghan_lun",
+      "selection_rank": 1,
+      "source": "https://commons.wikimedia.org/wiki/File:ZHSY100537_仲景全書_漢張機撰_明萬曆二十七年趙開美刻本.pdf",
+      "license": "PD-old / PD-scan",
+      "completeness": "complete_collection_needs_page_range",
+      "image_quality": "medium",
+      "text_status": "owner_authorized_transcription_imported_scan_pending_alignment",
+      "ocr_state": "transcription_only",
+      "anchor_count": 50,
+      "image_verified_anchor_count": 0,
+      "gate_state": "blocked",
+      "blocking_reasons": [
+        "须用影像替换当前笠翁堂文本中的空页码定位",
+        "当前文本没有逐条绑定扫描页码，不能视为影像核验本",
+        "影像定位尚未逐条完成人工核验"
+      ]
+    },
+    {
+      "edition_id": "shanghan:kangping",
+      "work_id": "shanghan_lun",
+      "selection_rank": 2,
+      "source": "https://commons.wikimedia.org/wiki/File:NLC416-08jh015938-38923_古本康平傷寒論.pdf",
+      "license": "PD China / PD-scan",
+      "completeness": "local_scan_verified_text_page_binding_pending",
+      "image_quality": "medium",
+      "text_status": "scan_verified_ocr_and_structure_pending",
+      "ocr_state": "transcription_only",
+      "anchor_count": 0,
+      "image_verified_anchor_count": 0,
+      "gate_state": "blocked",
+      "blocking_reasons": [
+        "1947年鉴定本；经文、注文与校者说明必须按字距和层级拆分",
+        "当前文本没有逐条绑定扫描页码，不能视为影像核验本",
+        "尚未为该主本生成跨版本锚点候选",
+        "影像定位尚未逐条完成人工核验"
+      ]
+    },
+    {
+      "edition_id": "shanghan:guilin-baiyunge",
+      "work_id": "shanghan_lun",
+      "selection_rank": 3,
+      "source": "https://zh.wikisource.org/wiki/傷寒雜病論桂林古本",
+      "license": "PD-old; Wikisource CC BY-SA 4.0",
+      "completeness": "wikisource_text_complete_original_manuscript_unavailable",
+      "image_quality": "not_verified",
+      "text_status": "transcription_available_provenance_gate_blocked",
+      "ocr_state": "transcription_only",
+      "anchor_count": 0,
+      "image_verified_anchor_count": 0,
+      "gate_state": "blocked",
+      "blocking_reasons": [
+        "当前文本没有逐条绑定扫描页码，不能视为影像核验本",
+        "尚未为该主本生成跨版本锚点候选",
+        "影像定位尚未逐条完成人工核验"
+      ]
+    }
+  ]
+}

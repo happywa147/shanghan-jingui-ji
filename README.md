@@ -42,7 +42,7 @@ schemas/    机器可校验的数据规范
 
 已完成笠翁堂《伤寒论》宋本、桂林古本、康平本的只读导入、Schema 校验、拆合对应、字符差异候选和方剂字段对照。所有对照仍属待审候选。
 
-当前版本：`0.5.0`。执行 `npm run check:engineering:full` 可完成数据生成、53项单元门禁、三浏览器/移动端E2E和工程证据评分；执行 `npm run check` 另会核验本地《金匮》原始影像。
+当前版本：`0.5.0`。执行 `npm run check:engineering:full` 可完成数据生成、58项单元门禁、三浏览器/移动端E2E和工程证据评分；执行 `npm run check` 另会核验本地《金匮》原始影像。
 
 构建命令按职责分组：`npm run generate:data` 生成结构化数据，`npm run generate:site` 生成静态网站，`npm run verify:inputs` 核验人工输入，`npm run verify:generated` 核验生成结果。完整分类规则见 `docs/artifact-policy.md`。
 

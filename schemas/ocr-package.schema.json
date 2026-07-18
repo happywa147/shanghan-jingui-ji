@@ -14,7 +14,7 @@
     "processed_range": { "type": "array", "minItems": 2, "maxItems": 2, "prefixItems": [{ "type": "integer", "minimum": 1 }, { "type": "integer", "minimum": 1 }], "items": false },
     "engine": { "const": "tesseract" },
     "engine_version": { "type": "string", "minLength": 1, "maxLength": 300 },
-    "renderer": { "const": "ddjvu" },
+    "renderer": { "enum": ["ddjvu", "pdftoppm"] },
     "renderer_version": { "type": "string", "minLength": 1, "maxLength": 300 },
     "language": { "const": "chi_tra_vert" },
     "page_segmentation_mode": { "const": 5 },
@@ -30,6 +30,8 @@
           "source_file": { "type": "string", "minLength": 1, "maxLength": 300 },
           "page": { "type": "integer", "minimum": 1 },
           "text": { "type": "string" },
+          "mean_confidence": { "type": "number", "minimum": 0, "maximum": 100 },
+          "low_confidence": { "type": "boolean" },
           "status": { "const": "machine_ocr" },
           "requires_human_review": { "const": true }
         }

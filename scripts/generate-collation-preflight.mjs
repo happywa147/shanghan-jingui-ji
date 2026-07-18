@@ -40,6 +40,10 @@ const editions = selected.map((edition) => {
 });
 
 const clean = (text) => String(text || "").replace(/\s+/g, " ").trim();
+const missingImageLocator = () => ({
+  status: "missing", source_file: null, source_sha256: null,
+  page: null, folio: null, region: null, verified_by_human: false
+});
 const shanghanUnits = shanghan.text_units
   .filter((unit) => clean(unit.source_edited_text).length >= 20)
   .slice(0, 50);
@@ -55,6 +59,7 @@ const anchors = [
     anchor_id: `anchor:shanghan_lun:${String(index + 1).padStart(3, "0")}`,
     work_id: "shanghan_lun", edition_id: unit.edition_id,
     source_locator: unit.source_record_locator,
+    image_locator: missingImageLocator(),
     text_excerpt: clean(unit.source_edited_text).slice(0, 300),
     candidate_kind: unit.chapter ? "text_unit" : "chapter",
     state: "blocked_missing_scan_locator", blocking_reasons: ["来源记录尚未绑定扫描文件、页码与版面区域"], requires_human_review: true
@@ -63,6 +68,7 @@ const anchors = [
     anchor_id: `anchor:jingui_yaolue:${String(index + 1).padStart(3, "0")}`,
     work_id: "jingui_yaolue", edition_id: "jingui:sibu-yuqiao",
     source_locator: `${segment.part}@oldid=${segment.revision_id}#segment-${segment.index}`,
+    image_locator: missingImageLocator(),
     text_excerpt: segment.text.slice(0, 300), candidate_kind: "text_unit",
     state: "blocked_missing_scan_locator", blocking_reasons: ["固定修订转录尚未绑定四部丛刊扫描页码与版面区域"], requires_human_review: true
   }))
@@ -100,5 +106,7 @@ const output = {
   editions, anchors, structure_candidates: structureCandidates, golden_remediation: goldenRemediation
 };
 const target = path.join(root, "data/review/collation-preflight.json");
-fs.writeFileSync(target, `${JSON.stringify(output, null, 2)}\n`);
+const temporaryTarget = `${target}.${process.pid}.tmp`;
+fs.writeFileSync(temporaryTarget, `${JSON.stringify(output, null, 2)}\n`);
+fs.renameSync(temporaryTarget, target);
 console.log(`已生成：6主本、${anchors.length}条锚点候选、${goldenRemediation.length}条黄金整改建议`);
