@@ -8,6 +8,16 @@ test("双审一致后晋级黄金样本", () => {
   assert.deepEqual(evaluateGoldenCandidate({ first_review: review("a"), second_review: review("b") }), { state: "complete", status: "golden" });
 });
 
+test("启用身份注册表后拒绝伪造审核者和利益冲突", () => {
+  const candidate = { alignment_id: "x1", first_review: review("a"), second_review: review("b") };
+  assert.throws(() => evaluateGoldenCandidate(candidate, new Map()), /未通过/);
+  const registry = new Map([
+    ["a", { active: true, verified_at: "2026-07-17T00:00:00Z", roles: ["first_review"], conflict_alignment_ids: ["x1"] }],
+    ["b", { active: true, verified_at: "2026-07-17T00:00:00Z", roles: ["second_review"], conflict_alignment_ids: [] }]
+  ]);
+  assert.throws(() => evaluateGoldenCandidate(candidate, registry), /利益冲突/);
+});
+
 test("同一人不得自审自复审", () => {
   assert.throws(() => evaluateGoldenCandidate({ first_review: review("a"), second_review: review("a") }), /同一人/);
 });

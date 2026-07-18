@@ -6,9 +6,12 @@ import { evaluateGoldenCandidate } from "../lib/golden-promotion.mjs";
 
 const inputPath = process.argv[2] ?? "data/review/golden-candidates.json";
 const outputPath = process.argv[3] ?? inputPath;
+const registryPath = process.argv[4] ?? "data/review/reviewer-registry.json";
 const data = JSON.parse(await readFile(resolve(inputPath), "utf8"));
+const registryData = JSON.parse(await readFile(resolve(registryPath), "utf8"));
+const reviewerRegistry = new Map(registryData.reviewers.map((reviewer) => [reviewer.id, reviewer]));
 for (const candidate of data.candidates) {
-  const result = evaluateGoldenCandidate(candidate);
+  const result = evaluateGoldenCandidate(candidate, reviewerRegistry);
   candidate.review_state = result.state;
   candidate.golden_status = result.status;
 }

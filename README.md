@@ -65,7 +65,7 @@ npm run verify:import
 
 方剂对照执行 `npm run generate:formula-variants && npm run generate:formula-report`，打开 `docs/site/formulas.html`。方剂页仅供文献研究，不可用于自行用药。维护者可用 `npm run status` 查看当前数据规模和审核缺口。
 
-`npm run generate:golden-candidates` 会按合并关系、低信度、高字符差异、无字符差异和版本覆盖生成 50 条复核队列。它们只是候选；初审与复审必须由不同人完成，分歧须由第三人裁决。填入审核后执行 `npm run review:promote-golden`，只有通过门禁的记录才会标记为 `golden`。
+`npm run generate:golden-candidates` 会按合并关系、低信度、高字符差异、无字符差异和版本覆盖生成 50 条复核队列。它们只是候选；初审与复审必须由不同人完成，分歧须由第三人裁决。填入审核后执行 `npm run review:promote-golden`，只有在 `data/review/reviewer-registry.json` 中具有有效身份、对应角色且无该记录利益冲突的审核者才能使记录标记为 `golden`。当前注册表为空，因此 AI 或虚构身份无法晋级任何黄金样本。
 
 CI 使用固定 Node.js 22.18.0 执行 `npm ci && npm run check:release`，随后独立执行供应链漏洞审计和真实浏览器验收；只有同一工作流的全部门禁通过才部署。完整本地验收另执行 `npm run check`，其中包含未入 Git 的金匮 DjVu 影像哈希与页数校验。
 
