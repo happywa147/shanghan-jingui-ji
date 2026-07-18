@@ -9,6 +9,14 @@ const outputPath = process.argv[4] ?? "data/review/golden-candidates.json";
 const imported = JSON.parse(await readFile(resolve(importPath), "utf8"));
 const variantData = JSON.parse(await readFile(resolve(variantsPath), "utf8"));
 const variantById = new Map(variantData.variants.map((item) => [item.alignment_id, item]));
+let existing = null;
+try { existing = JSON.parse(await readFile(resolve(outputPath), "utf8")); }
+catch (error) { if (error.code !== "ENOENT") throw error; }
+if (existing && existing.input_revision !== imported.manifest.source_sha256 &&
+    existing.candidates.some((item) => item.first_review || item.second_review || item.adjudication)) {
+  throw new Error("旧修订已含人工审核，禁止用新数据静默覆盖");
+}
+const existingById = new Map((existing?.candidates ?? []).map((item) => [item.alignment_id, item]));
 
 const ranked = imported.alignments.map((alignment) => {
   const variant = variantById.get(alignment.id);
@@ -50,11 +58,11 @@ const candidates = selected.map(({ alignment, variant, edition, selection_reason
   source_text: variant.source_text,
   target_text: variant.target_text,
   selection_reason,
-  review_state: "awaiting_first_review",
-  first_review: null,
-  second_review: null,
-  adjudication: null,
-  golden_status: "candidate"
+  review_state: existingById.get(alignment.id)?.review_state ?? "awaiting_first_review",
+  first_review: existingById.get(alignment.id)?.first_review ?? null,
+  second_review: existingById.get(alignment.id)?.second_review ?? null,
+  adjudication: existingById.get(alignment.id)?.adjudication ?? null,
+  golden_status: existingById.get(alignment.id)?.golden_status ?? "candidate"
 }));
 
 await mkdir(dirname(resolve(outputPath)), { recursive: true });

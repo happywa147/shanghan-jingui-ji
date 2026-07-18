@@ -3,6 +3,7 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { formulaDifferences, ingredientsEqual } from "../lib/formula-comparison.mjs";
+import { safetyReviewMatches } from "../lib/medical-safety.mjs";
 
 const inputPath = process.argv[2] ?? "data/imported/liwengtang-shanghan.json";
 const outputPath = process.argv[3] ?? "data/imported/formula-variants.json";
@@ -32,6 +33,8 @@ for (const targetEdition of ["shanghan_lun:guilin", "shanghan_lun:kangping"]) {
       target_preparation_and_use: target.preparation_and_use,
       source_review_status: source.review_status,
       target_review_status: target.review_status,
+      safety_review_terms: [...new Set([...safetyReviewMatches(source), ...safetyReviewMatches(target)])],
+      safety_review_status: "machine_screened_pending_expert_review",
       ingredients_equal: sameIngredients,
       preparation_and_use_equal: usageEqual,
       difference_types: differenceTypes,

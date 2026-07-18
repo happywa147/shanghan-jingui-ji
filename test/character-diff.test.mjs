@@ -29,3 +29,7 @@ test("按 Unicode 字符处理扩展汉字", () => {
     { type: "equal", text: "動" }
   ]);
 });
+
+test("拒绝可能耗尽内存的超长未分段对照", () => {
+  assert.throws(() => characterDiff("甲".repeat(2001), "乙".repeat(2000)), /按篇章分段/);
+});

@@ -67,4 +67,6 @@ npm run verify:import
 
 `npm run generate:golden-candidates` 会按合并关系、低信度、高字符差异、无字符差异和版本覆盖生成 50 条复核队列。它们只是候选；初审与复审必须由不同人完成，分歧须由第三人裁决。填入审核后执行 `npm run review:promote-golden`，只有通过门禁的记录才会标记为 `golden`。
 
-CI 使用 Node.js 22 执行 `npm ci && npm run check:release`；完整本地验收另执行 `npm run check`，其中包含未入 Git 的金匮 DjVu 影像哈希与页数校验。
+CI 使用固定 Node.js 22.18.0 执行 `npm ci && npm run check:release`，随后独立执行供应链漏洞审计和真实浏览器验收；只有同一工作流的全部门禁通过才部署。完整本地验收另执行 `npm run check`，其中包含未入 Git 的金匮 DjVu 影像哈希与页数校验。
+
+《金匮要略》目前仅完成两卷共264页影像的来源、文件哈希和页数校验，OCR 与逐页人工核对仍为 pending；网站不得据此宣称两书全文已完成。笠翁堂整理数据的再分发授权状态见 `THIRD_PARTY_NOTICES.md`，不得把公开可访问误解为开放许可。

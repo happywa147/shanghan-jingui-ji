@@ -74,6 +74,8 @@
       "target_preparation_and_use": "右五味，口父咀，以水七升，微火煮取三升，去滓，适寒温，服一升。服已，须臾，啜热稀粥一升余，以助药力，温覆令一时许，遍身漐漐微似有汗者益佳，不可令如水流漓，病必不除。若一服汗出病差，停后服，不必尽剂。若不汗，更服依前法；又不汗，后服小促其间，半日许令三服尽。若病重者，一日一夜服，周时观之。服一剂尽，病证犹在者，更作服；若汗不出，乃服至二三剂。禁生冷、粘滑、肉面、五辛、酒酪、臭恶等物。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -170,6 +172,10 @@
       "target_preparation_and_use": "右六味，以水七升，煮取三升，去滓。温服一升，日三服，将息如桂枝汤法。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -243,6 +249,8 @@
       "target_preparation_and_use": "右四味，以水七升，煮取三升，去滓。温服一升，日三服，将息如桂枝汤法。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -327,6 +335,10 @@
       "target_preparation_and_use": "右五味，以水七升，煮取三升，去滓。温服一升，日三服，将息如桂枝汤法。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -386,6 +398,11 @@
       "target_preparation_and_use": "即桂枝汤三合，麻黄汤三合，并为六合，顿服之，将息如桂枝汤法。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "杏仁",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -451,6 +468,11 @@
       "target_preparation_and_use": "即桂枝汤二升，麻黄汤一升，合为三升。每服一升，日三服，将息如桂枝汤法。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "杏仁",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -547,6 +569,10 @@
       "target_preparation_and_use": "右七味，以水六升，先煮麻黄，去上沫，纳诸药，煮取三升，去滓。温服一升，日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -640,6 +666,8 @@
       "target_preparation_and_use": "右六味，以水八升，煮取三升，去滓，温服一升，日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -751,6 +779,10 @@
       "target_preparation_and_use": "右七味，以水七升，微火煮取三升，去滓。温服一升，覆取微似汗。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "杏仁"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": true,
       "difference_types": [
@@ -800,6 +832,8 @@
       "target_preparation_and_use": "右二味，以水三升，煮取一升，去滓，顿服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": true,
       "preparation_and_use_equal": true,
       "difference_types": [],
@@ -881,6 +915,8 @@
       "target_preparation_and_use": "右五味，以水七升，煮取三升，去滓。温服一升，日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -953,6 +989,8 @@
       "target_preparation_and_use": "右四味，以水五升，煮取三升，去滓。温服一升，日三服。甚者，加人参三两。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -1038,6 +1076,8 @@
       "target_preparation_and_use": "右五味，以水七升，煮取三升，去滓，温分三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -1136,6 +1176,8 @@
       "target_preparation_and_use": "右六味，以水七升，煮取三升，去滓，温服一升，日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": true,
       "difference_types": [
@@ -1209,6 +1251,11 @@
       "target_preparation_and_use": "右四味，以水九升，先煮麻黄减二升，去上沫，纳诸药，煮取二升半，去滓，温服八合，覆取微似汗，不须粥饮，余如桂枝法将息，桂枝汤见后卷。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "杏仁",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -1317,6 +1364,11 @@
       "target_preparation_and_use": "麻黄六两（去节） 桂枝二两（去皮） 甘草二两（炙） 杏仁四十枚（去皮尖） 生姜三两（切） 大枣十二枚（劈） 石膏如鸡子黄大（碎）",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "杏仁",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -1421,6 +1473,12 @@
       "target_preparation_and_use": "右八味，以水一斗，先煮麻黄减二升，去上沫，纳诸药，煮取三升，去滓，温服一升，日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "半夏",
+        "细辛",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -1496,6 +1554,11 @@
       "target_preparation_and_use": "右四味，以水七升，先煮麻黄减二升，去上沫，纳诸药，煮取二升，去滓，温服一升。日再服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "杏仁",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -1616,6 +1679,11 @@
       "target_preparation_and_use": "右八味，以潦水一斗，先煮麻黄再沸，去上沫，纳诸药，煮取三升，去滓，分温三服，半日服尽。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "杏仁",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -1767,6 +1835,10 @@
       "target_preparation_and_use": "右七味，以水一斗，先煮麻黄去上沫，纳诸药，煮取三升，去滓。温服一升，日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -1872,6 +1944,10 @@
       "target_preparation_and_use": "右六味，先以水七升，煮葛根去上沫，纳诸药，煮取三升，去滓，温服一升，日三服，不须啜粥，余如桂枝将息及禁忌法。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -1983,6 +2059,10 @@
       "target_preparation_and_use": "右七味，以水一斗，先煮麻黄、葛根减二升，去上沫，纳诸药，煮取三升，去滓。温服一升，覆取微似汗，余如桂枝汤法将息及禁忌。诸汤皆倣此。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -2105,6 +2185,11 @@
       "target_preparation_and_use": "右八味，以水一斗，先煮葛根、麻黄减二升，去上沫，纳诸药，煮取三升，去滓。温服一升，覆取微似汗，余如桂枝法。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "半夏",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -2191,6 +2276,8 @@
       "target_preparation_and_use": "右五味，以水一斗，煮米熟汤成，去滓，温服一升，日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -2265,6 +2352,8 @@
       "target_preparation_and_use": "右四味，以水一斗，煮米熟汤成，去滓，温服一升，日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -2324,6 +2413,8 @@
       "target_preparation_and_use": "右三味，以水三升，煮二物至一升，取去滓，纳芒硝，更上微火一两沸，温顿服之，以调胃气。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -2397,6 +2488,8 @@
       "target_preparation_and_use": "右四味，以水一斗，先煮二物，取五升，去滓，纳大黄更煮取二升，去滓，纳芒硝，更上微火一两沸，分温再服，得下，余勿服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -2457,6 +2550,8 @@
       "target_preparation_and_use": "大黄四两（酒洗） 厚朴二两（炙去皮） 枳实三枚大者（炙）",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -2517,6 +2612,8 @@
       "target_preparation_and_use": "右三味，以水一斗二升，先煮茵陈，减六升，纳二味，煮取三升，去滓，分温三服，小便当利，尿如皂荚汁状，色正赤，一宿病减，黄从小便去也。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -2613,6 +2710,10 @@
       "target_preparation_and_use": "右六味，蜜为丸，如梧桐子大，饮服十丸，日三服，渐加，以知为度。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "杏仁"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -2723,6 +2824,10 @@
       "target_preparation_and_use": "右七味，以水一斗二升，煮取六升，去滓，再煎取三升，温服一升，日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -2839,6 +2944,10 @@
       "target_preparation_and_use": "右八味，以水一斗二升，煮取六升，去滓，再煎，温服二升，日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -2962,6 +3071,10 @@
       "target_preparation_and_use": "右八味，以水四升，煮取二升，去滓，纳芒硝，更煮微沸，分温再服。不解，更作。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -3035,6 +3148,10 @@
       "target_preparation_and_use": "柴胡四两 龙骨一两半 黄芩一两半 生姜一两半 人参一两半 桂枝一两半 茯苓一两半 半夏二合半 大黄二两 牡蛎一两半 大枣六枚（劈） 铅丹一两半",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -3167,6 +3284,10 @@
       "target_preparation_and_use": "右九味，以水七升，煮取三升，去滓，温服一升，日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -3277,6 +3398,8 @@
       "target_preparation_and_use": "右七味，以水一斗二升，煮取六升，去滓，再煎取三升，温服一升，日三服。初服微烦，复服，汗出便愈。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": true,
       "difference_types": [
@@ -3336,6 +3459,10 @@
       "target_preparation_and_use": "右四味，捣筛，白饮和服方寸匙。咳者，去人参，加五味子、干姜各五分，并主下利；悸者，加桂枝五分；小便不利者，加茯苓五分；泄利下重者，先以水五升，煮薤白三两，取三升，去滓，以散三方寸匙纳汤中，煮取一升半，分温再服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -3411,6 +3538,8 @@
       "target_preparation_and_use": "右四味，以甘澜水一斗，先煮茯苓，减二升，纳诸药，煮取三升，去滓。温服一升，日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -3477,6 +3606,8 @@
       "target_preparation_and_use": "右四味，以水六升，煮取三升，去滓，分温三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": true,
       "difference_types": [
@@ -3562,6 +3693,8 @@
       "target_preparation_and_use": "右五味，捣为散，以白饮和服方寸匙，日三服，多饮暖水，汗出愈。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -3636,6 +3769,8 @@
       "target_preparation_and_use": "右四味，以水四升，煮取二升，去滓，分温三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": true,
       "difference_types": [
@@ -3701,6 +3836,8 @@
       "target_preparation_and_use": "右五味，以水四升，先煮四味，取二升，去滓，纳阿胶烊消，温服七合，日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -3799,6 +3936,8 @@
       "target_preparation_and_use": "右六味，以水七升，先煮五味，取三升，去滓，纳饴，更上微火消解。温服一升，日三服。呕家不可用，以甜故也。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -3885,6 +4024,8 @@
       "target_preparation_and_use": "右五味，以水九升，先煮四味，取五升，纳桂枝，更煮取三升，去滓，温服一升，日再服，夜一服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -3945,6 +4086,8 @@
       "target_preparation_and_use": "右四味，捣筛，蜜和为丸，如鸡子黄大，以沸汤数合和一丸，研碎温服，日三服，夜二服，腹中未热，可益至三四丸。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -3995,6 +4138,8 @@
       "target_preparation_and_use": "右二味，以水三升，煮取一升五合，去滓，分温再服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": true,
       "difference_types": [
@@ -4060,6 +4205,10 @@
       "target_preparation_and_use": "右四味，以水三升，煮取一升二合，去滓。分温再服。强人可大附子一枚，干姜三两。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -4111,6 +4260,10 @@
       "target_preparation_and_use": "右二味，以水三升，煮取一升，去滓，顿服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": true,
       "difference_types": [
@@ -4163,6 +4316,10 @@
       "target_preparation_and_use": "茯苓四两 人参二两 附子一枚（生用，去皮，破八片） 甘草二两（炙） 干姜一两半",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -4204,6 +4361,10 @@
       "target_preparation_and_use": "葱白四茎 干姜一两 附子一枚（生用，去皮，破八片） 右三味，以水三升，煮取一升，去滓，分温再服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -4288,6 +4449,10 @@
       "target_preparation_and_use": "右五味，以水三升，先煮三物，取一升，去滓，纳人尿、猪胆汁，和令相得，分温再服。若无胆汁，亦可用。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -4354,6 +4519,10 @@
       "target_preparation_and_use": "右四味，以水三升，煮取一升二合，去滓，分温再服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -4429,6 +4598,10 @@
       "target_preparation_and_use": "右四味，以水三升，煮取一升二合，去滓，分温再服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": true,
       "difference_types": [
@@ -4508,6 +4681,10 @@
       "target_preparation_and_use": "右五味，以水三升，先煮四味，取一升，去滓，纳猪胆汁搅匀，分温再服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -4583,6 +4760,10 @@
       "target_preparation_and_use": "右五味，以水八升，煮取三升，去滓，温服七合，日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": true,
       "difference_types": [
@@ -4669,6 +4850,10 @@
       "target_preparation_and_use": "右五味，以水八升，煮取三升，去滓。温服一升，日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -4723,6 +4908,10 @@
       "target_preparation_and_use": "右三味，以水五升，煮取一升五合，去滓，分温三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": true,
       "difference_types": [
@@ -4809,6 +4998,10 @@
       "target_preparation_and_use": "右五味，以水六升，煮取三升，去滓，分温三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -4883,6 +5076,10 @@
       "target_preparation_and_use": "右四味，以水六升，煮取三升，去滓，温服一升，日三服。初服得微汗则解；能食，汗出，复烦者，服五合；恐一升多者，服六七合为佳。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -4931,6 +5128,8 @@
       "target_preparation_and_use": "右二味，以水四升，先煮栀子得二升半，纳豉煮取一升半，去滓，分为二服。温进一服，得吐者，止后服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -4992,6 +5191,8 @@
       "target_preparation_and_use": "右三味，以水四升，先煮栀子、甘草取二升半，纳豉煮取一升半，去滓，分二服。温进一服，得吐者，止后服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -5053,6 +5254,8 @@
       "target_preparation_and_use": "右三味，以水四升，先煮栀子、生姜取二升半，纳豉煮取一升半，去滓，分二服。温进一服，得吐者，止后服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -5102,6 +5305,8 @@
       "target_preparation_and_use": "右二味，以水三升半，煮取一升半，去滓，分温二服。进一服得吐者，止后服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -5163,6 +5368,8 @@
       "target_preparation_and_use": "右三味，以水四升，煮取一升半，去滓，分温再服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": true,
       "difference_types": [
@@ -5253,6 +5460,10 @@
       "target_preparation_and_use": "右七味，以水一斗，煮取六升，去滓，再煎取三升，温服一升，日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": true,
       "difference_types": [
@@ -5327,6 +5538,10 @@
       "target_preparation_and_use": "右四味，切三味，以麻沸汤二升渍之，须臾绞去滓，纳附子汁，分温再服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -5447,6 +5662,10 @@
       "target_preparation_and_use": "右八味，以水一斗，煮取六升，去滓，再煎取三升，温服一升，日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": true,
       "difference_types": [
@@ -5548,6 +5767,10 @@
       "target_preparation_and_use": "右七味，以水一斗，煮取六升，去滓，再煎取三升，温服一升，日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -5659,6 +5882,10 @@
       "target_preparation_and_use": "右七味，以水一斗，煮取六升，去滓，再煎取三升，温服一升，日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": true,
       "difference_types": [
@@ -5767,6 +5994,10 @@
       "target_preparation_and_use": "右七味，以水一斗，煮取六升，去滓，温服一升，日三服，夜三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -5821,6 +6052,8 @@
       "target_preparation_and_use": "右四味，以水六升，煮取二升，去滓。分温再服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -5894,6 +6127,8 @@
       "target_preparation_and_use": "右四味，以水一斗，煮取三升，去滓，温服一升，日再服，夜一服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -5990,6 +6225,10 @@
       "target_preparation_and_use": "右六味，以水一斗，煮取三升，去滓，温服一升，日再服，夜一服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -6076,6 +6315,8 @@
       "target_preparation_and_use": "右五味，以水六升，先煮三物，取二升，去滓，纳阿胶烊消，小冷，纳鸡子黄，搅令相得，温服七合，日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -6149,6 +6390,10 @@
       "target_preparation_and_use": "右四味，捣筛二味，纳杏仁、芒硝，合研如脂，和散，取如弹丸一枚，别捣甘遂末一方寸匙，白蜜二合，水二升，煮取一升，去滓，温顿服之，一宿乃下。如不下，更服，取下为度。禁忌如药法。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "杏仁"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -6192,6 +6437,10 @@
       "target_preparation_and_use": "大黄六两 芒硝一升 甘遂一钱匙",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "甘遂"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -6252,6 +6501,10 @@
       "target_preparation_and_use": "右三味，以水六升，先煮栝蒌取三升，纳诸药，煮取二升，去滓，分温三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -6326,6 +6579,12 @@
       "target_preparation_and_use": "右四味，以水五升，煮取三升，去滓，温服一升。不下更服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "桃仁",
+        "虻虫",
+        "水蛭"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -6398,6 +6657,12 @@
       "target_preparation_and_use": "右四味，捣分四丸，以水一升，煮一丸，取七合服之，晬时当下血。若不下者，更服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "桃仁",
+        "虻虫",
+        "水蛭"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -6441,6 +6706,8 @@
       "target_preparation_and_use": "右二味，以水三升，煮取一升五合，去滓，分温再服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": true,
       "difference_types": [
@@ -6574,6 +6841,8 @@
       "target_preparation_and_use": "右九味，以清酒七升，先煮八味，取三升，去滓，纳胶烊消尽，温服一升，日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -6624,6 +6893,8 @@
       "target_preparation_and_use": "右二味，以水六升，煮取三升，去滓，分温三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -6684,6 +6955,8 @@
       "target_preparation_and_use": "右三味，以水七升，煮米令熟，去滓，温服七合，纳赤石脂末方寸匙，日三服。若一服愈，余勿服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -6712,6 +6985,10 @@
       "target_preparation_and_use": "芫花（熬） 甘遂 大戟",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "芫花"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -6760,6 +7037,8 @@
       "target_preparation_and_use": "右二味，各别捣筛，为散已，合治之，取一钱匙，以香豉一合，用热汤七合，煮作稀糜，去滓，取汁，和散，温顿服之，不吐者，少少加，得快吐乃止。诸亡血虚家，不可与。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -6832,6 +7111,8 @@
       "target_preparation_and_use": "右四味，以水七升，煮取二升，去滓，温服七合，日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": true,
       "difference_types": [
@@ -6891,6 +7172,11 @@
       "target_preparation_and_use": "右三味，以水七升，先煮麻黄一二沸，去上沫，纳诸药，煮取三升，去滓。温服一升，日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "附子",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -6929,6 +7215,8 @@
       "target_preparation_and_use": "右一味，以水一斗，煮取五升，去滓，加白蜜一升，白粉五合，熬香，和令相得，分温六服。（白粉即米粉）",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -6964,6 +7252,8 @@
       "target_preparation_and_use": "右一味，以水三升，煮取一升半，去滓。温服七合，日二服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -7011,6 +7301,8 @@
       "target_preparation_and_use": "右二味，以水三升，煮取一升，去滓，温分再服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": true,
       "preparation_and_use_equal": true,
       "difference_types": [],
@@ -7056,6 +7348,10 @@
       "target_preparation_and_use": "右二味，纳半夏，著苦酒中，以鸡子壳置刀环中，安火上，令三沸，去滓，少少含咽之。不差，更作三剂。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -7200,6 +7496,12 @@
       "target_preparation_and_use": "右十味，异捣筛，合治之，以苦酒渍乌梅一宿，去核蒸之，五斗米下，饭熟，捣成泥，和药令相得，纳臼中与蜜杵二千下，丸如梧桐子大，先食饮服十丸，日三服，稍加至二十丸，禁生冷滑物臭食等。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "附子",
+        "细辛",
+        "蜀椒"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -7310,6 +7612,10 @@
       "target_preparation_and_use": "右七味，以水八升，煮取三升，去滓。温服一升，日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "细辛"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -7384,6 +7690,8 @@
       "target_preparation_and_use": "右四味，以水七升，煮取二升，去滓。温服一升；不愈，更服一升。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -7444,6 +7752,8 @@
       "target_preparation_and_use": "右三味，以清浆水七升，空煮取四升，纳枳实、栀子煮取二升，纳香豉更煮五六沸，去滓，温分再服，覆令微似汗。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -7504,6 +7814,8 @@
       "target_preparation_and_use": "牡蛎 泽泻 栝蒌根 蜀漆（洗去腥） 葶苈（熬） 商陆根（熬） 海藻（洗去腥）",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -7612,6 +7924,10 @@
       "target_preparation_and_use": "右七味，以水一斗，先煮六味，取六升，去滓，纳粳米，煮取米熟汤成，温服一升，日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -7686,6 +8002,11 @@
       "target_preparation_and_use": "右七味，为散，以沸汤和一方寸匙，汤用五合，调服。假令汗出已，腹中痛者，与芍药三两。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "杏仁",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -7770,6 +8091,8 @@
       "target_preparation_and_use": "右五味。㕮咀三味。以水七升。微火煮取三升。去滓。适寒温。服一升。服已须臾。歠热稀粥一升余。以助药力。温覆令一时许。遍身漐漐微似有汗者益佳。不可令如水流离。病必不除。若一服汗出病差。停后服。不必尽剂。若不汗。更服依前法。又不汗。后服小促其间。半日许令三服尽。若病重者。一日一夜服。周时观之。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -7865,6 +8188,10 @@
       "target_preparation_and_use": "右六味。以水七升。煮取三升。去滓。温服一升。〖注〗（本云桂枝汤。今加附子。）【例】将息如前法。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -7938,6 +8265,8 @@
       "target_preparation_and_use": "右四味。以水七升。煮取三升。去滓。温服一升。〖注〗（本云。桂枝汤。今去芍药。）【例】将息如前法。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -8022,6 +8351,10 @@
       "target_preparation_and_use": "右五味。以水七升。煮取三升。去滓。温服一升。〖注〗（本云桂枝汤。今去芍药。加附子。）【例】将息如前法。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -8107,6 +8440,8 @@
       "target_preparation_and_use": "右六味。以水八升。煮取三升。去滓。温服一升。小便利则愈。〖注〗（本云桂枝汤。今去桂枝加茯白术。）",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -8217,6 +8552,10 @@
       "target_preparation_and_use": "右七味。以水七升。微火煮取三升。去滓。温服一升。覆取微似汗。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "杏仁"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -8265,6 +8604,8 @@
       "target_preparation_and_use": "右二味以水三升。煮取一升。去滓顿服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -8336,6 +8677,11 @@
       "target_preparation_and_use": "右四味。以水九升。先煮麻黄减二升。去上沫。内诸药。煮取二升半。去滓。温服八合。覆取微似汗。不须啜粥。余如桂枝法将息。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "杏仁",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -8443,6 +8789,11 @@
       "target_preparation_and_use": "右七味。以水九升。先煮麻黄。减二升。去上沫。内诸药。煮取三升。去滓。温服一升。取微似汗〖注〗（汗出多者。温粉扑之。）□一服汗者。停后服〖注〗（若复服汗多。亡阳遂虚。恶风烦躁不得眠也。）",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "杏仁",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -8546,6 +8897,12 @@
       "target_preparation_and_use": "右八味。以水一斗。先煮麻黄。减二升。去上沫。内诸药。煮取三升。去滓。温服一升。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "半夏",
+        "细辛",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -8669,6 +9026,11 @@
       "target_preparation_and_use": "右八味。以潦水一斗。先煮麻黄再沸。去上沫。内诸药。煮取三升。去滓。分温三服。〖注〗（半日服尽）",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "杏仁",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -8771,6 +9133,10 @@
       "target_preparation_and_use": "右六味。以水一斗。先煮葛根减二升。去白沫。纳诸药。煮取三升。去滓。温服一升。覆取微似汗。不须啜粥。余如桂枝法将息及禁忌。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -8882,6 +9248,10 @@
       "target_preparation_and_use": "右七味。以水一斗。先煮麻黄葛根。减二升。去白沫。内诸药。煮取三升。去滓。温服一升。覆取似汗。余如桂枝法。将息及禁忌〖注〗（诸汤药皆倣之。）",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -9001,6 +9371,11 @@
       "target_preparation_and_use": "右八味。以水一斗。先煮葛根麻黄。减二升。去白沫。内诸药。煮取三升。去滓温服一升。覆取微似汗。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "半夏",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -9074,6 +9449,8 @@
       "target_preparation_and_use": "右四味。以水八升。先煮葛根。减二升。内诸药。煮取二升。去滓。分温再服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -9157,6 +9534,8 @@
       "target_preparation_and_use": "右五味。以水一斗。煮米熟。汤成去滓。温服一升。日三服。〖注〗（此方。立夏后立秋前乃可服。立秋后不可服。正月二月三月尚凛冷。亦不可与服之。与之则呕利而腹痛。。诸亡血虚家。亦不可与。得之则腹痛下利者。但可温之。当愈）",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -9231,6 +9610,8 @@
       "target_preparation_and_use": "右四味。以水一斗。煮米熟。汤成去滓。温服一升。日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -9290,6 +9671,8 @@
       "target_preparation_and_use": "右三味。以水三升。煮取一升。去滓。内芒硝。日三服。更煮一两沸。顿服。〖注〗（加减方非疑仲景方）",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -9352,6 +9735,8 @@
       "target_preparation_and_use": "右三味。以水一斗二升。先煮茵陈。减六升。内二味。煮取三升。去滓。分三服。小便当利。〖注〗（尿如皂荚汁状。色正赤。一宿。腹减。黄从小便去也。）",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -9442,6 +9827,10 @@
       "target_preparation_and_use": "",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "杏仁"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -9551,6 +9940,10 @@
       "target_preparation_and_use": "右七味。以水一斗二升。煮取六升。去滓再煮取三升。温服一升。日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -9684,6 +10077,10 @@
       "target_preparation_and_use": "右九味。以水七升。煮取三升。去滓。温服一升。〖注〗（本云人参汤。作如桂枝法。加半夏柴胡黄芩。复如柴胡法。今用人参作各半剂。）",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -9792,6 +10189,8 @@
       "target_preparation_and_use": "右七味。以水一斗二升。煮取六升。去滓。再煎。取三升。温服一升。日三服。初服微烦。复服。汗出便愈。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -9864,6 +10263,8 @@
       "target_preparation_and_use": "右四味。以甘澜水一斗。先煮茯苓。减二升。内诸药。取三升。去滓。温服一升。日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -9929,6 +10330,8 @@
       "target_preparation_and_use": "右四味。以水六升。煮取三升。去滓。分温三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -10016,6 +10419,8 @@
       "target_preparation_and_use": "右五味。捣为散。以白饮和。服方寸匕。日三服。多饮煖水。汗出愈。如法将息。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -10081,6 +10486,8 @@
       "target_preparation_and_use": "右五味。以水四升。先煮四物。取二升。去滓。内阿胶。烊尽。温服七合。日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -10168,6 +10575,10 @@
       "target_preparation_and_use": "右五味。以水一斗。煮取三升。去滓。温服一升。日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -10265,6 +10676,8 @@
       "target_preparation_and_use": "右六味。以水七升。煮取三升。去滓内饴。更上微火消解。温服一升。日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -10349,6 +10762,8 @@
       "target_preparation_and_use": "右五味。以水九升。先煮四味。取五升。内桂。更煮取三升。去滓。温服一升。〖注〗（日再夜一服。）",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -10396,6 +10811,8 @@
       "target_preparation_and_use": "右二味。以水三升。煮一升五合。去滓。分温再服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -10443,6 +10860,10 @@
       "target_preparation_and_use": "右二味。以水三升半。煮取一升。去滓。顿服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -10503,6 +10924,10 @@
       "target_preparation_and_use": "右三味。以水三升。煮取一升。去滓。分温再服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -10587,6 +11012,10 @@
       "target_preparation_and_use": "右五味。以水三升。煮取一升。去滓。内胆汁人尿。和令相得。分温再服〖注〗（若无胆。亦可用。）",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -10671,6 +11100,10 @@
       "target_preparation_and_use": "右五味。以水八升。煮取三升。去滓。一升。日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -10725,6 +11158,10 @@
       "target_preparation_and_use": "右三味。以水五升。煮取一升五合。去滓。分温三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -10800,6 +11237,10 @@
       "target_preparation_and_use": "右四味。以水六升。煮取三升。去滓。温服一升。日三服。〖注〗（初服得微汗则解。能食汗出止。复烦者。将服五合。恐一升多者。宜服六七合为妙。）",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -10848,6 +11289,8 @@
       "target_preparation_and_use": "右二味。以水四升。先煮栀子得二升半。内豉。煮取一升半。去滓。分为二服。温进一服。得吐者。止后服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -10907,6 +11350,8 @@
       "target_preparation_and_use": "右三味。以水四升。先煮栀子甘草。取二升半。内豉。煮取一升半。去滓。分二服。温进一服。得吐者。止后服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -10966,6 +11411,8 @@
       "target_preparation_and_use": "右三味。以水四升。先煮栀子生姜。取二升半。内豉。煮取一升半。去滓分二服。温进一服。得吐者。止后服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -11026,6 +11473,8 @@
       "target_preparation_and_use": "右三味。以水三升半。煮取一升半。去滓。分二服。温进一服。得吐者。止后服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -11074,6 +11523,8 @@
       "target_preparation_and_use": "右二味。以水三升半。煮取一升半。去滓。分二服。温进一服。得吐者止后服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -11128,6 +11579,8 @@
       "target_preparation_and_use": "右三味。以麻沸汤二升渍之。须臾绞去滓。分温再服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -11201,6 +11654,10 @@
       "target_preparation_and_use": "右四味。切三味。以麻沸汤二升渍之。须臾绞去滓。内附子汁。分温再服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -11298,6 +11755,10 @@
       "target_preparation_and_use": "右六味。以水一斗。煮取六升。去滓。再煎取三升。温服一升。日三服。〖注〗（附子泻心汤。本云。加附子半夏泻心汤。甘草泻心汤。同体别名耳。生姜泻心汤。本云理中人参黄芩汤。去桂枝术。加黄连。并泻肝法。）",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -11408,6 +11869,10 @@
       "target_preparation_and_use": "右七味。以水一斗。煮取六升。去滓。温服。〖注〗（昼三夜二）〘昼三夜二疑非仲景法〙",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -11461,6 +11926,8 @@
       "target_preparation_and_use": "右四味。以水六升。煮取二升。去滓。分温再服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -11535,6 +12002,8 @@
       "target_preparation_and_use": "右四味。以水一斗。煮取三升。去滓温服一升。〖注〗（日再。夜一服。）",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -11630,6 +12099,10 @@
       "target_preparation_and_use": "右六味。以水一斗。煮取三升。去滓温服一升。〖注〗（日再。夜一服。）",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -11714,6 +12187,8 @@
       "target_preparation_and_use": "右五味。以水六升。先煮三物。取二升。去滓。内胶烊尽。小冷。内鸡子黄。搅令相得。温服七合。日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -11786,6 +12261,10 @@
       "target_preparation_and_use": "右四味。捣筛二味。内杏仁芒硝。合研如脂。和散。取如弹丸一枚。别捣甘遂末一钱匕。白蜜二合。水二升。煮取一升。温顿服之。一宿乃下。如不下更服。取下为效。禁如药法。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "杏仁"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -11846,6 +12325,10 @@
       "target_preparation_and_use": "右三味。以水六升。先煮大黄。取二升。去滓。内芒硝。煮一两沸。内甘遂末。温服一升。得快利。止后服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "甘遂"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -11917,6 +12400,12 @@
       "target_preparation_and_use": "右四味。以水五升。煮取三升。去滓。温服一升。不下更服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "桃仁",
+        "虻虫",
+        "水蛭"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -12051,6 +12540,8 @@
       "target_preparation_and_use": "右九味。以清酒七升。水八升。先煮八味。取三升。去滓。内胶烊消尽。温服一升。日三服。（一名复脉汤）",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -12100,6 +12591,8 @@
       "target_preparation_and_use": "右二味。以水六升。煮取二升。去滓。分温三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -12159,6 +12652,8 @@
       "target_preparation_and_use": "右三味。以水七升。煮米令熟。去滓。内赤石脂末方寸匕〘温服七合〙。日三服。〖注〗（若一服愈。余勿服。）",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -12231,6 +12726,8 @@
       "target_preparation_and_use": "右四味。以水七升。煮取二升。去滓。温服七合。日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -12292,6 +12789,12 @@
       "target_preparation_and_use": "右三味。以水一斗。先煮麻黄。减二升。去上沫。内诸药。煮取三升。去滓。温服一升。日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "附子",
+        "细辛",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -12352,6 +12855,11 @@
       "target_preparation_and_use": "右三味。以水七升。先煮麻黄。一两沸。去上沫。内诸药。煮取三升。去滓。温服一升。日三服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "附子",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -12400,6 +12908,8 @@
       "target_preparation_and_use": "右二味。以水三升。煮取一升。去滓。温分再服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": true,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -12519,6 +13029,12 @@
       "target_preparation_and_use": "右十味。异捣筛。合治之。以苦酒渍乌梅一宿。去核。蒸之五斗米下。饭熟捣成泥。和药令相得。内臼中。与蜜杵二千下。丸如梧桐子大。先食饮服十丸。日三服。稍加至二十丸。禁生冷滑物臭食等。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [
+        "附子",
+        "细辛",
+        "蜀椒"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -12582,6 +13098,8 @@
       "target_preparation_and_use": "右三味。以清浆水七升。空煮取四升。内枳实栀子。煮取二升。下豉。更煮五六沸。去滓。温分再服。覆令微似汗。〖注〗（若有宿食者。内大黄如博碁子五六枚。服之愈。）",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [
@@ -12685,6 +13203,8 @@
       "target_preparation_and_use": "右七味。异捣。下筛为散。更于臼中治之。白饮和。服方寸匕。日三服。小便利。止后服。",
       "source_review_status": "imported",
       "target_review_status": "imported",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review",
       "ingredients_equal": false,
       "preparation_and_use_equal": false,
       "difference_types": [

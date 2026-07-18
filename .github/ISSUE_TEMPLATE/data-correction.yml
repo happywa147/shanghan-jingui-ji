@@ -1,0 +1,22 @@
+name: 数据纠错
+description: 报告条文、版本、对应或方剂问题
+body:
+  - type: input
+    id: record
+    attributes: { label: 稳定记录ID }
+    validations: { required: true }
+  - type: textarea
+    id: evidence
+    attributes: { label: 影像页/叶/行与证据URL }
+    validations: { required: true }
+  - type: textarea
+    id: correction
+    attributes: { label: 问题与建议修正 }
+    validations: { required: true }
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: 安全声明
+      options:
+        - label: 本报告不包含个人医疗信息或可执行处方建议
+          required: true

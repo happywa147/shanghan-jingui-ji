@@ -11,6 +11,17 @@ const goldenCandidates = JSON.parse(await readFile(resolve(process.argv[4] ?? "d
 const ajv = new Ajv({ allErrors: true, strict: true });
 addFormats(ajv);
 
+for (const schemaPath of ["schemas/text-unit.schema.json", "schemas/alignment.schema.json", "schemas/formula.schema.json"]) {
+  ajv.addSchema(JSON.parse(await readFile(resolve(schemaPath), "utf8")));
+}
+const packageSchema = JSON.parse(await readFile(resolve("schemas/import-package.schema.json"), "utf8"));
+const validatePackage = ajv.compile(packageSchema);
+if (!validatePackage(data)) {
+  console.error("导入数据包根结构校验失败");
+  console.error(ajv.errorsText(validatePackage.errors, { separator: "\n" }));
+  process.exit(1);
+}
+
 const checks = [
   ["schemas/text-unit.schema.json", data.text_units],
   ["schemas/alignment.schema.json", data.alignments],
@@ -21,7 +32,7 @@ const checks = [
 let failures = 0;
 for (const [schemaPath, records] of checks) {
   const schema = JSON.parse(await readFile(resolve(schemaPath), "utf8"));
-  const validate = ajv.compile(schema);
+  const validate = ajv.getSchema(schema.$id) ?? ajv.compile(schema);
   for (const record of records ?? []) {
     if (validate(record)) continue;
     failures++;

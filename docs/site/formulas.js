@@ -1,0 +1,3 @@
+const items=[...document.querySelectorAll("article")],q=document.querySelector("#q"),edition=document.querySelector("#edition"),difference=document.querySelector("#difference"),count=document.querySelector("#count");
+function filter(){let n=0;for(const item of items){const visible=(!q.value||item.dataset.search.includes(q.value.trim()))&&(!edition.value||item.dataset.edition===edition.value)&&(!difference.value||item.dataset.different===difference.value);item.hidden=!visible;if(visible)n++}count.textContent=`显示 ${n} / ${items.length} 组`}
+q.addEventListener("input",filter);edition.addEventListener("change",filter);difference.addEventListener("change",filter);filter();

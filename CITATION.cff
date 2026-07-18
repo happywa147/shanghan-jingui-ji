@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "使用本项目时，请引用具体发布版本和对应的数据来源修订号。"
+title: "伤寒金匮集"
+version: 0.4.0
+date-released: 2026-07-16
+type: software
+authors:
+  - name: "伤寒金匮集维护者"
+repository-code: "https://github.com/happywa147/shanghan-jingui-ji"
+url: "https://happywa147.github.io/shanghan-jingui-ji/"
+license: LicenseRef-Proprietary
