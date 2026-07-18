@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "classes": {
+    "maintained_source": {
+      "description": "人工维护且需要逐项审查的来源、授权、审核和配置数据。",
+      "paths": [
+        "data/sources/*.json",
+        "data/review/reviewer-registry.json",
+        "data/review/expert-pool-plan.json",
+        "rights-manifest.json"
+      ]
+    },
+    "reproducible_output": {
+      "description": "由仓库脚本确定性生成，修改生成器或输入后必须重新生成并检查漂移。",
+      "paths": [
+        "data/imported/formula-safety.json",
+        "data/imported/jingui-wikisource.json",
+        "data/review/golden-candidates.json",
+        "data/review/collation-preflight.json",
+        "docs/site/report*.html",
+        "docs/site/formulas*.html",
+        "docs/site/editions.html"
+      ],
+      "generators": [
+        "scripts/import-wikisource-jingui.mjs",
+        "scripts/generate-formula-safety.mjs",
+        "scripts/generate-golden-candidates.mjs",
+        "scripts/generate-collation-preflight.mjs",
+        "scripts/generate-report.mjs",
+        "scripts/generate-formula-report.mjs",
+        "scripts/generate-edition-catalog-report.mjs"
+      ]
+    },
+    "release_evidence": {
+      "description": "由 CI 生成并归档，不作为人工维护的产品数据。",
+      "paths": [
+        "docs/engineering-readiness.md",
+        "dist/engineering-readiness.json",
+        "dist/evidence/*.json",
+        "dist/evidence/*.md",
+        "dist/test-evidence/*.json",
+        "dist/release-gates/*.json",
+        "playwright-report/*",
+        "test-results/*"
+      ],
+      "generators": [
+        "scripts/run-unit-tests-with-evidence.mjs",
+        "scripts/generate-engineering-readiness.mjs",
+        "scripts/verify-golden-release.mjs",
+        "scripts/verify-release-rights.mjs"
+      ]
+    }
+  }
+}
