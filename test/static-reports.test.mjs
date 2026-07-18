@@ -31,3 +31,18 @@ test("全部方剂均有就地安全警示和稳定ID", async () => {
   assert.equal(warnings, 525);
   assert.equal(ids, 525);
 });
+
+test("全部条文显示门禁状态、证据链和研究引用", async () => {
+  let statuses = 0;
+  let evidenceChains = 0;
+  let citations = 0;
+  for (const file of await pages("report")) {
+    const html = await readFile(`docs/site/${file}`, "utf8");
+    statuses += (html.match(/class="record-status"/g) || []).length;
+    evidenceChains += (html.match(/class="evidence-chain"/g) || []).length;
+    citations += (html.match(/class="copy-citation js-only"/g) || []).length;
+  }
+  assert.equal(statuses, 779);
+  assert.equal(evidenceChains, 779);
+  assert.equal(citations, 779);
+});

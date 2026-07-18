@@ -3,7 +3,7 @@
 import { execFileSync, spawnSync } from "node:child_process";
 import { createHash } from "node:crypto";
 import { mkdir, readFile, rename, rm, stat, writeFile } from "node:fs/promises";
-import { basename, resolve } from "node:path";
+import { basename, extname, resolve } from "node:path";
 import { tmpdir } from "node:os";
 
 const sourcePath = process.argv[2];
@@ -12,7 +12,7 @@ const startPage = Number(process.argv[4] ?? 1);
 const endPageArgument = process.argv[5] ? Number(process.argv[5]) : null;
 
 if (!sourcePath || !outputPath) {
-  console.error("用法: node scripts/ocr-djvu.mjs <输入.djvu> <输出.json> [起始页] [结束页]");
+  console.error("用法: node scripts/ocr-djvu.mjs <输入.pdf|djvu> <输出.json> [起始页] [结束页]");
   process.exit(1);
 }
 
@@ -28,8 +28,13 @@ const firstVersionLine = (command) => {
   return line;
 };
 const engineVersion = firstVersionLine(["tesseract", "--version"]);
-const rendererVersion = firstVersionLine(["ddjvu", "--help"]);
-const pageCount = Number(execFileSync("djvused", [absoluteSource, "-e", "n"], { encoding: "utf8" }).trim());
+const isPdf = extname(absoluteSource).toLowerCase() === ".pdf";
+const renderer = isPdf ? "pdftoppm" : "ddjvu";
+const rendererVersion = firstVersionLine(isPdf ? ["pdftoppm", "-v"] : ["ddjvu", "--help"]);
+const pageCount = isPdf
+  ? Number(execFileSync("pdfinfo", [absoluteSource], { encoding: "utf8" }).match(/^Pages:\s+(\d+)/mu)?.[1])
+  : Number(execFileSync("djvused", [absoluteSource, "-e", "n"], { encoding: "utf8" }).trim());
+if (!Number.isInteger(pageCount) || pageCount < 1) throw new Error("无法读取来源总页数");
 const endPage = endPageArgument ?? pageCount;
 if (startPage < 1 || endPage > pageCount || startPage > endPage) throw new Error("页码范围无效");
 
@@ -39,16 +44,27 @@ const pages = [];
 
 try {
   for (let page = startPage; page <= endPage; page++) {
-    const imagePath = resolve(workDir, `page-${page}.tif`);
-    execFileSync("ddjvu", ["-format=tiff", `-page=${page}`, absoluteSource, imagePath], { stdio: "ignore" });
-    const text = execFileSync("tesseract", [imagePath, "stdout", "-l", "chi_tra_vert", "--psm", "5"], {
+    const imageBase = resolve(workDir, `page-${page}`);
+    const imagePath = `${imageBase}.tif`;
+    if (isPdf) {
+      execFileSync("pdftoppm", ["-f", String(page), "-l", String(page), "-r", "300", "-singlefile", "-tiff", absoluteSource, imageBase], { stdio: "ignore" });
+    } else {
+      execFileSync("ddjvu", ["-format=tiff", `-page=${page}`, "-scale=300", absoluteSource, imagePath], { stdio: "ignore" });
+    }
+    const tsv = execFileSync("tesseract", [imagePath, "stdout", "-l", "chi_tra_vert", "--psm", "5", "tsv"], {
       encoding: "utf8",
       stdio: ["ignore", "pipe", "ignore"]
-    }).trim();
+    });
+    const rows = tsv.trim().split(/\r?\n/u).slice(1).map((line) => line.split("\t"));
+    const words = rows.filter((row) => row.length >= 12 && Number(row[10]) >= 0 && row[11].trim());
+    const text = words.map((row) => row[11].trim()).join(" ");
+    const meanConfidence = words.length ? words.reduce((sum, row) => sum + Number(row[10]), 0) / words.length : 0;
     pages.push({
       source_file: basename(sourcePath),
       page,
       text,
+      mean_confidence: Number(meanConfidence.toFixed(2)),
+      low_confidence: meanConfidence < 65,
       status: "machine_ocr",
       requires_human_review: true
     });
@@ -67,7 +83,7 @@ try {
   schema_version: 1,
   engine: "tesseract",
   engine_version: engineVersion,
-  renderer: "ddjvu",
+  renderer,
   renderer_version: rendererVersion,
   language: "chi_tra_vert",
   page_segmentation_mode: 5,

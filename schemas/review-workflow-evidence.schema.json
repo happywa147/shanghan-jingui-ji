@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shanghan-jingui-ji.local/schemas/review-workflow-evidence.schema.json",
+  "title": "审核导入与黄金门禁演练证据",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "generated_at", "generator", "inputs", "simulation", "invariants", "result"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "generator": { "const": "scripts/verify-review-workflow-simulation.mjs" },
+    "inputs": {
+      "type": "array", "minItems": 3,
+      "items": { "type": "object", "additionalProperties": false, "required": ["path", "sha256", "records"], "properties": {
+        "path": { "type": "string", "minLength": 1 }, "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }, "records": { "type": "integer", "minimum": 0 }
+      }}
+    },
+    "simulation": {
+      "type": "object", "additionalProperties": false,
+      "required": ["reviewer_id", "identity_verified", "exported_reviews", "imported_reviews", "promotion_attempted", "promotion_blocked", "block_reason"],
+      "properties": {
+        "reviewer_id": { "const": "ai-agent-simulation" }, "identity_verified": { "const": false },
+        "exported_reviews": { "const": 1 }, "imported_reviews": { "const": 1 },
+        "promotion_attempted": { "const": true }, "promotion_blocked": { "const": true }, "block_reason": { "type": "string", "minLength": 1 }
+      }
+    },
+    "invariants": {
+      "type": "object", "additionalProperties": false,
+      "required": ["raw_inputs_unchanged", "golden_candidate_sha_before", "golden_candidate_sha_after", "simulated_human_fields_written", "simulated_gold_records"],
+      "properties": {
+        "raw_inputs_unchanged": { "const": true },
+        "golden_candidate_sha_before": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "golden_candidate_sha_after": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "simulated_human_fields_written": { "const": false }, "simulated_gold_records": { "const": 0 }
+      }
+    },
+    "result": { "const": "PASS" }
+  }
+}

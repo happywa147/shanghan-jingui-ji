@@ -105,6 +105,17 @@ document.querySelector("main").addEventListener("input", (event) => {
   scheduleSave();
 });
 
+document.querySelector("main").addEventListener("click", async (event) => {
+  const button = event.target.closest(".copy-citation");
+  if (!button) return;
+  try {
+    await navigator.clipboard.writeText(button.dataset.citation);
+    saveStatus.textContent = "已复制带数据修订号的研究引用；引用不代表该候选已获真人确认。";
+  } catch {
+    saveStatus.textContent = "复制失败：浏览器未授予剪贴板权限。";
+  }
+});
+
 document.querySelector("#export").addEventListener("click", () => {
   const reviewerId = document.querySelector("#reviewer").value.trim();
   if (!reviewerId) { saveStatus.textContent = "请先填写审核者标识。"; document.querySelector("#reviewer").focus(); return; }

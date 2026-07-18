@@ -7,6 +7,9 @@ import Ajv from "ajv/dist/2020.js";
 import addFormats from "ajv-formats";
 
 const args = process.argv.slice(2);
+const partialFlag = args.indexOf("--allow-partial");
+const allowPartial = partialFlag !== -1;
+if (allowPartial) args.splice(partialFlag, 1);
 const manifestFlag = args.indexOf("--manifest");
 const manifestPath = manifestFlag === -1 ? "data/sources/jingui-sibu.json" : args[manifestFlag + 1];
 if (manifestFlag !== -1) args.splice(manifestFlag, 2);
@@ -32,6 +35,8 @@ let emptyPages = 0;
 let hanCharacters = 0;
 let locallyVerifiedSources = 0;
 let unavailableSources = 0;
+let confidencePages = 0;
+let lowConfidencePages = 0;
 
 for (const expected of expectedByName.values()) {
   try {
@@ -66,13 +71,18 @@ for (const path of args) {
     totalPages++;
     if (!page.text.trim()) emptyPages++;
     hanCharacters += (page.text.match(/\p{Script=Han}/gu) ?? []).length;
+    if (typeof page.mean_confidence === "number") {
+      confidencePages++;
+      if (page.low_confidence) lowConfidencePages++;
+    }
   }
   coverageBySource.set(data.source_file, coverage);
 }
 
 for (const [sourceFile, pages] of coverageBySource) {
   const expectedPages = expectedByName.get(sourceFile).pages;
-  if (pages.size !== expectedPages) throw new Error(`${sourceFile} OCR覆盖不完整: ${pages.size}/${expectedPages}`);
+  if (!allowPartial && pages.size !== expectedPages) throw new Error(`${sourceFile} OCR覆盖不完整: ${pages.size}/${expectedPages}`);
+  if (allowPartial) continue;
   for (let page = 1; page <= expectedPages; page++) {
     if (!pages.has(page)) throw new Error(`${sourceFile} OCR缺页: ${page}`);
   }
@@ -83,5 +93,6 @@ console.log(`OCR页数: ${totalPages}`);
 console.log(`空白页: ${emptyPages} (${(emptyRatio * 100).toFixed(1)}%)`);
 console.log(`汉字候选: ${hanCharacters}`);
 console.log(`本地来源实物复核: ${locallyVerifiedSources}；仅清单绑定: ${unavailableSources}`);
+console.log(`置信度页: ${confidencePages}；低置信度页: ${lowConfidencePages}`);
 if (emptyRatio > 0.35) throw new Error("OCR 空白页比例超过 35% 质量门槛");
 if (hanCharacters < totalPages * 20) throw new Error("平均每页汉字不足 20，未通过质量门槛");

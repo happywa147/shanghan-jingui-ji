@@ -47,6 +47,26 @@ test("条文静态分页与深链", async ({ page }, testInfo) => {
   await expect(page.locator("article")).toHaveCount(50);
 });
 
+test("版本矩阵、真人门禁状态、证据链与引用复制", async ({ page }, testInfo) => {
+  test.skip(testInfo.project.name === "mobile-chromium", "移动端由响应式专项覆盖");
+  await page.addInitScript(() => {
+    let copied = "";
+    Object.defineProperty(navigator, "clipboard", { value: {
+      writeText: async (text) => { copied = text; },
+      readText: async () => copied,
+    }});
+  });
+  await page.goto("/report.html");
+  await expect(page.getByRole("table")).toContainText("桂林古本");
+  const first = page.locator("article").first();
+  await expect(first.locator(".record-status")).toContainText("候选队列·待真人初审");
+  await first.getByText("查看机器证据链").click();
+  await expect(first.locator(".evidence-chain")).toContainText("异文修订");
+  await first.getByRole("button", { name: "复制研究引用" }).click();
+  await expect(page.getByRole("status")).toContainText("引用不代表该候选已获真人确认");
+  expect(await page.evaluate(() => navigator.clipboard.readText())).toContain("数据修订");
+});
+
 test("525方覆盖中的未配对方与逐条安全警示", async ({ page }, testInfo) => {
   test.skip(testInfo.project.name === "mobile-chromium", "移动端由响应式专项覆盖");
   await page.goto("/formulas-2.html");
@@ -56,6 +76,7 @@ test("525方覆盖中的未配对方与逐条安全警示", async ({ page }, tes
   const item = page.locator('article:not([hidden])');
   await expect(item).not.toHaveCount(0);
   await expect(item.locator(".item-warning")).toContainText("巴豆");
+  await expect(item.locator(".item-warning")).toContainText("不是毒性、疗效或可用性结论");
   await expect(item.locator(".item-warning")).toContainText("不可据此配制或服用");
 });
 

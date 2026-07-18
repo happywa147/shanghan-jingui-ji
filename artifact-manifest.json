@@ -17,6 +17,11 @@
         "data/imported/jingui-wikisource.json",
         "data/review/golden-candidates.json",
         "data/review/collation-preflight.json",
+        "data/review/six-edition-matrix.json",
+        "data/review/review-workflow-evidence.json",
+        "data/review/prepublication-readiness.json",
+        "docs/review-workflow-evidence.md",
+        "docs/prepublication-readiness.md",
         "docs/site/report*.html",
         "docs/site/formulas*.html",
         "docs/site/editions.html"
@@ -26,6 +31,9 @@
         "scripts/generate-formula-safety.mjs",
         "scripts/generate-golden-candidates.mjs",
         "scripts/generate-collation-preflight.mjs",
+        "scripts/generate-six-edition-matrix.mjs",
+        "scripts/verify-review-workflow-simulation.mjs",
+        "scripts/generate-prepublication-readiness.mjs",
         "scripts/generate-report.mjs",
         "scripts/generate-formula-report.mjs",
         "scripts/generate-edition-catalog-report.mjs"

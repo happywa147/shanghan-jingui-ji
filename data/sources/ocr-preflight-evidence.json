@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-18T08:35:00Z",
+  "batch_manifest": "data/sources/selected-ocr-batch.json",
+  "registered_physical_pages": 1115,
+  "target_pages": 856,
+  "target_breakdown": {
+    "jingui_sibu": 264,
+    "zhaokaimei_shanghan_and_jingui": 358,
+    "wuqian_jingui": 84,
+    "kangping_shanghan": 150
+  },
+  "source_files_local_hash_verified": 5,
+  "ocr_pages_generated": 0,
+  "toolchain": {
+    "node": "v25.8.2",
+    "pdf_renderer": "pdfinfo/pdftoppm 26.05.0",
+    "djvu_renderer": "DjVuLibre 3.5.29",
+    "ocr_engine": null,
+    "ocr_language": null
+  },
+  "status": "blocked_missing_ocr_engine",
+  "blocking_reason": "运行环境原先没有tesseract与chi_tra_vert；Homebrew安装受慢速依赖下载阻断，尚未产生任何OCR页。",
+  "quality_policy": {
+    "render_dpi": 300,
+    "language": "chi_tra_vert",
+    "page_segmentation_mode": 5,
+    "low_confidence_threshold": 65,
+    "all_machine_ocr_requires_human_review": true
+  }
+}

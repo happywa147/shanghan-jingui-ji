@@ -32,7 +32,7 @@ function row(formula) {
   const hasDifference = linked.some((item) => item.has_difference);
   const comparisonText = linked.length ? `参与 ${linked.length} 组机器同名方对照；${hasDifference ? "检出字段差异候选" : "本次机器比较未检出字段差异"}` : "未形成唯一同名方对照，已列入人工配对复核";
   return `<article id="${escape(formula.id)}" data-edition="${escape(formula.edition_id)}" data-different="${hasDifference}" data-paired="${linked.length > 0}" data-search="${escape(`${formula.name} ${formula.id}`)}"><header><h2>${escape(formula.name)}</h2><a class="permalink" href="#${escape(formula.id)}" aria-label="打开本方永久链接">本方链接</a><small>${escape(formula.edition_id)} · ${escape(comparisonText)}</small></header>
-  <p class="item-warning">历史文献记录，不可据此配制或服用；未经专业药学复核。${matches.length ? `机器风险词命中：${matches.map(escape).join("、")}。命中不是毒性定论。` : "机器风险词未命中；未命中不代表安全。"}</p>
+  <p class="item-warning">历史文献记录，不可据此配制或服用；未经专业药学复核。${matches.length ? `机器字符串风险词召回：${matches.map(escape).join("、")}。该结果不是毒性、疗效或可用性结论。` : "机器字符串风险词未命中；该结果不是安全或可用性结论。"}</p>
   <section><h3>原始字段</h3><ol>${ingredients(formula.ingredients)}</ol><h4>煎服法</h4><p>${escape(formula.preparation_and_use) || "未载"}</p></section><footer>数据状态：${escape(formula.review_status)}；安全扫描：${escape(safety.safety_review_status)}；规则版本：${escape(safetyData.manifest.rules_version)}</footer></article>`;
 }
 
