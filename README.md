@@ -36,6 +36,7 @@ schemas/    机器可校验的数据规范
 
 《金匮要略》首批底本候选及风险见 `docs/jingui-sources.md`。
 两书版本级总目录、分册去重口径和首批3＋3主本见 `docs/edition-catalog.md`，机器目录可用 `npm run verify:edition-catalog` 复核。
+六主本的本地影像哈希、字节、页数、赵开美合集页段及桂林争议证据见 `docs/selected-editions-evidence.md`；下载影像后运行 `npm run verify:selected-editions` 复算实物证据。
 
 ## 当前状态
 

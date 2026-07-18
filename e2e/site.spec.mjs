@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
 
-for (const path of ["/", "/report.html", "/formulas.html"]) {
+for (const path of ["/", "/report.html", "/formulas.html", "/editions.html"]) {
   test(`${path} 无严重或高危无障碍问题`, async ({ page }, testInfo) => {
     test.skip(testInfo.project.name !== "chromium", "无障碍规则集中在 Chromium 执行，避免重复 DOM 扫描");
     await page.goto(path);

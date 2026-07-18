@@ -1,0 +1,3226 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-18T00:00:00.000Z",
+  "generator": "scripts/generate-collation-preflight.mjs",
+  "policy": "本包只提供AI预审候选；不填写、不替代、不推断真人审核字段。所有锚点须绑定影像页后才可晋级。",
+  "editions": [
+    {
+      "edition_id": "jingui:sibu-yuqiao",
+      "work_id": "jingui_yaolue",
+      "ocr_layer": {
+        "state": "transcription_only",
+        "source_binding_required": true,
+        "page_fields": [
+          "source_sha256",
+          "page",
+          "folio",
+          "text",
+          "engine",
+          "engine_version",
+          "requires_human_review"
+        ],
+        "immutable_machine_output": true
+      },
+      "structure_layer": {
+        "levels": [
+          "chapter",
+          "text_unit",
+          "formula"
+        ],
+        "text_layers": [
+          "base_text",
+          "commentary",
+          "editorial_note"
+        ],
+        "state": "blocked"
+      },
+      "blocking_reasons": [
+        "当前文本没有逐条绑定扫描页码，不能视为影像核验本"
+      ]
+    },
+    {
+      "edition_id": "jingui:zhaokaimei-1599",
+      "work_id": "jingui_yaolue",
+      "ocr_layer": {
+        "state": "blocked",
+        "source_binding_required": true,
+        "page_fields": [
+          "source_sha256",
+          "page",
+          "folio",
+          "text",
+          "engine",
+          "engine_version",
+          "requires_human_review"
+        ],
+        "immutable_machine_output": true
+      },
+      "structure_layer": {
+        "levels": [
+          "chapter",
+          "text_unit",
+          "formula"
+        ],
+        "text_layers": [
+          "base_text",
+          "commentary",
+          "editorial_note"
+        ],
+        "state": "blocked"
+      },
+      "blocking_reasons": [
+        "合集须先确定《金匱》起止页；不得把《伤寒》与《金匱》混切"
+      ]
+    },
+    {
+      "edition_id": "jingui:wuqian-1395",
+      "work_id": "jingui_yaolue",
+      "ocr_layer": {
+        "state": "blocked",
+        "source_binding_required": true,
+        "page_fields": [
+          "source_sha256",
+          "page",
+          "folio",
+          "text",
+          "engine",
+          "engine_version",
+          "requires_human_review"
+        ],
+        "immutable_machine_output": true
+      },
+      "structure_layer": {
+        "levels": [
+          "chapter",
+          "text_unit",
+          "formula"
+        ],
+        "text_layers": [
+          "base_text",
+          "commentary",
+          "editorial_note"
+        ],
+        "state": "blocked"
+      },
+      "blocking_reasons": [
+        "须在导入前复核文件页许可、卷首卷尾及缺叶"
+      ]
+    },
+    {
+      "edition_id": "shanghan:zhaokaimei-1599",
+      "work_id": "shanghan_lun",
+      "ocr_layer": {
+        "state": "transcription_only",
+        "source_binding_required": true,
+        "page_fields": [
+          "source_sha256",
+          "page",
+          "folio",
+          "text",
+          "engine",
+          "engine_version",
+          "requires_human_review"
+        ],
+        "immutable_machine_output": true
+      },
+      "structure_layer": {
+        "levels": [
+          "chapter",
+          "text_unit",
+          "formula"
+        ],
+        "text_layers": [
+          "base_text",
+          "commentary",
+          "editorial_note"
+        ],
+        "state": "blocked"
+      },
+      "blocking_reasons": [
+        "须用影像替换当前笠翁堂文本中的空页码定位",
+        "当前文本没有逐条绑定扫描页码，不能视为影像核验本"
+      ]
+    },
+    {
+      "edition_id": "shanghan:kangping",
+      "work_id": "shanghan_lun",
+      "ocr_layer": {
+        "state": "transcription_only",
+        "source_binding_required": true,
+        "page_fields": [
+          "source_sha256",
+          "page",
+          "folio",
+          "text",
+          "engine",
+          "engine_version",
+          "requires_human_review"
+        ],
+        "immutable_machine_output": true
+      },
+      "structure_layer": {
+        "levels": [
+          "chapter",
+          "text_unit",
+          "formula"
+        ],
+        "text_layers": [
+          "base_text",
+          "commentary",
+          "editorial_note"
+        ],
+        "state": "blocked"
+      },
+      "blocking_reasons": [
+        "1947年鉴定本；经文、注文与校者说明必须按字距和层级拆分",
+        "当前文本没有逐条绑定扫描页码，不能视为影像核验本"
+      ]
+    },
+    {
+      "edition_id": "shanghan:guilin-baiyunge",
+      "work_id": "shanghan_lun",
+      "ocr_layer": {
+        "state": "transcription_only",
+        "source_binding_required": true,
+        "page_fields": [
+          "source_sha256",
+          "page",
+          "folio",
+          "text",
+          "engine",
+          "engine_version",
+          "requires_human_review"
+        ],
+        "immutable_machine_output": true
+      },
+      "structure_layer": {
+        "levels": [
+          "chapter",
+          "text_unit",
+          "formula"
+        ],
+        "text_layers": [
+          "base_text",
+          "commentary",
+          "editorial_note"
+        ],
+        "state": "blocked"
+      },
+      "blocking_reasons": [
+        "当前文本没有逐条绑定扫描页码，不能视为影像核验本"
+      ]
+    }
+  ],
+  "anchors": [
+    {
+      "anchor_id": "anchor:shanghan_lun:001",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0001",
+      "text_excerpt": "夫《伤寒论》，盖祖述大圣人之意，诸家莫其伦拟。故晋皇甫谧序《甲乙针经》云：伊尹以元圣之才，撰用《神农本草》，以为汤液。汉张仲景论广汤液，为数十卷，用之多验。近世太医令王叔和，撰次仲景遗论甚精，皆可施用。是仲景本伊尹之法，伊尹本神农之经，得不谓祖述大圣人之意乎？",
+      "candidate_kind": "chapter",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:002",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0002",
+      "text_excerpt": "张仲景《汉书》无传。见《名医录》云：南阳人，名机，仲景乃其字也。举孝廉，官至长沙太守，始受术于同郡张伯祖。时人言，识用精微过其师。所著论，其言精而奥，其法简而详，非浅闻寡见者所能及。自仲景于今八百余年，惟王叔和能学之，其间如葛洪、陶（弘）景、胡洽、徐之才、孙思邈辈，非不才也，但各自名家，而不能修明之。开宝中，节度使高继冲，曾编录进上。其文理舛错，未尝考正。历代虽藏之书府，亦阙于雠校，是使治病之流，举天下无或知者。国家诏儒臣校正医书，臣奇续被其选。以为百病之急，无急于伤寒。今先校定张仲景《伤寒论》十卷，总二十二篇，证外合三百九十七法，除重复，定有一百一十二方，今请颁行。",
+      "candidate_kind": "chapter",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:003",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0003",
+      "text_excerpt": "太子右赞善大夫臣 高保衡 尚书屯田员外郎臣 孙 奇 尚书司封郎中秘阁校理臣 林 亿 等 谨上",
+      "candidate_kind": "chapter",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:004",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0004",
+      "text_excerpt": "论曰：余每览越人入虢之诊，望齐侯之色，未尝不慨然叹其才秀也。怪当今居世之士，曾不留神医药，精究方术，上以疗君亲之疾，下以救贫贱之厄，中以保身长全，以养其生。但竞逐荣势，企踵权豪，孜孜汲汲，惟名利是务；崇饰其末，忽弃其本，华其外而悴其内。皮之不存，毛将安附焉？卒然遭邪风之气，婴非常之疾，患及祸至，而方震栗。降志屈节，钦望巫祝，告穷归天，束手受败。赍百年之寿命，持至贵之重器，委付凡医，恣其所措。咄嗟呜呼！厥身已毙，神明消灭，变为异物，幽潜重泉，徒为啼泣。痛夫！举世昏迷，莫能觉悟，不惜其命，若是轻生，彼何荣势之云哉？而进不能爱人知人，退不能爱身知已，遇灾值祸，身居厄地；蒙蒙昧昧，蠢若游魂。哀乎！趋世",
+      "candidate_kind": "chapter",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:005",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0005",
+      "text_excerpt": "余宗族素多，向余二百。建安纪年以来，犹未十稔，其死亡者，三分有二，伤寒十居其七。感往昔之沦丧，伤横夭之莫救，乃勤求古训，博采众方，撰用《素问》、《九卷》、《八十一难》、《阴阳大论》、《胎胪药录》，并平脉辨证，为《伤寒杂病论》合十六卷，虽未能尽愈诸病，庶可以见病知源，若能寻余所集，思过半矣。",
+      "candidate_kind": "chapter",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:006",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0006",
+      "text_excerpt": "夫天布五行，以运万类；人禀五常，以有五脏。经络府俞，阴阳会通；玄冥幽微，变化难极。自非才高识妙，岂能探其理致哉！上古有神农、黄帝、歧伯、伯高、雷公、少俞、少师、仲文，中世有长桑、扁鹊，汉有公乘阳庆及仓公。下此以往，未之闻也。",
+      "candidate_kind": "chapter",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:007",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0007",
+      "text_excerpt": "观今之医，不念思求经旨，以演其所知；各承家技，终始顺旧。省疾问病，务在口给；相对斯须，便处汤药。按寸不及尺，握手不及足；人迎、趺阳，三部不参；动数发息，不满五十。短期未知决诊，九候曾无仿佛。明堂阙庭，尽不见察，所谓窥管而已。夫能视死别生，实为难矣！",
+      "candidate_kind": "chapter",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:008",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0008",
+      "text_excerpt": "孔子云：生而知之者上，学则亚之。多闻博识，知之次也。余素尚方术，请事斯语。",
+      "candidate_kind": "chapter",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:009",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0009",
+      "text_excerpt": "问曰：脉有阴阳者，何谓也？答曰：凡脉大、浮、数、动、滑，此名阳也；脉沈、濇、弱、弦、微，此名阴也，凡阴病见阳脉者生，阳病见阴脉者死。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:010",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0010",
+      "text_excerpt": "问曰：脉有阳结阴结者，何以别之？答曰：其脉浮而数，能食，不大便者，此为实，名曰阳结也，期十七日当剧。其脉沈而迟，不能食，身体重，大便反鞕，名曰阴结也，期十四日当剧。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:011",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0011",
+      "text_excerpt": "问曰：病有洒淅恶寒而复发热者何？答曰：阴脉不足，阳往从之；阳脉不足，阴往乘之。曰：何谓阳不足？答曰：假令寸口脉微，名曰阳不足，阴气上入阳中，则洒淅恶寒也。曰：何谓阴不足？答曰：假令尺脉弱，名曰阴不足，阳气下陷入阴中，则发热也。阳脉浮（一作微）阴脉弱者，则血虚。血虚则筋急也。其脉沈者，荣气微也。其脉浮，而汗出如流珠者，卫气衰也。荣气微者，加烧针，则血流不行，更发热而躁烦也。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:012",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0012",
+      "text_excerpt": "脉蔼蔼，如车盖者，名曰阳结也。（一云秋脉）",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:013",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0013",
+      "text_excerpt": "脉累累，如循长竿者，名曰阴结也。（一云夏脉）",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:014",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0015",
+      "text_excerpt": "脉萦萦，如蜘蛛丝者，阳气衰也。（一云阴气）",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:015",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0017",
+      "text_excerpt": "脉来缓，时一止复来者，名曰结。脉来数，时一止复来者，名曰促（一作纵）。脉阳盛则促，阴盛则结，此皆病脉。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:016",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0018",
+      "text_excerpt": "阴阳相抟，名曰动。阳动则汗出，阴动则发热。形冷恶寒者，此三焦伤也。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:017",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0019",
+      "text_excerpt": "若数脉见于关上，上下无头尾，如豆大，厥厥动摇者，名曰动也。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:018",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0020",
+      "text_excerpt": "阳脉浮大而濡，阴脉浮大而濡，阴脉与阳脉同等者，名曰缓也。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:019",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0021",
+      "text_excerpt": "脉浮而紧者，名曰弦也。弦者状如弓弦，按之不移也。脉紧者，如转索无常也。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:020",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0022",
+      "text_excerpt": "脉弦而大，弦则为减，大则为芤。减则为寒，芤则为虚。寒虚相抟，此名为革。妇人则半产、漏下，男子则亡血、失精。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:021",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0023",
+      "text_excerpt": "问曰：病有战而汗出，因得解者，何也？答曰：脉浮而紧，按之反芤，此为本虚，故当战而汗出也。其人本虚，是以发战。以脉浮，故当汗出而解也。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:022",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0024",
+      "text_excerpt": "若脉浮而数，按之不芤，此人本不虚；若欲自解，但汗出耳。不发战也。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:023",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0025",
+      "text_excerpt": "问曰：病有不战而汗出解者，何也？答曰：脉大而浮数，故知不战，汗出而解也。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:024",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0026",
+      "text_excerpt": "问曰：病有不战不汗出而解者，何也？答曰：其脉自微，此以曾经发汗、若吐、若下、若亡血，以内无津液，此阴阳自和，必自愈，故不战不汗出而解也。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:025",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0027",
+      "text_excerpt": "问曰：伤寒三日，脉浮数而微，病人身凉和者，何也？答曰：此为欲解也，解以夜半。脉浮而解者，濈然汗出也；脉数而解者，必能食也；脉微而解者，必大汗出也。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:026",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0028",
+      "text_excerpt": "问曰：脉病，欲知愈未愈者，何以别之？答曰：寸口、关上、尺中三处，大小、浮沈、迟数同等，虽有寒热不解者，此脉阴阳为和平，虽剧当愈。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:027",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0029",
+      "text_excerpt": "立夏得洪（一作浮）大脉，是其本位。其人病身体苦疼重者，须发其汗。若明日身不疼不重者，不须发汗。若汗濈濈自出者，明日便解矣。何以言之？立夏得洪大脉，是其时脉，故使然也。四时倣此。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:028",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0030",
+      "text_excerpt": "问曰：凡病欲知何时得，何时愈？答曰：假令夜半得病，明日日中愈；日中得病，夜半愈。何以言之？日中得病，夜半愈者，以阳得阴则解也；夜半得病，明日日中愈者，以阴得阳则解也。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:029",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0031",
+      "text_excerpt": "寸口脉浮为在表，沈为在里，数为在府，迟为在藏。假令脉迟，此为在藏也。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:030",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0032",
+      "text_excerpt": "趺阳脉浮而濇，少阴脉如经也，其病在脾，法当下利。何以知之？若脉浮大者，气实血虚也。今趺阳脉浮而濇，故知脾气不足，胃气虚也。以少阴脉弦而浮（一作沈），才见此为调脉，故称如经也。若反滑而数者，故知当屎脓也（玉函作溺）。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:031",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0033",
+      "text_excerpt": "寸口脉浮而紧，浮则为风，紧则为寒；风则伤卫，寒则伤荣。荣卫俱病，骨节烦疼，当发其汗也。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:032",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0034",
+      "text_excerpt": "趺阳脉迟而缓，胃气如经也。趺阳脉浮而数，浮则伤胃，数则动脾，此非本病，医特下之所为也。荣卫内陷，其数先微，脉反但浮，其人必大便鞕，气噫而除。何以言之？本以数脉动脾，其数先微，故知脾气不治，大便鞕，气噫而除。今脉反浮，其数改微，邪气独留，心中则饥，邪热不杀谷，潮热发渴，数脉当迟缓，脉因前后度数如法，病者则饥。数脉不时，则生恶疮也。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:033",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0035",
+      "text_excerpt": "师曰：病人脉微而濇者，此为医所病也。大发其汗，又数大下之，其人亡血，病当恶寒，后乃发热，无休止时，夏月盛热，欲著复衣，冬月盛寒，欲裸其身。所以然者，阳微则恶寒，阴弱则发热，此医发其汗，令阳气微，又大下之，令阴气弱。五月之时，阳气在表，胃中虚冷，以阳气内微，不能胜冷，故欲著复衣；十一月之时，阳气在里，胃中烦热，以阴气内弱，不能胜热，故欲裸其身。又阴脉迟濇，故知血亡也。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:034",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0036",
+      "text_excerpt": "脉浮而大，心下反鞕，有热属藏者，攻之，不令发汗。属府者，不令溲数。溲数则大便鞕，汗多则热愈，汗少则便难，脉迟，尚未可攻。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:035",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0037",
+      "text_excerpt": "脉浮而洪，身汗如油，喘而不休，水浆不下，体形不仁，乍静乍乱，此为命绝也。又未知何藏先受其灾，若汗出、发润、喘不休者，此为肺先绝也。阳反独留，形体如烟熏，直视摇头，此心绝也。唇吻反青，四肢漐习者，此为肝绝也。环口黧黑，柔汗发黄者，此为脾绝也。溲便遗失，狂言，目反直视者，此为肾绝也。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:036",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0038",
+      "text_excerpt": "又未知何藏阴阳前绝，若阳气前绝，阴气后竭者，其人死，身色必青；阴气前绝，阳气后竭者，其人死，身色必赤，腋下温，心下热也。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:037",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0039",
+      "text_excerpt": "寸口脉浮大，而医反下之，此为大逆。浮则无血，大则为寒，寒气相抟，则为肠鸣，医乃不知，而反饮冷水，令汗大出，水得寒气，冷必相抟，其人即䭇。趺阳脉浮，浮则为虚，浮虚相抟，故令气䭇，言胃气虚竭也，脉滑则为哕。此为医咎，责虚取实，守空迫血。脉浮、鼻中燥者，必衄也。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:038",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0040",
+      "text_excerpt": "诸脉浮数，当发热，而洒淅恶寒，若有痛处，饮食如常者，畜积有脓也。脉浮而迟，面热赤而战惕者，六七日当汗出而解。反发热者，差迟。迟为无阳，不能作汗，其身必痒也。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:039",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0041",
+      "text_excerpt": "寸口脉阴阳俱紧者，法当清邪中于上焦，浊邪中于下焦。清邪中上，名曰洁也；浊邪中下，名曰浑也。阴中于邪，必内栗也，表气微虚，里气不守，故使邪中于阴也。阳中于邪，必发热、头痛、项强、颈挛、腰痛、胫酸。所为阳中雾露之气，故曰清邪中上，浊邪中下。阴气为栗，足膝逆冷，便溺妄出，表气微虚，里气微急，三焦相溷，内外不通。上焦怫郁，藏气相熏，口烂食断也。中焦不治，胃气上冲，脾气不转，胃中为浊，荣卫不通，血凝不流。若卫气前通者，小便赤黄，与热相抟，因热作使，游于经络，出入藏府，热气所过，则为痈脓。若阴气前通者，阳气厥微，阴无所使，客气内入，嚏而出之，声嗢（乙骨切）咽塞，寒厥相逐，为热所拥，血凝自下，状如豚肝。阴阳",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:040",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0042",
+      "text_excerpt": "脉阴阳俱紧者，口中气出，唇口干燥，踡卧足冷，鼻中涕出，舌上胎滑，勿妄治也。到七日已来，其人微发热，手足温者，此为欲解；或到八日以上，反大发热者，此为难治。设使恶寒者，必欲呕也；腹内痛者，必欲利也。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:041",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0043",
+      "text_excerpt": "脉阴阳俱紧，至于吐利，其脉独不解，紧去人安，此为欲解。若脉迟至六七日，不欲食，此为晚发，水停故也，为未解；食自可者，为欲解。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:042",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0044",
+      "text_excerpt": "病六七日，手足三部脉皆至，大烦而口噤不能言，其人躁扰者，必欲解也。若脉和，其人大烦，目重，睑内际黄者，此为欲解也。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:043",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0045",
+      "text_excerpt": "脉浮而数，浮为风，数为虚，风为热，虚为寒，风虚相抟，则洒淅恶寒也。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:044",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0046",
+      "text_excerpt": "脉浮而滑，浮为阳，滑为实，阳实相抟，其脉数疾，卫气失度，浮滑之脉数疾，发热汗出者，此为不治。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:045",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0047",
+      "text_excerpt": "伤寒欬逆上气，其脉散者死，谓其形损故也。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:046",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0048",
+      "text_excerpt": "问曰：脉有三部，阴阳相乘；荣卫血气，在人体躬；呼吸出入，上下于中；因息游布，津液流通；随时动作，效象形容，春弦秋浮，冬沈夏洪；察色观脉，大小不同；一时之间，变无经常；尺寸参差，或短或长；上下乖错，或存或亡；病辄改易，进退低昂；心迷意惑，动失纪纲；愿为具陈，令得分明。 师曰：子之所问，道之根源。脉有三部，尺寸及关；荣卫流行，不失衡铨；肾沈心洪，肺浮肝弦；此自经常，不失铢分；出入升降，漏刻周旋；水下二刻，一周循环；当复寸口，虚实见焉；变化相乘，阴阳相干；风则浮虚，寒则牢坚；沈潜水畜，支饮急弦；动则为痛，数则热烦；设有不应，知变所缘；三部不同，病各异端；太过可怪，不及亦然；邪不空见，中必有奸；审察表",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:047",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0049",
+      "text_excerpt": "师曰：呼吸者，脉之头也。初持脉，来疾去迟，此出疾入迟，名曰内虚外实也。初持脉，来迟去疾，此出迟入疾，名曰内实外虚也。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:048",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0050",
+      "text_excerpt": "问曰：上工望而知之，中工问而知之，下工脉而知之，愿闻其说。师曰：病家人请云，病人若发热，身体疼，病人自卧。师到，诊其脉，沈而迟者，知其差也。何以知之？表有病者，脉当浮大，今脉反沈迟，故知愈也。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:049",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0051",
+      "text_excerpt": "假令病人云，腹内卒痛，病人自坐。师到，脉之，浮而大者，知其差也。何以知之？若里有病者，脉当沈而细，今脉浮大，故知愈也。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:shanghan_lun:050",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "source_locator": "S0052",
+      "text_excerpt": "师曰：病家人来请云，病人发热烦极。明日师到，病人向壁卧，此热已去也。设令脉不和，处言已愈。设令向壁卧，闻师到，不惊起而盼视，若三言三止，脉之咽唾者，此诈病也。设令脉自和，处言汝病大重，当须服吐下药，针灸数十百处乃愈。",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "来源记录尚未绑定扫描文件、页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:001",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "序@oldid=2675184#segment-1",
+      "text_excerpt": "張仲景為傷寒雜病論合十六卷今世但傳傷寒論十卷",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:002",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "序@oldid=2675184#segment-2",
+      "text_excerpt": "雜病未見其書或於諸家方中載其一二矣翰林學士王",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:003",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "序@oldid=2675184#segment-3",
+      "text_excerpt": "洙在舘閣日於蠧簡中得仲景金匱玉函要畧方三卷上",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:004",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "序@oldid=2675184#segment-4",
+      "text_excerpt": "則辯傷寒中則論雜病下則載其方幷療婦人乃錄而傳",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:005",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "序@oldid=2675184#segment-5",
+      "text_excerpt": "之士流𦆵數家耳嘗以對方證對者施之於人其効[图字:（⿱艹石）]神",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:006",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "序@oldid=2675184#segment-6",
+      "text_excerpt": "然而或有證而無方或有方而無證救疾治病其有未備",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:007",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "序@oldid=2675184#segment-7",
+      "text_excerpt": "國家詔儒臣校正醫書臣竒先校定傷寒論次校定金匱",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:008",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "序@oldid=2675184#segment-8",
+      "text_excerpt": "玉函經今又校成此書仍以逐方次於證候之下使倉卒",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:009",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "序@oldid=2675184#segment-9",
+      "text_excerpt": "之際便於檢用也又採散在諸家之方附於逐篇之末以",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:010",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "序@oldid=2675184#segment-10",
+      "text_excerpt": "廣其法以其傷寒支多節畧故取自雜病以下終於飲食",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:011",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "序@oldid=2675184#segment-11",
+      "text_excerpt": "禁忌凡二十五篇除重復合二百六十二方勒成上中下",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:012",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "序@oldid=2675184#segment-12",
+      "text_excerpt": "三卷依舊名曰金匱方論臣竒嘗讀魏志華佗傳云出書",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:013",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "序@oldid=2675184#segment-13",
+      "text_excerpt": "一卷曰此書可以活人毎𮗚華佗凡所療病多尚竒怪不",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:014",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "序@oldid=2675184#segment-14",
+      "text_excerpt": "合聖人之經臣竒謂活人者必仲景之書也大哉炎農聖",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:015",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "序@oldid=2675184#segment-15",
+      "text_excerpt": "主上丕承大統撫肓元元頒行方書拯濟疾苦使和氣盈",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:016",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "序@oldid=2675184#segment-16",
+      "text_excerpt": "仲景金匱錄岐黄素難之方近將千卷患其混雜",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:017",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "序@oldid=2675184#segment-17",
+      "text_excerpt": "煩重有求難得故周流華裔九州之内收合竒異",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:018",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "序@oldid=2675184#segment-18",
+      "text_excerpt": "捃拾遺逸㨂選諸經筋髓以為方論一編其諸救",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:019",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "序@oldid=2675184#segment-19",
+      "text_excerpt": "療𭧂病使知其次第凡此藥石者是諸仙之所造",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:020",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "序@oldid=2675184#segment-20",
+      "text_excerpt": "服之將来固無夭横或治療不早或[图字:𬒳]師誤幸具",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:021",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "序@oldid=2675184#segment-21",
+      "text_excerpt": "宋學士王洙得是書於蠧簡林億等雖校理重刻",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:022",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "序@oldid=2675184#segment-22",
+      "text_excerpt": "元金以来世寡經見諸家或載金匱方治多於他",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:023",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "序@oldid=2675184#segment-23",
+      "text_excerpt": "書中得之耳不然何未有一人能語其㒹末者嗟",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:024",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "序@oldid=2675184#segment-24",
+      "text_excerpt": "予小子幸𫉬伏讀敢不寳惜山南真逸俞橋識",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:025",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "目録@oldid=2675185#segment-1",
+      "text_excerpt": "驚悸[图字:吐]衂下血胸滿瘀血第十六",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:026",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "目録@oldid=2675185#segment-2",
+      "text_excerpt": "救卒死方〈共五方〉 救 卒死而壮𤍠方",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:027",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "目録@oldid=2675185#segment-3",
+      "text_excerpt": "救小兒卒死而[图字:吐]利不知何病方",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:028",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "目録@oldid=2675185#segment-4",
+      "text_excerpt": "治食鯸鮧魚中毒方 治食蠏中毒方〈二〉",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:029",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "卷上@oldid=2675186#segment-1",
+      "text_excerpt": "問曰上工治未病何也○師曰夫治未病者見肝之病",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:030",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "卷上@oldid=2675186#segment-2",
+      "text_excerpt": "知肝傳脾當先實脾四季脾王不受邪即勿補之中",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:031",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "卷上@oldid=2675186#segment-3",
+      "text_excerpt": "工不暁相傳見肝之病不解實脾惟治肝也夫肝之",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:032",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "卷上@oldid=2675186#segment-4",
+      "text_excerpt": "病補用醋𦔳用焦苦益用甘味之藥調之酸入肝焦",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:033",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "卷上@oldid=2675186#segment-5",
+      "text_excerpt": "苦入心甘入脾脾能傷腎腎氣㣲弱則水不行水不",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:034",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "卷上@oldid=2675186#segment-6",
+      "text_excerpt": "行則心火氣盛心火𰚾盛則傷肺肺[图字:𬒳]傷則金氣不",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:035",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "卷上@oldid=2675186#segment-7",
+      "text_excerpt": "行金氣不行則肝氣盛故實脾則肝自愈此治肝補",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:036",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "卷上@oldid=2675186#segment-8",
+      "text_excerpt": "脾之要妙也肝虚則用此法實則不在用之經曰虚",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:037",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "卷上@oldid=2675186#segment-9",
+      "text_excerpt": "虚實實𥙷不足損有餘是其義也餘藏准此",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:038",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "卷上@oldid=2675186#segment-10",
+      "text_excerpt": "夫人禀五常因風𰚾而生長風氣雖能生萬物亦能",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:039",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "卷上@oldid=2675186#segment-11",
+      "text_excerpt": "害萬物如水能浮舟亦能覆舟[图字:（⿱艹石）]五臟元真通暢人",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:040",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "卷上@oldid=2675186#segment-12",
+      "text_excerpt": "即安和客氣邪風中人多死千般灾難不越三條一",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:041",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "卷上@oldid=2675186#segment-13",
+      "text_excerpt": "者經絡受邪入臟腑爲内所因也二者四肢九竅血",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:042",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "卷上@oldid=2675186#segment-14",
+      "text_excerpt": "脉相傳壅塞不通爲外皮膚所中也三者房室金刃",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:043",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "卷上@oldid=2675186#segment-15",
+      "text_excerpt": "蟲獸所傷以凡詳之病由都盡[图字:（⿱艹石）]人能養慎不令邪",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:044",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "卷上@oldid=2675186#segment-16",
+      "text_excerpt": "風干忤經絡適中經絡未流傳腑臓即醫治之四肢",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:045",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "卷上@oldid=2675186#segment-17",
+      "text_excerpt": "才𮗜重滯即導引[图字:吐]納鍼炙膏摩勿令九竅閉塞更",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:046",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "卷上@oldid=2675186#segment-18",
+      "text_excerpt": "能無犯王法禽獸灾傷房室勿令竭之服食節其冷",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:047",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "卷上@oldid=2675186#segment-19",
+      "text_excerpt": "𤍠苦酸辛甘不遺形體有衰病則無由入其腠理腠",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:048",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "卷上@oldid=2675186#segment-20",
+      "text_excerpt": "者是三焦通㑹元眞之處爲血氣所注理者是皮膚",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:049",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "卷上@oldid=2675186#segment-21",
+      "text_excerpt": "問曰病人有氣色見於面部願聞其說師曰鼻頭色青",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "anchor_id": "anchor:jingui_yaolue:050",
+      "work_id": "jingui_yaolue",
+      "edition_id": "jingui:sibu-yuqiao",
+      "source_locator": "卷上@oldid=2675186#segment-22",
+      "text_excerpt": "腹中痛苦冷者死〈一云腹中冷苦痛者死〉鼻頭色㣲黒者有水",
+      "candidate_kind": "text_unit",
+      "state": "blocked_missing_scan_locator",
+      "blocking_reasons": [
+        "固定修订转录尚未绑定四部丛刊扫描页码与版面区域"
+      ],
+      "requires_human_review": true
+    }
+  ],
+  "structure_candidates": [
+    {
+      "candidate_id": "structure:shanghan_lun:001",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0001",
+      "level": "chapter",
+      "text_layer": "undetermined",
+      "evidence": [
+        "夫《伤寒论》，盖祖述大圣人之意，诸家莫其伦拟。故晋皇甫谧序《甲乙针经》云：伊尹以元圣之才，撰用《神农本草》，以为汤液。汉张仲景论广汤液，为数十卷，用之多验。近世太医令王叔和，撰次仲景遗论甚精，皆可施用。是仲景本伊尹之法，伊尹本神农之经，得不谓祖述大圣人之意乎？"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:002",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0002",
+      "level": "chapter",
+      "text_layer": "undetermined",
+      "evidence": [
+        "张仲景《汉书》无传。见《名医录》云：南阳人，名机，仲景乃其字也。举孝廉，官至长沙太守，始受术于同郡张伯祖。时人言，识用精微过其师。所著论，其言精而奥，其法简而详，非浅闻寡见者所能及。自仲景于今八百余年，惟王叔和能学之，其间如葛洪、陶（弘）景、胡洽、徐之才、孙思邈辈，非不才也，但各自名家，而不能修明之。开宝中，节度使高继冲，曾编录进上。其文理舛错，未尝考正。历代虽藏之书府，亦阙于雠校，是使治病之流，举天下无或知者。国家诏儒臣校正医书，臣奇续被其选。以为百病之急，无急于伤寒。今先校定张仲景《伤寒论》十卷，总二十二篇，证外合三百九十七法，除重复，定有一百一十二方，今请颁行。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:003",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0003",
+      "level": "chapter",
+      "text_layer": "undetermined",
+      "evidence": [
+        "太子右赞善大夫臣 高保衡 尚书屯田员外郎臣 孙 奇 尚书司封郎中秘阁校理臣 林 亿 等 谨上"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:004",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0004",
+      "level": "chapter",
+      "text_layer": "undetermined",
+      "evidence": [
+        "论曰：余每览越人入虢之诊，望齐侯之色，未尝不慨然叹其才秀也。怪当今居世之士，曾不留神医药，精究方术，上以疗君亲之疾，下以救贫贱之厄，中以保身长全，以养其生。但竞逐荣势，企踵权豪，孜孜汲汲，惟名利是务；崇饰其末，忽弃其本，华其外而悴其内。皮之不存，毛将安附焉？卒然遭邪风之气，婴非常之疾，患及祸至，而方震栗。降志屈节，钦望巫祝，告穷归天，束手受败。赍百年之寿命，持至贵之重器，委付凡医，恣其所措。咄嗟呜呼！厥身已毙，神明消灭，变为异物，幽潜重泉，徒为啼泣。痛夫！举世昏迷，莫能觉悟，不惜其命，若是轻生，彼何荣势之云哉？而进不能爱人知人，退不能爱身知已，遇灾值祸，身居厄地；蒙蒙昧昧，蠢若游魂。哀乎！趋世"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:005",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0005",
+      "level": "chapter",
+      "text_layer": "undetermined",
+      "evidence": [
+        "余宗族素多，向余二百。建安纪年以来，犹未十稔，其死亡者，三分有二，伤寒十居其七。感往昔之沦丧，伤横夭之莫救，乃勤求古训，博采众方，撰用《素问》、《九卷》、《八十一难》、《阴阳大论》、《胎胪药录》，并平脉辨证，为《伤寒杂病论》合十六卷，虽未能尽愈诸病，庶可以见病知源，若能寻余所集，思过半矣。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:006",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0006",
+      "level": "chapter",
+      "text_layer": "undetermined",
+      "evidence": [
+        "夫天布五行，以运万类；人禀五常，以有五脏。经络府俞，阴阳会通；玄冥幽微，变化难极。自非才高识妙，岂能探其理致哉！上古有神农、黄帝、歧伯、伯高、雷公、少俞、少师、仲文，中世有长桑、扁鹊，汉有公乘阳庆及仓公。下此以往，未之闻也。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:007",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0007",
+      "level": "chapter",
+      "text_layer": "undetermined",
+      "evidence": [
+        "观今之医，不念思求经旨，以演其所知；各承家技，终始顺旧。省疾问病，务在口给；相对斯须，便处汤药。按寸不及尺，握手不及足；人迎、趺阳，三部不参；动数发息，不满五十。短期未知决诊，九候曾无仿佛。明堂阙庭，尽不见察，所谓窥管而已。夫能视死别生，实为难矣！"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:008",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0008",
+      "level": "chapter",
+      "text_layer": "undetermined",
+      "evidence": [
+        "孔子云：生而知之者上，学则亚之。多闻博识，知之次也。余素尚方术，请事斯语。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:009",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0009",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "问曰：脉有阴阳者，何谓也？答曰：凡脉大、浮、数、动、滑，此名阳也；脉沈、濇、弱、弦、微，此名阴也，凡阴病见阳脉者生，阳病见阴脉者死。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:010",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0010",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "问曰：脉有阳结阴结者，何以别之？答曰：其脉浮而数，能食，不大便者，此为实，名曰阳结也，期十七日当剧。其脉沈而迟，不能食，身体重，大便反鞕，名曰阴结也，期十四日当剧。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:011",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0011",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "问曰：病有洒淅恶寒而复发热者何？答曰：阴脉不足，阳往从之；阳脉不足，阴往乘之。曰：何谓阳不足？答曰：假令寸口脉微，名曰阳不足，阴气上入阳中，则洒淅恶寒也。曰：何谓阴不足？答曰：假令尺脉弱，名曰阴不足，阳气下陷入阴中，则发热也。阳脉浮（一作微）阴脉弱者，则血虚。血虚则筋急也。其脉沈者，荣气微也。其脉浮，而汗出如流珠者，卫气衰也。荣气微者，加烧针，则血流不行，更发热而躁烦也。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:012",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0012",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "脉蔼蔼，如车盖者，名曰阳结也。（一云秋脉）"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:013",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0013",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "脉累累，如循长竿者，名曰阴结也。（一云夏脉）"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:014",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0015",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "脉萦萦，如蜘蛛丝者，阳气衰也。（一云阴气）"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:015",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0017",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "脉来缓，时一止复来者，名曰结。脉来数，时一止复来者，名曰促（一作纵）。脉阳盛则促，阴盛则结，此皆病脉。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:016",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0018",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "阴阳相抟，名曰动。阳动则汗出，阴动则发热。形冷恶寒者，此三焦伤也。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:017",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0019",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "若数脉见于关上，上下无头尾，如豆大，厥厥动摇者，名曰动也。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:018",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0020",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "阳脉浮大而濡，阴脉浮大而濡，阴脉与阳脉同等者，名曰缓也。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:019",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0021",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "脉浮而紧者，名曰弦也。弦者状如弓弦，按之不移也。脉紧者，如转索无常也。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:020",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0022",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "脉弦而大，弦则为减，大则为芤。减则为寒，芤则为虚。寒虚相抟，此名为革。妇人则半产、漏下，男子则亡血、失精。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:021",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0023",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "问曰：病有战而汗出，因得解者，何也？答曰：脉浮而紧，按之反芤，此为本虚，故当战而汗出也。其人本虚，是以发战。以脉浮，故当汗出而解也。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:022",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0024",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "若脉浮而数，按之不芤，此人本不虚；若欲自解，但汗出耳。不发战也。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:023",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0025",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "问曰：病有不战而汗出解者，何也？答曰：脉大而浮数，故知不战，汗出而解也。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:024",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0026",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "问曰：病有不战不汗出而解者，何也？答曰：其脉自微，此以曾经发汗、若吐、若下、若亡血，以内无津液，此阴阳自和，必自愈，故不战不汗出而解也。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:025",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0027",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "问曰：伤寒三日，脉浮数而微，病人身凉和者，何也？答曰：此为欲解也，解以夜半。脉浮而解者，濈然汗出也；脉数而解者，必能食也；脉微而解者，必大汗出也。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:026",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0028",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "问曰：脉病，欲知愈未愈者，何以别之？答曰：寸口、关上、尺中三处，大小、浮沈、迟数同等，虽有寒热不解者，此脉阴阳为和平，虽剧当愈。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:027",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0029",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "立夏得洪（一作浮）大脉，是其本位。其人病身体苦疼重者，须发其汗。若明日身不疼不重者，不须发汗。若汗濈濈自出者，明日便解矣。何以言之？立夏得洪大脉，是其时脉，故使然也。四时倣此。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:028",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0030",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "问曰：凡病欲知何时得，何时愈？答曰：假令夜半得病，明日日中愈；日中得病，夜半愈。何以言之？日中得病，夜半愈者，以阳得阴则解也；夜半得病，明日日中愈者，以阴得阳则解也。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:029",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0031",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "寸口脉浮为在表，沈为在里，数为在府，迟为在藏。假令脉迟，此为在藏也。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:030",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0032",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "趺阳脉浮而濇，少阴脉如经也，其病在脾，法当下利。何以知之？若脉浮大者，气实血虚也。今趺阳脉浮而濇，故知脾气不足，胃气虚也。以少阴脉弦而浮（一作沈），才见此为调脉，故称如经也。若反滑而数者，故知当屎脓也（玉函作溺）。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:031",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0033",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "寸口脉浮而紧，浮则为风，紧则为寒；风则伤卫，寒则伤荣。荣卫俱病，骨节烦疼，当发其汗也。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:032",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0034",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "趺阳脉迟而缓，胃气如经也。趺阳脉浮而数，浮则伤胃，数则动脾，此非本病，医特下之所为也。荣卫内陷，其数先微，脉反但浮，其人必大便鞕，气噫而除。何以言之？本以数脉动脾，其数先微，故知脾气不治，大便鞕，气噫而除。今脉反浮，其数改微，邪气独留，心中则饥，邪热不杀谷，潮热发渴，数脉当迟缓，脉因前后度数如法，病者则饥。数脉不时，则生恶疮也。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:033",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0035",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "师曰：病人脉微而濇者，此为医所病也。大发其汗，又数大下之，其人亡血，病当恶寒，后乃发热，无休止时，夏月盛热，欲著复衣，冬月盛寒，欲裸其身。所以然者，阳微则恶寒，阴弱则发热，此医发其汗，令阳气微，又大下之，令阴气弱。五月之时，阳气在表，胃中虚冷，以阳气内微，不能胜冷，故欲著复衣；十一月之时，阳气在里，胃中烦热，以阴气内弱，不能胜热，故欲裸其身。又阴脉迟濇，故知血亡也。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:034",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0036",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "脉浮而大，心下反鞕，有热属藏者，攻之，不令发汗。属府者，不令溲数。溲数则大便鞕，汗多则热愈，汗少则便难，脉迟，尚未可攻。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:035",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0037",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "脉浮而洪，身汗如油，喘而不休，水浆不下，体形不仁，乍静乍乱，此为命绝也。又未知何藏先受其灾，若汗出、发润、喘不休者，此为肺先绝也。阳反独留，形体如烟熏，直视摇头，此心绝也。唇吻反青，四肢漐习者，此为肝绝也。环口黧黑，柔汗发黄者，此为脾绝也。溲便遗失，狂言，目反直视者，此为肾绝也。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:036",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0038",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "又未知何藏阴阳前绝，若阳气前绝，阴气后竭者，其人死，身色必青；阴气前绝，阳气后竭者，其人死，身色必赤，腋下温，心下热也。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:037",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0039",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "寸口脉浮大，而医反下之，此为大逆。浮则无血，大则为寒，寒气相抟，则为肠鸣，医乃不知，而反饮冷水，令汗大出，水得寒气，冷必相抟，其人即䭇。趺阳脉浮，浮则为虚，浮虚相抟，故令气䭇，言胃气虚竭也，脉滑则为哕。此为医咎，责虚取实，守空迫血。脉浮、鼻中燥者，必衄也。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:038",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0040",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "诸脉浮数，当发热，而洒淅恶寒，若有痛处，饮食如常者，畜积有脓也。脉浮而迟，面热赤而战惕者，六七日当汗出而解。反发热者，差迟。迟为无阳，不能作汗，其身必痒也。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:039",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0041",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "寸口脉阴阳俱紧者，法当清邪中于上焦，浊邪中于下焦。清邪中上，名曰洁也；浊邪中下，名曰浑也。阴中于邪，必内栗也，表气微虚，里气不守，故使邪中于阴也。阳中于邪，必发热、头痛、项强、颈挛、腰痛、胫酸。所为阳中雾露之气，故曰清邪中上，浊邪中下。阴气为栗，足膝逆冷，便溺妄出，表气微虚，里气微急，三焦相溷，内外不通。上焦怫郁，藏气相熏，口烂食断也。中焦不治，胃气上冲，脾气不转，胃中为浊，荣卫不通，血凝不流。若卫气前通者，小便赤黄，与热相抟，因热作使，游于经络，出入藏府，热气所过，则为痈脓。若阴气前通者，阳气厥微，阴无所使，客气内入，嚏而出之，声嗢（乙骨切）咽塞，寒厥相逐，为热所拥，血凝自下，状如豚肝。阴阳"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:040",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0042",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "脉阴阳俱紧者，口中气出，唇口干燥，踡卧足冷，鼻中涕出，舌上胎滑，勿妄治也。到七日已来，其人微发热，手足温者，此为欲解；或到八日以上，反大发热者，此为难治。设使恶寒者，必欲呕也；腹内痛者，必欲利也。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:041",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0043",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "脉阴阳俱紧，至于吐利，其脉独不解，紧去人安，此为欲解。若脉迟至六七日，不欲食，此为晚发，水停故也，为未解；食自可者，为欲解。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:042",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0044",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "病六七日，手足三部脉皆至，大烦而口噤不能言，其人躁扰者，必欲解也。若脉和，其人大烦，目重，睑内际黄者，此为欲解也。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:043",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0045",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "脉浮而数，浮为风，数为虚，风为热，虚为寒，风虚相抟，则洒淅恶寒也。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:044",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0046",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "脉浮而滑，浮为阳，滑为实，阳实相抟，其脉数疾，卫气失度，浮滑之脉数疾，发热汗出者，此为不治。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:045",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0047",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "伤寒欬逆上气，其脉散者死，谓其形损故也。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:046",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0048",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "问曰：脉有三部，阴阳相乘；荣卫血气，在人体躬；呼吸出入，上下于中；因息游布，津液流通；随时动作，效象形容，春弦秋浮，冬沈夏洪；察色观脉，大小不同；一时之间，变无经常；尺寸参差，或短或长；上下乖错，或存或亡；病辄改易，进退低昂；心迷意惑，动失纪纲；愿为具陈，令得分明。 师曰：子之所问，道之根源。脉有三部，尺寸及关；荣卫流行，不失衡铨；肾沈心洪，肺浮肝弦；此自经常，不失铢分；出入升降，漏刻周旋；水下二刻，一周循环；当复寸口，虚实见焉；变化相乘，阴阳相干；风则浮虚，寒则牢坚；沈潜水畜，支饮急弦；动则为痛，数则热烦；设有不应，知变所缘；三部不同，病各异端；太过可怪，不及亦然；邪不空见，中必有奸；审察表"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:047",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0049",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "师曰：呼吸者，脉之头也。初持脉，来疾去迟，此出疾入迟，名曰内虚外实也。初持脉，来迟去疾，此出迟入疾，名曰内实外虚也。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:048",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0050",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "问曰：上工望而知之，中工问而知之，下工脉而知之，愿闻其说。师曰：病家人请云，病人若发热，身体疼，病人自卧。师到，诊其脉，沈而迟者，知其差也。何以知之？表有病者，脉当浮大，今脉反沈迟，故知愈也。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:049",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0051",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "假令病人云，腹内卒痛，病人自坐。师到，脉之，浮而大者，知其差也。何以知之？若里有病者，脉当沈而细，今脉浮大，故知愈也。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:shanghan_lun:050",
+      "work_id": "shanghan_lun",
+      "source_locator": "S0052",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "师曰：病家人来请云，病人发热烦极。明日师到，病人向壁卧，此热已去也。设令脉不和，处言已愈。设令向壁卧，闻师到，不惊起而盼视，若三言三止，脉之咽唾者，此诈病也。设令脉自和，处言汝病大重，当须服吐下药，针灸数十百处乃愈。"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:001",
+      "work_id": "jingui_yaolue",
+      "source_locator": "序@oldid=2675184#segment-1",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "張仲景為傷寒雜病論合十六卷今世但傳傷寒論十卷"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:002",
+      "work_id": "jingui_yaolue",
+      "source_locator": "序@oldid=2675184#segment-2",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "雜病未見其書或於諸家方中載其一二矣翰林學士王"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:003",
+      "work_id": "jingui_yaolue",
+      "source_locator": "序@oldid=2675184#segment-3",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "洙在舘閣日於蠧簡中得仲景金匱玉函要畧方三卷上"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:004",
+      "work_id": "jingui_yaolue",
+      "source_locator": "序@oldid=2675184#segment-4",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "則辯傷寒中則論雜病下則載其方幷療婦人乃錄而傳"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:005",
+      "work_id": "jingui_yaolue",
+      "source_locator": "序@oldid=2675184#segment-5",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "之士流𦆵數家耳嘗以對方證對者施之於人其効[图字:（⿱艹石）]神"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:006",
+      "work_id": "jingui_yaolue",
+      "source_locator": "序@oldid=2675184#segment-6",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "然而或有證而無方或有方而無證救疾治病其有未備"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:007",
+      "work_id": "jingui_yaolue",
+      "source_locator": "序@oldid=2675184#segment-7",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "國家詔儒臣校正醫書臣竒先校定傷寒論次校定金匱"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:008",
+      "work_id": "jingui_yaolue",
+      "source_locator": "序@oldid=2675184#segment-8",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "玉函經今又校成此書仍以逐方次於證候之下使倉卒"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:009",
+      "work_id": "jingui_yaolue",
+      "source_locator": "序@oldid=2675184#segment-9",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "之際便於檢用也又採散在諸家之方附於逐篇之末以"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:010",
+      "work_id": "jingui_yaolue",
+      "source_locator": "序@oldid=2675184#segment-10",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "廣其法以其傷寒支多節畧故取自雜病以下終於飲食"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:011",
+      "work_id": "jingui_yaolue",
+      "source_locator": "序@oldid=2675184#segment-11",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "禁忌凡二十五篇除重復合二百六十二方勒成上中下"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:012",
+      "work_id": "jingui_yaolue",
+      "source_locator": "序@oldid=2675184#segment-12",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "三卷依舊名曰金匱方論臣竒嘗讀魏志華佗傳云出書"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:013",
+      "work_id": "jingui_yaolue",
+      "source_locator": "序@oldid=2675184#segment-13",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "一卷曰此書可以活人毎𮗚華佗凡所療病多尚竒怪不"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:014",
+      "work_id": "jingui_yaolue",
+      "source_locator": "序@oldid=2675184#segment-14",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "合聖人之經臣竒謂活人者必仲景之書也大哉炎農聖"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:015",
+      "work_id": "jingui_yaolue",
+      "source_locator": "序@oldid=2675184#segment-15",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "主上丕承大統撫肓元元頒行方書拯濟疾苦使和氣盈"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:016",
+      "work_id": "jingui_yaolue",
+      "source_locator": "序@oldid=2675184#segment-16",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "仲景金匱錄岐黄素難之方近將千卷患其混雜"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:017",
+      "work_id": "jingui_yaolue",
+      "source_locator": "序@oldid=2675184#segment-17",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "煩重有求難得故周流華裔九州之内收合竒異"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:018",
+      "work_id": "jingui_yaolue",
+      "source_locator": "序@oldid=2675184#segment-18",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "捃拾遺逸㨂選諸經筋髓以為方論一編其諸救"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:019",
+      "work_id": "jingui_yaolue",
+      "source_locator": "序@oldid=2675184#segment-19",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "療𭧂病使知其次第凡此藥石者是諸仙之所造"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:020",
+      "work_id": "jingui_yaolue",
+      "source_locator": "序@oldid=2675184#segment-20",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "服之將来固無夭横或治療不早或[图字:𬒳]師誤幸具"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:021",
+      "work_id": "jingui_yaolue",
+      "source_locator": "序@oldid=2675184#segment-21",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "宋學士王洙得是書於蠧簡林億等雖校理重刻"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:022",
+      "work_id": "jingui_yaolue",
+      "source_locator": "序@oldid=2675184#segment-22",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "元金以来世寡經見諸家或載金匱方治多於他"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:023",
+      "work_id": "jingui_yaolue",
+      "source_locator": "序@oldid=2675184#segment-23",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "書中得之耳不然何未有一人能語其㒹末者嗟"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:024",
+      "work_id": "jingui_yaolue",
+      "source_locator": "序@oldid=2675184#segment-24",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "予小子幸𫉬伏讀敢不寳惜山南真逸俞橋識"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:025",
+      "work_id": "jingui_yaolue",
+      "source_locator": "目録@oldid=2675185#segment-1",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "驚悸[图字:吐]衂下血胸滿瘀血第十六"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:026",
+      "work_id": "jingui_yaolue",
+      "source_locator": "目録@oldid=2675185#segment-2",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "救卒死方〈共五方〉 救 卒死而壮𤍠方"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:027",
+      "work_id": "jingui_yaolue",
+      "source_locator": "目録@oldid=2675185#segment-3",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "救小兒卒死而[图字:吐]利不知何病方"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:028",
+      "work_id": "jingui_yaolue",
+      "source_locator": "目録@oldid=2675185#segment-4",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "治食鯸鮧魚中毒方 治食蠏中毒方〈二〉"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:029",
+      "work_id": "jingui_yaolue",
+      "source_locator": "卷上@oldid=2675186#segment-1",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "問曰上工治未病何也○師曰夫治未病者見肝之病"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:030",
+      "work_id": "jingui_yaolue",
+      "source_locator": "卷上@oldid=2675186#segment-2",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "知肝傳脾當先實脾四季脾王不受邪即勿補之中"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:031",
+      "work_id": "jingui_yaolue",
+      "source_locator": "卷上@oldid=2675186#segment-3",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "工不暁相傳見肝之病不解實脾惟治肝也夫肝之"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:032",
+      "work_id": "jingui_yaolue",
+      "source_locator": "卷上@oldid=2675186#segment-4",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "病補用醋𦔳用焦苦益用甘味之藥調之酸入肝焦"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:033",
+      "work_id": "jingui_yaolue",
+      "source_locator": "卷上@oldid=2675186#segment-5",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "苦入心甘入脾脾能傷腎腎氣㣲弱則水不行水不"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:034",
+      "work_id": "jingui_yaolue",
+      "source_locator": "卷上@oldid=2675186#segment-6",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "行則心火氣盛心火𰚾盛則傷肺肺[图字:𬒳]傷則金氣不"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:035",
+      "work_id": "jingui_yaolue",
+      "source_locator": "卷上@oldid=2675186#segment-7",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "行金氣不行則肝氣盛故實脾則肝自愈此治肝補"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:036",
+      "work_id": "jingui_yaolue",
+      "source_locator": "卷上@oldid=2675186#segment-8",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "脾之要妙也肝虚則用此法實則不在用之經曰虚"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:037",
+      "work_id": "jingui_yaolue",
+      "source_locator": "卷上@oldid=2675186#segment-9",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "虚實實𥙷不足損有餘是其義也餘藏准此"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:038",
+      "work_id": "jingui_yaolue",
+      "source_locator": "卷上@oldid=2675186#segment-10",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "夫人禀五常因風𰚾而生長風氣雖能生萬物亦能"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:039",
+      "work_id": "jingui_yaolue",
+      "source_locator": "卷上@oldid=2675186#segment-11",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "害萬物如水能浮舟亦能覆舟[图字:（⿱艹石）]五臟元真通暢人"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:040",
+      "work_id": "jingui_yaolue",
+      "source_locator": "卷上@oldid=2675186#segment-12",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "即安和客氣邪風中人多死千般灾難不越三條一"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:041",
+      "work_id": "jingui_yaolue",
+      "source_locator": "卷上@oldid=2675186#segment-13",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "者經絡受邪入臟腑爲内所因也二者四肢九竅血"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:042",
+      "work_id": "jingui_yaolue",
+      "source_locator": "卷上@oldid=2675186#segment-14",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "脉相傳壅塞不通爲外皮膚所中也三者房室金刃"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:043",
+      "work_id": "jingui_yaolue",
+      "source_locator": "卷上@oldid=2675186#segment-15",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "蟲獸所傷以凡詳之病由都盡[图字:（⿱艹石）]人能養慎不令邪"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:044",
+      "work_id": "jingui_yaolue",
+      "source_locator": "卷上@oldid=2675186#segment-16",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "風干忤經絡適中經絡未流傳腑臓即醫治之四肢"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:045",
+      "work_id": "jingui_yaolue",
+      "source_locator": "卷上@oldid=2675186#segment-17",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "才𮗜重滯即導引[图字:吐]納鍼炙膏摩勿令九竅閉塞更"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:046",
+      "work_id": "jingui_yaolue",
+      "source_locator": "卷上@oldid=2675186#segment-18",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "能無犯王法禽獸灾傷房室勿令竭之服食節其冷"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:047",
+      "work_id": "jingui_yaolue",
+      "source_locator": "卷上@oldid=2675186#segment-19",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "𤍠苦酸辛甘不遺形體有衰病則無由入其腠理腠"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:048",
+      "work_id": "jingui_yaolue",
+      "source_locator": "卷上@oldid=2675186#segment-20",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "者是三焦通㑹元眞之處爲血氣所注理者是皮膚"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:049",
+      "work_id": "jingui_yaolue",
+      "source_locator": "卷上@oldid=2675186#segment-21",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "問曰病人有氣色見於面部願聞其說師曰鼻頭色青"
+      ],
+      "requires_human_review": true
+    },
+    {
+      "candidate_id": "structure:jingui_yaolue:050",
+      "work_id": "jingui_yaolue",
+      "source_locator": "卷上@oldid=2675186#segment-22",
+      "level": "text_unit",
+      "text_layer": "undetermined",
+      "evidence": [
+        "腹中痛苦冷者死〈一云腹中冷苦痛者死〉鼻頭色㣲黒者有水"
+      ],
+      "requires_human_review": true
+    }
+  ],
+  "golden_remediation": [
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0006+S0007:kangping:K0002",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing",
+        "split_merge_risk"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核",
+        "核对条文边界，分别判断一对多、多对一或来源重复"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0112+S0113:kangping:K0030",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing",
+        "split_merge_risk"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核",
+        "核对条文边界，分别判断一对多、多对一或来源重复"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0161+S0162:kangping:K0078",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing",
+        "split_merge_risk"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核",
+        "核对条文边界，分别判断一对多、多对一或来源重复"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0170+S0171:kangping:K0089",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing",
+        "split_merge_risk"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核",
+        "核对条文边界，分别判断一对多、多对一或来源重复"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0175+S0176:guilin:G0365",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing",
+        "split_merge_risk"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核",
+        "核对条文边界，分别判断一对多、多对一或来源重复"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0179+S0180:kangping:K0100",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing",
+        "split_merge_risk"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核",
+        "核对条文边界，分别判断一对多、多对一或来源重复"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0182+S0183:kangping:K0103",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing",
+        "split_merge_risk"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核",
+        "核对条文边界，分别判断一对多、多对一或来源重复"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0187+S0586:guilin:G0376",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing",
+        "split_merge_risk",
+        "commentary_mixing_risk"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核",
+        "核对条文边界，分别判断一对多、多对一或来源重复",
+        "拆分仲景正文、后人注文和编校说明，禁止合并入正文层"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0187+S0586:kangping:K0109",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing",
+        "split_merge_risk"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核",
+        "核对条文边界，分别判断一对多、多对一或来源重复"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0194+S0195:kangping:K0116",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing",
+        "split_merge_risk"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核",
+        "核对条文边界，分别判断一对多、多对一或来源重复"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0271+S0272:kangping:K0207",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing",
+        "split_merge_risk"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核",
+        "核对条文边界，分别判断一对多、多对一或来源重复"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0419:kangping:K0376",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0096:kangping:K0008",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0133:guilin:G0803",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0106:kangping:K0018",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing",
+        "split_merge_risk"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核",
+        "核对条文边界，分别判断一对多、多对一或来源重复"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0160:guilin:G0349",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0129:guilin:G0797",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0313+S0365:kangping:K0260",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing",
+        "split_merge_risk"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核",
+        "核对条文边界，分别判断一对多、多对一或来源重复"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0408:kangping:K0365",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0271:guilin:G0463",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0107:kangping:K0022",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing",
+        "split_merge_risk"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核",
+        "核对条文边界，分别判断一对多、多对一或来源重复"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0291:kangping:K0237",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0337:kangping:K0290",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0204:kangping:K0147",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0346:kangping:K0299",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0259:kangping:K0196",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0210:kangping:K0130",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0300:kangping:K0245",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0149:kangping:K0064",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0134:kangping:K0044",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0144:guilin:G0332",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing",
+        "exact_label_risk"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核",
+        "文本差异率为0；逐字核验后判断是否应由 approximate 改为 exact"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0145:guilin:G0333",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing",
+        "exact_label_risk"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核",
+        "文本差异率为0；逐字核验后判断是否应由 approximate 改为 exact"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0162:guilin:G0351",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing",
+        "exact_label_risk"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核",
+        "文本差异率为0；逐字核验后判断是否应由 approximate 改为 exact"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0163:guilin:G0352",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing",
+        "exact_label_risk"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核",
+        "文本差异率为0；逐字核验后判断是否应由 approximate 改为 exact"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0178:guilin:G0367",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing",
+        "exact_label_risk"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核",
+        "文本差异率为0；逐字核验后判断是否应由 approximate 改为 exact"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0186:guilin:G0375",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing",
+        "exact_label_risk"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核",
+        "文本差异率为0；逐字核验后判断是否应由 approximate 改为 exact"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0209:guilin:G0400",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing",
+        "exact_label_risk"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核",
+        "文本差异率为0；逐字核验后判断是否应由 approximate 改为 exact"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0212:guilin:G0403",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing",
+        "exact_label_risk"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核",
+        "文本差异率为0；逐字核验后判断是否应由 approximate 改为 exact"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0225:guilin:G0418",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing",
+        "exact_label_risk"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核",
+        "文本差异率为0；逐字核验后判断是否应由 approximate 改为 exact"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0226:guilin:G0419",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing",
+        "exact_label_risk"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核",
+        "文本差异率为0；逐字核验后判断是否应由 approximate 改为 exact"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0131:guilin:G0799",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0132:guilin:G0800",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0146:guilin:G0334",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0147:guilin:G0335",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0148:guilin:G0336",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0004:kangping:K0001",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing",
+        "missing_glyph_risk"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核",
+        "对图片字、缺字或占位符逐页释读并保留字形证据"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0100:kangping:K0011",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0101:kangping:K0013",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing",
+        "missing_glyph_risk"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核",
+        "对图片字、缺字或占位符逐页释读并保留字形证据"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0103:kangping:K0014",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing",
+        "missing_glyph_risk"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核",
+        "对图片字、缺字或占位符逐页释读并保留字形证据"
+      ],
+      "must_not_promote_before_human_review": true
+    },
+    {
+      "alignment_id": "alignment:shanghan_lun:song:S0104:kangping:K0015",
+      "ai_precheck_only": true,
+      "risk_flags": [
+        "scan_locator_missing"
+      ],
+      "recommendations": [
+        "补齐双方扫描文件、页码和版面区域后，由两名真人专家独立复核"
+      ],
+      "must_not_promote_before_human_review": true
+    }
+  ]
+}

@@ -272,14 +272,14 @@
           "layer": "base_text",
           "selected": true,
           "selection_rank": 2,
-          "files": null,
-          "pages": null,
-          "completeness": "wikisource_text_complete_scan_not_bound",
-          "license": "PD-old; Wikisource CC BY-SA 4.0",
-          "image_quality": "not_verified",
-          "text_status": "transcription_available_scan_gate_blocked",
-          "source": "https://zh.wikisource.org/wiki/傷寒雜病論_(康平古本)",
-          "risk": "正式对校前必须找到并绑定可用影像；经、注层级不可压平"
+          "files": 1,
+          "pages": 150,
+          "completeness": "local_scan_verified_text_page_binding_pending",
+          "license": "PD China / PD-scan",
+          "image_quality": "medium",
+          "text_status": "scan_verified_ocr_and_structure_pending",
+          "source": "https://commons.wikimedia.org/wiki/File:NLC416-08jh015938-38923_古本康平傷寒論.pdf",
+          "risk": "1947年鉴定本；经文、注文与校者说明必须按字距和层级拆分"
         },
         {
           "edition_id": "shanghan:guilin-baiyunge",

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "target_size": 5,
+  "filled": 0,
+  "rule": "AI预审不得占用真人席位；每条由两名不同真人独立审核，分歧时由第三名独立裁决。",
+  "slots": [
+    { "slot": 1, "specialty": "伤寒论版本学", "status": "vacant" },
+    { "slot": 2, "specialty": "金匮要略版本学", "status": "vacant" },
+    { "slot": 3, "specialty": "中医临床与方药安全", "status": "vacant" },
+    { "slot": 4, "specialty": "古籍整理与文字校勘", "status": "vacant" },
+    { "slot": 5, "specialty": "独立裁决与质量验收", "status": "vacant" }
+  ],
+  "minimum_evidence": ["公开审核标识", "相关资格或研究经历", "角色与利益冲突声明", "核验日期与核验人", "逐条影像或版本定位"]
+}
