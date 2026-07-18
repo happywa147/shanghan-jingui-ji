@@ -82,14 +82,19 @@ jobs:
           node-version: 22.18.0
           cache: npm
       - run: npm ci
-      - name: 公开发布真人审核与权利硬门禁
-        run: npm run verify:golden-release && npm run verify:release-rights
-      - name: 归档权利门禁证据
+      - name: 公开发布真人审核硬门禁
+        run: npm run verify:golden-release
+      - name: 公开发布权利硬门禁
+        if: always()
+        run: npm run verify:release-rights
+      - name: 归档发布门禁证据
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
           name: publication-rights-${{ github.run_id }}
-          path: dist/release-gates/rights.json
+          path: |
+            dist/release-gates/golden.json
+            dist/release-gates/rights.json
           if-no-files-found: error
   deploy:
     if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
