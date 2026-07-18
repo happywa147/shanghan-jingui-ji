@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "public_artifact_root": "docs/site",
+  "data_packages": [
+    {
+      "path": "data/imported/liwengtang-shanghan.json",
+      "source_entry_id": "liwengtang-shanghan",
+      "source_id": "liwengtang:75647a481f21e4f1b4dbfde78d600be7b1206c9f7d18cb60183bdf8c58e68074",
+      "source_sha256": "75647a481f21e4f1b4dbfde78d600be7b1206c9f7d18cb60183bdf8c58e68074"
+    }
+  ],
+  "sources": [
+    {
+      "id": "liwengtang-shanghan",
+      "description": "笠翁堂《伤寒论》整理数据",
+      "rights_status": "NOASSERTION",
+      "evidence_refs": [],
+      "public_artifact_paths": [
+        "docs/site/index.html",
+        "docs/site/report.html",
+        "docs/site/report-2.html",
+        "docs/site/report-3.html",
+        "docs/site/report-4.html",
+        "docs/site/report-5.html",
+        "docs/site/report-6.html",
+        "docs/site/report-7.html",
+        "docs/site/report-8.html",
+        "docs/site/report-9.html",
+        "docs/site/report-10.html",
+        "docs/site/report-11.html",
+        "docs/site/report-12.html",
+        "docs/site/report-13.html",
+        "docs/site/report-14.html",
+        "docs/site/report-15.html",
+        "docs/site/report-16.html",
+        "docs/site/formulas.html",
+        "docs/site/formulas-2.html",
+        "docs/site/formulas-3.html",
+        "docs/site/formulas-4.html",
+        "docs/site/formulas-5.html",
+        "docs/site/formulas-6.html",
+        "docs/site/formulas-7.html",
+        "docs/site/formulas-8.html",
+        "docs/site/formulas-9.html",
+        "docs/site/formulas-10.html",
+        "docs/site/formulas-11.html"
+      ]
+    },
+    {
+      "id": "project-code-and-ui",
+      "description": "伤寒金匮集项目代码与界面",
+      "rights_status": "cleared",
+      "evidence_refs": [
+        {
+          "path": "LICENSE",
+          "sha256": "d49c87e909e0e1929bcc09ee1ef433340a56663c2168ff356d8c32652944d99e",
+          "approval_status": "approved"
+        }
+      ],
+      "public_artifact_paths": [
+        "docs/site/site.css",
+        "docs/site/report.css",
+        "docs/site/report.js",
+        "docs/site/formulas.css",
+        "docs/site/formulas.js"
+      ]
+    }
+  ]
+}

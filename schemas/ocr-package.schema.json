@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shanghan-jingui-ji.local/schemas/ocr-package.schema.json",
+  "title": "OCR派生数据包",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "source_file", "source_sha256", "source_bytes", "page_count", "processed_range", "engine", "engine_version", "renderer", "renderer_version", "language", "page_segmentation_mode", "generated_at", "pages"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "source_file": { "type": "string", "minLength": 1, "maxLength": 300 },
+    "source_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "source_bytes": { "type": "integer", "minimum": 1 },
+    "page_count": { "type": "integer", "minimum": 1 },
+    "processed_range": { "type": "array", "minItems": 2, "maxItems": 2, "prefixItems": [{ "type": "integer", "minimum": 1 }, { "type": "integer", "minimum": 1 }], "items": false },
+    "engine": { "const": "tesseract" },
+    "engine_version": { "type": "string", "minLength": 1, "maxLength": 300 },
+    "renderer": { "const": "ddjvu" },
+    "renderer_version": { "type": "string", "minLength": 1, "maxLength": 300 },
+    "language": { "const": "chi_tra_vert" },
+    "page_segmentation_mode": { "const": 5 },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "pages": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["source_file", "page", "text", "status", "requires_human_review"],
+        "properties": {
+          "source_file": { "type": "string", "minLength": 1, "maxLength": 300 },
+          "page": { "type": "integer", "minimum": 1 },
+          "text": { "type": "string" },
+          "status": { "const": "machine_ocr" },
+          "requires_human_review": { "const": true }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,4247 @@
+{
+  "manifest": {
+    "schema_version": 1,
+    "input_revision": "75647a481f21e4f1b4dbfde78d600be7b1206c9f7d18cb60183bdf8c58e68074",
+    "generator": "scripts/generate-formula-safety.mjs",
+    "rules_version": "2026-07-17.1",
+    "disclaimer": "机器召回只用于安排人工药学审核；未命中不代表安全，命中不是毒性结论。"
+  },
+  "records": [
+    {
+      "formula_id": "formula:shanghan_lun:song:SF001",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF003",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF004",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF005",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF006",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "杏仁",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF007",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "杏仁",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF009",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF010",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF021",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "杏仁"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF023",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF025",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF045",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF046",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF047",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF083",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF084",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF112",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF018",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "杏仁",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF019",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "杏仁",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF020",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "半夏",
+        "细辛",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF024",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "杏仁",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF082",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "杏仁",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF102",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF002",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF015",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF016",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "半夏",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF017",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF008",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF073",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF013",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF075",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF076",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF078",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF080",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "杏仁"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF039",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF041",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF042",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF044",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF055",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF056",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF098",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF026",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF028",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF031",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF032",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF077",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF027",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF040",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF065",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF106",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF011",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF014",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF022",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF030",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF095",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF096",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF097",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF105",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF107",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF114",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF038",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF088",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF029",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF070",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF071",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF072",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF033",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF034",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF035",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF036",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF037",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF081",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF057",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF059",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF060",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF061",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF062",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF064",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF069",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF103",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF067",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF068",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF087",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF050",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "杏仁"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF051",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "甘遂"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF052",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF054",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "巴豆"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF043",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "桃仁"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF048",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "桃仁",
+        "虻虫",
+        "水蛭"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF049",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "桃仁",
+        "虻虫",
+        "水蛭"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF012",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF074",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF063",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF089",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF058",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "芫花"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF066",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF079",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF085",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "附子",
+        "细辛",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF086",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "附子",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF090",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF091",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF092",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF093",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF094",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF099",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "附子",
+        "细辛",
+        "蜀椒"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF100",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "细辛"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF101",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "细辛"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF113",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "细辛"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF104",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF108",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF109",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF110",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF111",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:song:SF053",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:song",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF010",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF026",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF047",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "细辛"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF048",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "细辛"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF049",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF050",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF069",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF082",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF083",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF084",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF085",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF086",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF095",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "杏仁"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF097",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF099",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF119",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF120",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF121",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF132",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF162",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF168",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF169",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF176",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF211",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "乌头"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF225",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF226",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子",
+        "细辛"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF246",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF247",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF272",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF273",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF291",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF295",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF300",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF001",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "杏仁",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF054",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏",
+        "细辛",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF094",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "杏仁",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF098",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "杏仁",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF158",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "杏仁",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF196",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF052",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF056",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "杏仁",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF057",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "杏仁",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF074",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF091",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF092",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF093",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF179",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子",
+        "细辛",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF253",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏",
+        "细辛",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF255",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏",
+        "杏仁",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF270",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF274",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "乌头",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF298",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF002",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF029",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF032",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF036",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF040",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF242",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF243",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF003",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF004",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF005",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF116",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "桃仁"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF154",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF156",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "杏仁"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF006",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF007",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF015",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF067",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF073",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF076",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF115",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF117",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF138",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF167",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF177",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF191",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF216",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF245",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF020",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF055",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF079",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF100",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF103",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF106",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF152",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF037",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF053",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF102",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF114",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF146",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF165",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "蜀椒"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF175",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF220",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF221",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF222",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF249",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF077",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF080",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF088",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF096",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF105",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF189",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF190",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF192",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子",
+        "细辛"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF193",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子",
+        "细辛"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF219",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF223",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF224",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF012",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子",
+        "杏仁",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF014",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF060",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF112",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF164",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子",
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF181",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF194",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子",
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF275",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子",
+        "细辛",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF059",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF061",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF104",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF019",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF028",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF064",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF107",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF108",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF109",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF110",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF111",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF157",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF159",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF042",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF078",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF139",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF141",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF142",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF143",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF145",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF150",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF197",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF283",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF008",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF009",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子",
+        "细辛"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF016",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF017",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF018",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF021",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF022",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "杏仁"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF027",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF039",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF043",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF045",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF046",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF065",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF068",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF090",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF148",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF149",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF207",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF133",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "杏仁"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF134",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF135",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF122",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "桃仁",
+        "水蛭"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF123",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "桃仁",
+        "水蛭"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF125",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "桃仁"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF127",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏",
+        "桃仁"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF130",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "桃仁"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF087",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF151",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF231",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF297",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF144",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF183",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF140",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF147",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF124",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF180",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF184",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF185",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF186",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF187",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF011",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子",
+        "细辛",
+        "蜀椒"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF182",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "细辛"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF199",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF200",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF311",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF031",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF228",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF229",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF136",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "杏仁",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF013",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF023",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF024",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF025",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF030",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF033",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF034",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF035",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF038",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF041",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF044",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF051",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF058",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF062",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "杏仁"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF063",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF066",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF070",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF071",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF072",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF075",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF081",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF089",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF101",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF113",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF118",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF126",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF128",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF129",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF131",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF137",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "巴豆"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF153",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF155",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF160",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF161",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF163",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF166",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子",
+        "细辛"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF170",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF171",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF172",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF173",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF174",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF178",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF188",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF195",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF198",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF201",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF202",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF203",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF204",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF205",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF206",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF208",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF209",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "乌头"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF210",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF212",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF213",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF214",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF215",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "杏仁",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF217",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF218",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF227",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF230",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF232",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF233",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF234",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF235",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF236",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF237",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "雄黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF238",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF239",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "雄黄",
+        "蜀椒"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF240",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF241",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF244",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF248",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF250",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF251",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "杏仁",
+        "桃仁",
+        "水蛭"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF252",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF254",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF256",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF257",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF258",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF259",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF260",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF261",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "甘遂",
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF262",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF263",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF264",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF265",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF266",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF267",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF268",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF269",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF271",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF276",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF277",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF278",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF279",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF280",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "桃仁"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF281",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF282",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF284",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "蜀椒"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF285",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF286",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF287",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF288",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "桃仁"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF289",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF290",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF292",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "杏仁"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF293",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF294",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF296",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子",
+        "乌头",
+        "蜀椒"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF299",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "附子",
+        "巴豆"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF301",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF302",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF303",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF304",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF305",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF306",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF307",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF308",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF309",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF310",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF312",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF313",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF314",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF315",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF316",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF317",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF318",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF319",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "甘遂"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF320",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [
+        "杏仁"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF321",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:guilin:GF322",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:guilin",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF001",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF003",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF004",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF005",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF008",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF016",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "杏仁"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF018",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF013",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "杏仁",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF014",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "杏仁",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF015",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "半夏",
+        "细辛",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF065",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "杏仁",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF002",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF010",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF011",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "半夏",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF012",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF051",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF058",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF024",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF062",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF063",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF032",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF034",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF042",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF043",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF019",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF021",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF025",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF080",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF020",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF033",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF049",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF009",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF031",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF076",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF077",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF079",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF071",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF084",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "细辛"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF022",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF057",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF026",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF027",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF028",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF029",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF030",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF064",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF044",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF045",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF046",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF054",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF086",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF052",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF053",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF070",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF039",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "甘遂"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF040",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "杏仁"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF037",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "桃仁",
+        "水蛭"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF059",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF048",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF047",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF072",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF073",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF068",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "附子",
+        "细辛",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF069",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "附子",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF074",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF082",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "附子",
+        "细辛"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF088",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF089",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF006",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "杏仁",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF007",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF017",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "杏仁",
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF023",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF035",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF036",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF038",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "桃仁",
+        "水蛭"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF041",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "巴豆"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF050",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF055",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF056",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF060",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF061",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF066",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF067",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF075",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "半夏"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF078",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF081",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF083",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "细辛"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF085",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "麻黄"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    },
+    {
+      "formula_id": "formula:shanghan_lun:kangping:KF087",
+      "work_id": "shanghan_lun",
+      "edition_id": "shanghan_lun:kangping",
+      "safety_review_terms": [
+        "附子"
+      ],
+      "safety_review_status": "machine_screened_pending_expert_review"
+    }
+  ]
+}

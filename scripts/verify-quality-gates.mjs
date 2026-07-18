@@ -6,13 +6,19 @@ import { resolve } from "node:path";
 const imported = JSON.parse(await readFile(resolve("data/imported/liwengtang-shanghan.json"), "utf8"));
 const formulas = JSON.parse(await readFile(resolve("data/imported/formula-variants.json"), "utf8"));
 const golden = JSON.parse(await readFile(resolve("data/review/golden-candidates.json"), "utf8"));
+const formulaSafety = JSON.parse(await readFile(resolve("data/imported/formula-safety.json"), "utf8"));
 const errors = [];
 
 if (golden.candidates.length !== 50) errors.push(`黄金样本候选应为50条，实际${golden.candidates.length}`);
 if (golden.input_revision !== imported.manifest.source_sha256) errors.push("黄金样本修订与导入数据不一致");
+const variants = JSON.parse(await readFile(resolve("data/imported/liwengtang-variants.json"), "utf8"));
+if (golden.variant_revision !== variants.manifest?.variant_revision) errors.push("黄金样本与异文算法修订不一致");
 if (formulas.comparisons.some((item) => !Array.isArray(item.safety_review_terms) || item.safety_review_status !== "machine_screened_pending_expert_review")) {
   errors.push("方剂安全扫描字段不完整");
 }
+if (formulaSafety.manifest?.input_revision !== imported.manifest.source_sha256) errors.push("方剂安全扫描修订与导入数据不一致");
+if (formulaSafety.records?.length !== imported.formulas.length || new Set(formulaSafety.records?.map((item) => item.formula_id)).size !== imported.formulas.length) errors.push("方剂安全扫描未唯一覆盖全部方剂");
+if (formulaSafety.records?.some((item) => item.safety_review_status !== "machine_screened_pending_expert_review" || !Array.isArray(item.safety_review_terms))) errors.push("方剂安全扫描记录不完整");
 for (const path of ["docs/site/index.html", "docs/site/report.html", "docs/site/formulas.html"]) {
   const html = await readFile(resolve(path), "utf8");
   if (/<script(?![^>]*\bsrc=)[^>]*>/iu.test(html)) errors.push(`${path} 存在内联脚本`);

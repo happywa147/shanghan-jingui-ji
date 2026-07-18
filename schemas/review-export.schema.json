@@ -8,28 +8,48 @@
   "properties": {
     "schema_version": { "const": 2 },
     "exported_at": { "type": "string", "format": "date-time" },
-    "input_revision": { "type": "string", "minLength": 1 },
+    "input_revision": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
     "reviewer": {
       "type": "object",
       "additionalProperties": false,
       "required": ["id", "role", "identity_verified"],
       "properties": {
-        "id": { "type": "string", "minLength": 1 },
+        "id": { "type": "string", "minLength": 1, "maxLength": 200 },
         "role": { "type": "string", "enum": ["first_review", "second_review", "adjudicator"] },
         "identity_verified": { "const": false }
       }
     },
     "reviews": {
       "type": "object",
+      "maxProperties": 2000,
       "additionalProperties": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["status", "note", "updated_at"],
+        "required": ["status", "note", "updated_at", "evidence_refs"],
         "properties": {
           "status": { "type": "string", "enum": ["unreviewed", "confirmed", "rejected", "needs_work"] },
-          "note": { "type": "string" },
-          "updated_at": { "type": "string", "format": "date-time" }
-        }
+          "note": { "type": "string", "maxLength": 4000 },
+          "updated_at": { "type": "string", "format": "date-time" },
+          "evidence_refs": {
+            "type": "array",
+            "maxItems": 20,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["source_id", "locator"],
+              "properties": {
+                "source_id": { "type": "string", "minLength": 1, "maxLength": 300 },
+                "locator": { "type": "string", "minLength": 1, "maxLength": 300 },
+                "url": { "type": "string", "format": "uri", "maxLength": 2000 },
+                "quote": { "type": "string", "maxLength": 1000 }
+              }
+            }
+          }
+        },
+        "allOf": [{
+          "if": { "properties": { "status": { "enum": ["confirmed", "rejected", "needs_work"] } }, "required": ["status"] },
+          "then": { "properties": { "evidence_refs": { "type": "array", "minItems": 1 } } }
+        }]
       }
     }
   }
