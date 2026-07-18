@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-07-18",
+  "policy": "原始影像保存在data/raw且不提交Git；本文件只提交可复核元数据。页码均为PDF物理页码，闭区间。",
+  "editions": [
+    {
+      "edition_id": "jingui:sibu-yuqiao",
+      "status": "local_verified",
+      "license": "Public Domain Mark 1.0 / PD-scan",
+      "source_manifest": "data/sources/jingui-sibu.json",
+      "files": [
+        {"local_path":"data/raw/jingui-sibu-1.djvu","pages":128,"bytes":5056142,"sha256":"3bb8baf04af7b82efb25ec312b52a729c0e04726bef59044fe075ae255b9ea31"},
+        {"local_path":"data/raw/jingui-sibu-2.djvu","pages":136,"bytes":5673658,"sha256":"a96536bd0c149d60d2da36ea7ca80d06127f117875704eda9392735c2c4ea9b6"}
+      ],
+      "page_map": [{"label":"全书（两册）","file_pages":"1-128；1-136","verification":"manifest_and_local_hash"}]
+    },
+    {
+      "edition_id": "jingui:zhaokaimei-1599",
+      "status": "local_verified",
+      "license": "PD-old / PD-scan (PD-old-70)",
+      "source_page": "https://commons.wikimedia.org/wiki/File:ZHSY100537_仲景全書_漢張機撰_明萬曆二十七年趙開美刻本.pdf",
+      "permalink": "https://commons.wikimedia.org/w/index.php?title=File:ZHSY100537_仲景全書_漢張機撰_明萬曆二十七年趙開美刻本.pdf&oldid=698506703",
+      "files": [{"local_path":"data/raw/zhaokaimei-zhongjing-quanshu.pdf","pages":617,"bytes":222463241,"sha256":"3e1138c8efff9348500a5157aedd505fa82723484d6c08aa5a51e78ff69c8916"}],
+      "page_map": [{"label":"《金匱要略方論》三卷（含三册封面）","file_pages":"497-617","verification":"visual_title_and_fascicle_covers"}]
+    },
+    {
+      "edition_id": "jingui:wuqian-1395",
+      "status": "local_verified",
+      "license": "PD-old / PD-scan",
+      "source_page": "https://commons.wikimedia.org/wiki/File:ZHSY100392_金匱要略方_漢張機撰，晉王叔和輯，宋林億詮次_明洪武二十八年吳遷抄本.pdf",
+      "permalink": "https://commons.wikimedia.org/w/index.php?title=File:ZHSY100392_金匱要略方_漢張機撰，晉王叔和輯，宋林億詮次_明洪武二十八年吳遷抄本.pdf&oldid=1015762983",
+      "files": [{"local_path":"data/raw/wuqian-jingui.pdf","pages":84,"bytes":25158060,"sha256":"56e143cc86cec4353473b3c6ec5b1ab81c5fbd8c580c56eaf0ead2fe3556ed04"}],
+      "page_map": [{"label":"三卷合册","file_pages":"1-84","verification":"commons_metadata_and_local_pdfinfo"}]
+    },
+    {
+      "edition_id": "shanghan:zhaokaimei-1599",
+      "status": "local_verified",
+      "license": "PD-old / PD-scan (PD-old-70)",
+      "shared_file_with": "jingui:zhaokaimei-1599",
+      "source_page": "https://commons.wikimedia.org/wiki/File:ZHSY100537_仲景全書_漢張機撰_明萬曆二十七年趙開美刻本.pdf",
+      "files": [{"local_path":"data/raw/zhaokaimei-zhongjing-quanshu.pdf","pages":617,"bytes":222463241,"sha256":"3e1138c8efff9348500a5157aedd505fa82723484d6c08aa5a51e78ff69c8916"}],
+      "page_map": [{"label":"《注解傷寒論》部分（成无己注，赵开美刻）","file_pages":"260-496","text_starts_at":276,"verification":"visual_title_and_fascicle_covers","warning":"该合集前部另含伤寒相关著作；本范围不得与《金匱》497-617混切"}]
+    },
+    {
+      "edition_id": "shanghan:kangping",
+      "status": "local_verified",
+      "license": "PD China / PD-scan (PD-China)",
+      "source_page": "https://commons.wikimedia.org/wiki/File:NLC416-08jh015938-38923_古本康平傷寒論.pdf",
+      "permalink": "https://commons.wikimedia.org/w/index.php?title=File:NLC416-08jh015938-38923_古本康平傷寒論.pdf&oldid=773402182",
+      "files": [{"local_path":"data/raw/kangping-shanghan.pdf","pages":150,"bytes":4289561,"sha256":"82d3b51cb99898959dd9acc99cec5321e8f8a08cafc81d4f5140b7be267e0804"}],
+      "page_map": [{"label":"全书","file_pages":"1-150","verification":"commons_metadata_and_local_pdfinfo"}],
+      "warning": "1947年余云岫、范行准鉴定本；须保留经文、注文的字距和层级，水印不影响来源绑定。"
+    },
+    {
+      "edition_id": "shanghan:guilin-baiyunge",
+      "status": "provenance_blocked",
+      "license": "原作PD-old；维基转录CC BY-SA 4.0",
+      "source_page": "https://zh.wikisource.org/wiki/傷寒雜病論桂林古本中醫整合研究小組版/序",
+      "files": [],
+      "page_map": [],
+      "blocking_reason": "整理者明确自述未取得原抄本比对；当前只有二次整理转录，不能晋升影像级底本。"
+    }
+  ]
+}

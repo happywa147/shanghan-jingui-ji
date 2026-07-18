@@ -9,6 +9,7 @@ const data = JSON.parse(await readFile(resolve(process.argv[2] ?? "data/imported
 const variants = JSON.parse(await readFile(resolve(process.argv[3] ?? "data/imported/liwengtang-variants.json"), "utf8"));
 const goldenCandidates = JSON.parse(await readFile(resolve(process.argv[4] ?? "data/review/golden-candidates.json"), "utf8"));
 const formulaSafety = JSON.parse(await readFile(resolve(process.argv[5] ?? "data/imported/formula-safety.json"), "utf8"));
+const collationPreflight = JSON.parse(await readFile(resolve(process.argv[6] ?? "data/review/collation-preflight.json"), "utf8"));
 const ajv = new Ajv({ allErrors: true, strict: true });
 addFormats(ajv);
 
@@ -36,6 +37,13 @@ const validateGoldenPackage = ajv.compile(goldenPackageSchema);
 if (!validateGoldenPackage(goldenCandidates)) {
   console.error("黄金样本候选包根结构校验失败");
   console.error(ajv.errorsText(validateGoldenPackage.errors, { separator: "\n" }));
+  process.exit(1);
+}
+const collationPreflightSchema = JSON.parse(await readFile(resolve("schemas/collation-preflight.schema.json"), "utf8"));
+const validateCollationPreflight = ajv.compile(collationPreflightSchema);
+if (!validateCollationPreflight(collationPreflight)) {
+  console.error("六主本对校预审包根结构校验失败");
+  console.error(ajv.errorsText(validateCollationPreflight.errors, { separator: "\n" }));
   process.exit(1);
 }
 const packageSchema = JSON.parse(await readFile(resolve("schemas/import-package.schema.json"), "utf8"));

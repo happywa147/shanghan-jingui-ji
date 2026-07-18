@@ -83,6 +83,19 @@
         }
       ],
       "public_artifact_paths": []
+    },
+    {
+      "id": "wikimedia-edition-metadata",
+      "description": "两书版本目录及Wikimedia公开来源元数据",
+      "rights_status": "cleared",
+      "evidence_refs": [
+        {
+          "path": "data/sources/edition-catalog.json",
+          "sha256": "44f97ec555a08d867e0b2c58db72e46780eb5b597bd0453b79300642cba80276",
+          "approval_status": "approved"
+        }
+      ],
+      "public_artifact_paths": ["docs/site/editions.html"]
     }
   ]
 }

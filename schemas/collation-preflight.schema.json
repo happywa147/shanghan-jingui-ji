@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shanghan-jingui-ji.local/schemas/collation-preflight.schema.json",
+  "title": "六主本对校预审包",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "generated_at", "generator", "policy", "editions", "anchors", "structure_candidates", "golden_remediation"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "generator": { "const": "scripts/generate-collation-preflight.mjs" },
+    "policy": { "type": "string", "minLength": 1 },
+    "editions": {
+      "type": "array", "minItems": 6, "maxItems": 6,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["edition_id", "work_id", "ocr_layer", "structure_layer", "blocking_reasons"],
+        "properties": {
+          "edition_id": { "type": "string", "minLength": 1 },
+          "work_id": { "enum": ["shanghan_lun", "jingui_yaolue"] },
+          "ocr_layer": {
+            "type": "object", "additionalProperties": false,
+            "required": ["state", "source_binding_required", "page_fields", "immutable_machine_output"],
+            "properties": {
+              "state": { "enum": ["ready_for_ocr", "blocked", "transcription_only"] },
+              "source_binding_required": { "const": true },
+              "page_fields": { "const": ["source_sha256", "page", "folio", "text", "engine", "engine_version", "requires_human_review"] },
+              "immutable_machine_output": { "const": true }
+            }
+          },
+          "structure_layer": {
+            "type": "object", "additionalProperties": false,
+            "required": ["levels", "text_layers", "state"],
+            "properties": {
+              "levels": { "const": ["chapter", "text_unit", "formula"] },
+              "text_layers": { "const": ["base_text", "commentary", "editorial_note"] },
+              "state": { "enum": ["candidate", "blocked"] }
+            }
+          },
+          "blocking_reasons": { "type": "array", "items": { "type": "string", "minLength": 1 } }
+        }
+      }
+    },
+    "anchors": {
+      "type": "array", "minItems": 100, "maxItems": 100,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["anchor_id", "work_id", "edition_id", "source_locator", "text_excerpt", "candidate_kind", "state", "blocking_reasons", "requires_human_review"],
+        "properties": {
+          "anchor_id": { "type": "string", "pattern": "^anchor:" },
+          "work_id": { "enum": ["shanghan_lun", "jingui_yaolue"] },
+          "edition_id": { "type": "string", "minLength": 1 },
+          "source_locator": { "type": "string", "minLength": 1 },
+          "text_excerpt": { "type": "string", "minLength": 1, "maxLength": 300 },
+          "candidate_kind": { "enum": ["chapter", "text_unit", "formula"] },
+          "state": { "enum": ["candidate_unverified", "blocked_missing_scan_locator"] },
+          "blocking_reasons": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+          "requires_human_review": { "const": true }
+        }
+      }
+    },
+    "structure_candidates": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["candidate_id", "work_id", "source_locator", "level", "text_layer", "evidence", "requires_human_review"],
+        "properties": {
+          "candidate_id": { "type": "string", "pattern": "^structure:" },
+          "work_id": { "enum": ["shanghan_lun", "jingui_yaolue"] },
+          "source_locator": { "type": "string", "minLength": 1 },
+          "level": { "enum": ["chapter", "text_unit", "formula"] },
+          "text_layer": { "enum": ["base_text", "commentary", "editorial_note", "undetermined"] },
+          "evidence": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+          "requires_human_review": { "const": true }
+        }
+      }
+    },
+    "golden_remediation": {
+      "type": "array", "minItems": 50, "maxItems": 50,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["alignment_id", "ai_precheck_only", "risk_flags", "recommendations", "must_not_promote_before_human_review"],
+        "properties": {
+          "alignment_id": { "type": "string", "minLength": 1 },
+          "ai_precheck_only": { "const": true },
+          "risk_flags": { "type": "array", "items": { "enum": ["exact_label_risk", "split_merge_risk", "missing_glyph_risk", "commentary_mixing_risk", "scan_locator_missing"] } },
+          "recommendations": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+          "must_not_promote_before_human_review": { "const": true }
+        }
+      }
+    }
+  }
+}
