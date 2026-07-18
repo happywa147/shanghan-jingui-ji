@@ -2,6 +2,8 @@
   "schema_version": 1,
   "input_revision": "75647a481f21e4f1b4dbfde78d600be7b1206c9f7d18cb60183bdf8c58e68074",
   "variant_revision": "7a726ed7e81df1eeb83cd008b5c02e9b7f54038d714e6fa7f093419e1c6249e7",
+  "generator": "scripts/generate-golden-candidates.mjs",
+  "algorithm_version": "2",
   "promotion_rule": "双审一致，或双审不一致后完成裁决，才可改为 golden",
   "candidates": [
     {
@@ -17,6 +19,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -32,6 +35,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -47,6 +51,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -62,6 +67,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -77,6 +83,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -92,6 +99,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -107,6 +115,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -122,6 +131,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -137,6 +147,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -152,6 +163,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -167,6 +179,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -182,6 +195,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -197,6 +211,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -212,6 +227,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -227,6 +243,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -242,6 +259,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -257,6 +275,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -272,6 +291,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -287,6 +307,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -302,6 +323,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -317,6 +339,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -332,6 +355,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -347,6 +371,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -362,6 +387,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -377,6 +403,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -392,6 +419,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -407,6 +435,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -422,6 +451,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -437,6 +467,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -452,6 +483,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -467,6 +499,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -482,6 +515,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -497,6 +531,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -512,6 +547,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -527,6 +563,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -542,6 +579,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -557,6 +595,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -572,6 +611,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -587,6 +627,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -602,6 +643,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -617,6 +659,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -632,6 +675,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -647,6 +691,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -662,6 +707,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -677,6 +723,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -692,6 +739,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -707,6 +755,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -722,6 +771,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -737,6 +787,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     },
     {
@@ -752,6 +803,7 @@
       "first_review": null,
       "second_review": null,
       "adjudication": null,
+      "reviewed_relation_type": null,
       "golden_status": "candidate"
     }
   ]

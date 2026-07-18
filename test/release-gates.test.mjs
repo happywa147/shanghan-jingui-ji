@@ -47,8 +47,8 @@ test("公开目录中的新增文件不得绕过权利清单", () => {
   assert.match(uncoveredPublicArtifactErrors(manifest, ["docs/site/index.html", "docs/site/new.js"])[0], /new\.js/);
 });
 
-const review = (reviewer_id) => ({ reviewer_id, decision: "accept", proposed_relation_type: "approximate" });
-const golden = { candidates: [{ alignment_id: "a1", first_review: review("first"), second_review: review("second"), golden_status: "golden" }] };
+const review = (reviewer_id) => ({ reviewer_id, decision: "accept", proposed_relation_type: "approximate", evidence_refs: ["source:page-1"], reviewed_at: "2026-07-18T00:00:00Z" });
+const golden = { candidates: [{ alignment_id: "a1", first_review: review("first"), second_review: review("second"), reviewed_relation_type: "approximate", golden_status: "golden" }] };
 const registry = (firstActive = true) => ({ reviewers: [
   { id: "first", active: firstActive, verified_at: "2026-07-18T00:00:00Z", roles: ["first_review"], conflict_alignment_ids: [] },
   { id: "second", active: true, verified_at: "2026-07-18T00:00:00Z", roles: ["second_review"], conflict_alignment_ids: [] }

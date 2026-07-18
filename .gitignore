@@ -15,4 +15,5 @@ data/raw/*
 data/imported/*
 !data/imported/.gitkeep
 !data/imported/formula-safety.json
+!data/imported/jingui-wikisource.json
 !data/review/

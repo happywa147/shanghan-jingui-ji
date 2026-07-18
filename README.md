@@ -59,6 +59,8 @@ npm run verify:import
 
 运行 `npm run setup:sources` 可按来源清单下载《金匮要略》影像；已有文件哈希正确时不会重复下载。随后执行 `npm run verify:sources` 校验。校验命令需要 `djvulibre`（macOS 可用 `brew install djvulibre`），核对文件尺寸、SHA-256 和 DjVu 页数。
 
+运行 `npm run import:jingui:wikisource` 可按固定修订号导入维基文库《金匱要略方論（四部叢刊本）》的序、目录及三卷转录。该数据层保留来源修订、永久链接、渲染哈希和图片字标记，状态始终为 `unreviewed_transcription`；维基文库转录不能替代本地影像逐页校勘。
+
 可选 OCR 流水线 `scripts/ocr-djvu.mjs` 需要 `tesseract` 与 `chi_tra_vert` 语言模型。OCR 结果始终标记为 `machine_ocr`；未通过人工逐页核对前，不得导入为校定原文。
 
 运行 `npm run generate:variants && npm run generate:report` 后打开 `docs/site/report.html`。校勘状态与备注保存在浏览器本地，导出时必须填写审核者标识与角色；导出结构由 `schemas/review-export.schema.json` 约束。
