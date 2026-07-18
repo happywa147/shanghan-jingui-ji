@@ -16,6 +16,7 @@ for (const schemaPath of ["schemas/text-unit.schema.json", "schemas/alignment.sc
   ajv.addSchema(JSON.parse(await readFile(resolve(schemaPath), "utf8")));
 }
 ajv.addSchema(JSON.parse(await readFile(resolve("schemas/variant.schema.json"), "utf8")));
+ajv.addSchema(JSON.parse(await readFile(resolve("schemas/golden-candidate.schema.json"), "utf8")));
 const variantPackageSchema = JSON.parse(await readFile(resolve("schemas/variant-package.schema.json"), "utf8"));
 const validateVariantPackage = ajv.compile(variantPackageSchema);
 if (!validateVariantPackage(variants)) {
@@ -28,6 +29,13 @@ const validateFormulaSafety = ajv.compile(formulaSafetySchema);
 if (!validateFormulaSafety(formulaSafety)) {
   console.error("方剂安全数据包根结构校验失败");
   console.error(ajv.errorsText(validateFormulaSafety.errors, { separator: "\n" }));
+  process.exit(1);
+}
+const goldenPackageSchema = JSON.parse(await readFile(resolve("schemas/golden-package.schema.json"), "utf8"));
+const validateGoldenPackage = ajv.compile(goldenPackageSchema);
+if (!validateGoldenPackage(goldenCandidates)) {
+  console.error("黄金样本候选包根结构校验失败");
+  console.error(ajv.errorsText(validateGoldenPackage.errors, { separator: "\n" }));
   process.exit(1);
 }
 const packageSchema = JSON.parse(await readFile(resolve("schemas/import-package.schema.json"), "utf8"));

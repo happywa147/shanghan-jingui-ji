@@ -13,8 +13,14 @@
     {
       "id": "liwengtang-shanghan",
       "description": "笠翁堂《伤寒论》整理数据",
-      "rights_status": "NOASSERTION",
-      "evidence_refs": [],
+      "rights_status": "cleared",
+      "evidence_refs": [
+        {
+          "path": "OWNER_AUTHORIZATION.md",
+          "sha256": "2e2ed81ff375323002c4504b3b931704cefaf3ce795a6793ca5e3b00330daeb1",
+          "approval_status": "approved"
+        }
+      ],
       "public_artifact_paths": [
         "docs/site/index.html",
         "docs/site/report.html",
@@ -64,6 +70,19 @@
         "docs/site/formulas.css",
         "docs/site/formulas.js"
       ]
+    },
+    {
+      "id": "wikisource-jingui-sibu",
+      "description": "维基文库《金匱要略方論（四部叢刊本）》固定修订转录",
+      "rights_status": "cleared",
+      "evidence_refs": [
+        {
+          "path": "data/sources/jingui-wikisource.json",
+          "sha256": "8298b776af04c2913ec79d5fd8a8e3364f2265c725a5afb26f8bf3f4efcb300e",
+          "approval_status": "approved"
+        }
+      ],
+      "public_artifact_paths": []
     }
   ]
 }

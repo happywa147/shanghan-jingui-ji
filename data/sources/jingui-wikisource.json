@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "source_id": "wikisource:jingui-sibu",
+  "work_id": "jingui_yaolue",
+  "edition_id": "jingui_yaolue:sibu_yuqiao",
+  "title": "金匱要略方論（四部叢刊本）",
+  "edition_description": "景上海涵芬樓藏明嘉靖俞橋刊本",
+  "source_root": "https://zh.wikisource.org/wiki/金匱要略方論_(四部叢刊本)",
+  "retrieved_at": "2026-07-18",
+  "license": {
+    "original_work": "PD-old",
+    "wikisource_contributions": "CC BY-SA 4.0",
+    "terms": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use"
+  },
+  "quality": {
+    "status": "unreviewed_transcription",
+    "warning": "维基文库转录可供检索和对照，不得替代逐页影像校勘。"
+  },
+  "pages": [
+    { "part": "序", "title": "金匱要略方論 (四部叢刊本)/序", "revision_id": 2675184 },
+    { "part": "目録", "title": "金匱要略方論 (四部叢刊本)/目録", "revision_id": 2675185 },
+    { "part": "卷上", "title": "金匱要略方論 (四部叢刊本)/卷上", "revision_id": 2675186 },
+    { "part": "卷中", "title": "金匱要略方論 (四部叢刊本)/卷中", "revision_id": 2675187 },
+    { "part": "卷下", "title": "金匱要略方論 (四部叢刊本)/卷下", "revision_id": 2675188 }
+  ]
+}

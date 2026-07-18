@@ -34,7 +34,7 @@ const checks = [
   ["OCR绑定源哈希、工具版本及完整页集", 7, unitPassed && (await text("scripts/verify-ocr.mjs")).includes("source_sha256") && (await text("scripts/ocr-djvu.mjs")).includes("engine_version") && (await text("scripts/ocr-djvu.mjs")).includes("renderer_version")],
   ["525方全部安全扫描并逐条警示", 10, unitPassed && formulaSafety.manifest?.input_revision === imported.manifest.source_sha256 && formulaSafety.records?.length === 525 && new Set(formulaSafety.records.map((item) => item.formula_id)).size === 525 && formulaHtml.reduce((sum, html) => sum + (html.match(/class="item-warning"/g) ?? []).length, 0) === 525],
   ["机器权利清单与公开发布硬门禁", 8, unitPassed && await exists("rights-manifest.json") && workflow.includes("publication-rights") && workflow.includes("verify:release-rights")],
-  ["发布时按当前注册表重验黄金样本", 7, unitPassed && packageData.scripts["check:engineering"]?.includes("verify:golden-release")],
+  ["发布时按当前注册表重验黄金样本", 7, unitPassed && packageData.scripts["check:release"]?.includes("verify:golden-release") && workflow.includes("公开发布真人审核与权利硬门禁")],
   ["审核输入Schema、限额、证据与原子写", 7, unitPassed && importReviews.includes("MAX_REVIEW_BYTES") && importReviews.includes("rename") && importReviews.includes("evidence_refs")],
   ["严格CSP且无内联脚本样式", 6, htmlContents.every((html) => html.includes("default-src 'none'") && !/<style\b|<script(?![^>]*\bsrc=)/iu.test(html))],
   ["真实静态分片与页面预算", 8, reportPages.length === 16 && formulaPages.length === 11 && (await Promise.all([...reportPages, ...formulaPages].map((file) => stat(resolve("docs/site", file))))).every((item) => item.size <= 300_000)],
@@ -62,9 +62,8 @@ const report = {
   passed: score >= 90,
   checks,
   external_blockers: [
-    "笠翁堂整理数据书面再分发授权或移除公开派生内容",
     "真实版本学与药学专家资格、利益冲突和双审签核",
-    "《金匮要略》逐页人工核对与正式正文",
+    "《金匮要略》维基转录与影像逐页人工核对",
     "多人治理及连续运行证据"
   ]
 };

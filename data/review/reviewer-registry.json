@@ -1,5 +1,6 @@
 {
   "schema_version": 1,
   "privacy_note": "仅保存公开审核标识和资格验证状态，不保存证件号、联系方式等敏感信息。",
+  "release_policy": { "minimum_golden": 1 },
   "reviewers": []
 }

@@ -14,6 +14,7 @@ for (const candidate of data.candidates) {
   const result = evaluateGoldenCandidate(candidate, reviewerRegistry);
   candidate.review_state = result.state;
   candidate.golden_status = result.status;
+  candidate.reviewed_relation_type = result.reviewed_relation_type ?? null;
 }
 await writeFile(resolve(outputPath), `${JSON.stringify(data, null, 2)}\n`);
 const counts = Object.groupBy(data.candidates, (item) => item.golden_status);

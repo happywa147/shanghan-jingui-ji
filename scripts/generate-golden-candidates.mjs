@@ -66,6 +66,7 @@ const candidates = selected.map(({ alignment, variant, edition, selection_reason
   first_review: existingById.get(alignment.id)?.first_review ?? null,
   second_review: existingById.get(alignment.id)?.second_review ?? null,
   adjudication: existingById.get(alignment.id)?.adjudication ?? null,
+  reviewed_relation_type: existingById.get(alignment.id)?.reviewed_relation_type ?? null,
   golden_status: existingById.get(alignment.id)?.golden_status ?? "candidate"
 }));
 
@@ -74,6 +75,8 @@ await writeFile(resolve(outputPath), `${JSON.stringify({
   schema_version: 1,
   input_revision: imported.manifest.source_sha256,
   variant_revision: variantData.manifest.variant_revision,
+  generator: "scripts/generate-golden-candidates.mjs",
+  algorithm_version: "2",
   promotion_rule: "双审一致，或双审不一致后完成裁决，才可改为 golden",
   candidates
 }, null, 2)}\n`);

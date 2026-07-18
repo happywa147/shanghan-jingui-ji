@@ -19,11 +19,12 @@
     }
   },
   "additionalProperties": false,
-  "required": ["alignment_id", "target_edition", "relation_type", "machine_confidence", "difference_ratio", "source_text", "target_text", "selection_reason", "review_state", "first_review", "second_review", "adjudication", "golden_status"],
+  "required": ["alignment_id", "target_edition", "relation_type", "reviewed_relation_type", "machine_confidence", "difference_ratio", "source_text", "target_text", "selection_reason", "review_state", "first_review", "second_review", "adjudication", "golden_status"],
   "properties": {
     "alignment_id": { "type": "string", "minLength": 1 },
     "target_edition": { "type": "string", "enum": ["guilin", "kangping"] },
     "relation_type": { "type": "string", "enum": ["exact", "approximate", "split", "merge", "related", "no_match", "undetermined", "addition", "omission"] },
+    "reviewed_relation_type": { "anyOf": [{ "type": "string", "enum": ["exact", "approximate", "split", "merge", "related", "no_match", "undetermined", "addition", "omission"] }, { "type": "null" }] },
     "machine_confidence": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
     "difference_ratio": { "type": "number", "minimum": 0, "maximum": 1 },
     "source_text": { "type": "string" },
