@@ -1,4 +1,11 @@
 {
+  "manifest": {
+    "input_revision": "75647a481f21e4f1b4dbfde78d600be7b1206c9f7d18cb60183bdf8c58e68074",
+    "generator": "scripts/generate-variants.mjs",
+    "algorithm_version": "lcs-code-point-v1",
+    "normalization": "none-code-point-preserving",
+    "variant_revision": "7a726ed7e81df1eeb83cd008b5c02e9b7f54038d714e6fa7f093419e1c6249e7"
+  },
   "variants": [
     {
       "alignment_id": "alignment:shanghan_lun:song:S0004:kangping:K0001",

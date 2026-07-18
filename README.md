@@ -40,7 +40,7 @@ schemas/    机器可校验的数据规范
 
 已完成笠翁堂《伤寒论》宋本、桂林古本、康平本的只读导入、Schema 校验、拆合对应、字符差异候选和方剂字段对照。所有对照仍属待审候选。
 
-当前版本：`0.4.0`。执行 `npm run check` 可完成测试、导入、来源验证、条文异文、黄金样本候选队列、方剂差异分类、质量报告和两套浏览报告的端到端验收。
+当前版本：`0.5.0`。执行 `npm run check:engineering:full` 可完成数据生成、44项单元门禁、三浏览器/移动端E2E和工程证据评分；执行 `npm run check` 另会核验本地《金匮》原始影像。
 
 ## 本地导入
 
@@ -67,6 +67,6 @@ npm run verify:import
 
 `npm run generate:golden-candidates` 会按合并关系、低信度、高字符差异、无字符差异和版本覆盖生成 50 条复核队列。它们只是候选；初审与复审必须由不同人完成，分歧须由第三人裁决。填入审核后执行 `npm run review:promote-golden`，只有在 `data/review/reviewer-registry.json` 中具有有效身份、对应角色且无该记录利益冲突的审核者才能使记录标记为 `golden`。当前注册表为空，因此 AI 或虚构身份无法晋级任何黄金样本。
 
-CI 使用固定 Node.js 22.18.0 执行 `npm ci && npm run check:release`，随后独立执行供应链漏洞审计和真实浏览器验收；只有同一工作流的全部门禁通过才部署。完整本地验收另执行 `npm run check`，其中包含未入 Git 的金匮 DjVu 影像哈希与页数校验。
+CI 使用固定 Node.js 22.18.0 分开执行工程验证与出版权利放行：工程门禁通过后仍必须通过 `rights-manifest.json` 权利硬门禁，Pages 才能部署。当前笠翁堂来源为 `NOASSERTION`，因此新发布会被诚实阻断，直至取得书面授权或从公开产物移除其派生内容。完整本地验收 `npm run check` 包含未入 Git 的《金匮》DjVu 影像哈希与页数校验。
 
 《金匮要略》目前仅完成两卷共264页影像的来源、文件哈希和页数校验，OCR 与逐页人工核对仍为 pending；网站不得据此宣称两书全文已完成。笠翁堂整理数据的再分发授权状态见 `THIRD_PARTY_NOTICES.md`，不得把公开可访问误解为开放许可。

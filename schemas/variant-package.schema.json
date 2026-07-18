@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shanghan-jingui-ji.local/schemas/variant-package.schema.json",
+  "title": "异文派生数据包",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["manifest", "variants"],
+  "properties": {
+    "manifest": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["input_revision", "generator", "algorithm_version", "normalization", "variant_revision"],
+      "properties": {
+        "input_revision": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "generator": { "const": "scripts/generate-variants.mjs" },
+        "algorithm_version": { "type": "string", "minLength": 1 },
+        "normalization": { "enum": ["none-code-point-preserving"] },
+        "variant_revision": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+      }
+    },
+    "variants": {
+      "type": "array",
+      "items": { "$ref": "https://shanghan-jingui-ji.local/schemas/variant.schema.json" }
+    }
+  }
+}

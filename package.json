@@ -1,6 +1,6 @@
 {
   "name": "shanghan-jingui-ji",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "private": true,
   "engines": {
     "node": ">=22.18.0 <23"
@@ -8,10 +8,13 @@
   "type": "module",
   "scripts": {
     "test": "node --test",
+    "test:evidence": "node scripts/run-unit-tests-with-evidence.mjs",
     "test:e2e": "playwright test",
     "test:e2e:pr": "playwright test --project=chromium --project=webkit",
-    "check:release": "npm test && npm run verify:import && npm run verify:integrity && npm run generate:variants && npm run generate:golden-candidates && npm run validate:schemas && npm run generate:formula-variants && npm run generate:quality && npm run generate:report && npm run generate:formula-report && npm run verify:quality-gates",
-    "check": "npm test && npm run import:liwengtang && npm run verify:import && npm run verify:sources && npm run generate:variants && npm run generate:golden-candidates && npm run validate:schemas && npm run generate:formula-variants && npm run generate:quality && npm run generate:report && npm run generate:formula-report && npm run status",
+    "check:engineering": "npm run test:evidence && npm run verify:import && npm run verify:integrity && npm run generate:variants && npm run generate:golden-candidates && npm run generate:formula-safety && npm run validate:schemas && npm run generate:formula-variants && npm run generate:quality && npm run generate:report && npm run generate:formula-report && npm run verify:quality-gates && npm run verify:golden-release",
+    "check:engineering:full": "npm run check:engineering && npm run test:e2e && npm run verify:engineering-readiness",
+    "check:release": "npm run check:engineering && npm run verify:release-rights",
+    "check": "npm test && npm run import:liwengtang && npm run verify:import && npm run verify:sources && npm run generate:variants && npm run generate:golden-candidates && npm run generate:formula-safety && npm run validate:schemas && npm run generate:formula-variants && npm run generate:quality && npm run generate:report && npm run generate:formula-report && npm run status",
     "setup:sources": "node scripts/download-sources.mjs",
     "status": "node scripts/status.mjs",
     "import:liwengtang": "node scripts/import-liwengtang.mjs ../liwengtang/shanghan_data/shanghan_all.json",
@@ -19,6 +22,9 @@
     "verify:integrity": "node scripts/verify-dataset-integrity.mjs",
     "validate:schemas": "node scripts/validate-schemas.mjs",
     "verify:quality-gates": "node scripts/verify-quality-gates.mjs",
+    "verify:engineering-readiness": "node scripts/generate-engineering-readiness.mjs",
+    "verify:golden-release": "node scripts/verify-golden-release.mjs",
+    "verify:release-rights": "node scripts/verify-release-rights.mjs",
     "verify:sources": "node scripts/verify-sources.mjs",
     "verify:ocr": "node scripts/verify-ocr.mjs data/imported/jingui-sibu-1-ocr.json data/imported/jingui-sibu-2-ocr.json",
     "generate:variants": "node scripts/generate-variants.mjs",
@@ -27,6 +33,7 @@
     "generate:report": "node scripts/generate-report.mjs",
     "generate:quality": "node scripts/generate-quality-report.mjs",
     "generate:formula-variants": "node scripts/generate-formula-variants.mjs",
+    "generate:formula-safety": "node scripts/generate-formula-safety.mjs",
     "generate:formula-report": "node scripts/generate-formula-report.mjs"
   },
   "devDependencies": {

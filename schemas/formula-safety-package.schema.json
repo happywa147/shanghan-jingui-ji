@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shanghan-jingui-ji.local/schemas/formula-safety-package.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["manifest", "records"],
+  "properties": {
+    "manifest": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema_version", "input_revision", "generator", "rules_version", "disclaimer"],
+      "properties": {
+        "schema_version": { "const": 1 },
+        "input_revision": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "generator": { "const": "scripts/generate-formula-safety.mjs" },
+        "rules_version": { "type": "string", "minLength": 1 },
+        "disclaimer": { "type": "string", "minLength": 1 }
+      }
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["formula_id", "work_id", "edition_id", "safety_review_terms", "safety_review_status"],
+        "properties": {
+          "formula_id": { "type": "string", "minLength": 1 },
+          "work_id": { "type": "string", "enum": ["shanghan_lun", "jingui_yaolue"] },
+          "edition_id": { "type": "string", "minLength": 1 },
+          "safety_review_terms": { "type": "array", "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
+          "safety_review_status": { "const": "machine_screened_pending_expert_review" }
+        }
+      }
+    }
+  }
+}

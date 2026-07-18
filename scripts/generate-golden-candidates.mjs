@@ -8,15 +8,19 @@ const variantsPath = process.argv[3] ?? "data/imported/liwengtang-variants.json"
 const outputPath = process.argv[4] ?? "data/review/golden-candidates.json";
 const imported = JSON.parse(await readFile(resolve(importPath), "utf8"));
 const variantData = JSON.parse(await readFile(resolve(variantsPath), "utf8"));
+if (variantData.manifest?.input_revision !== imported.manifest.source_sha256) {
+  throw new Error("异文派生数据与导入数据修订不一致");
+}
 const variantById = new Map(variantData.variants.map((item) => [item.alignment_id, item]));
 let existing = null;
 try { existing = JSON.parse(await readFile(resolve(outputPath), "utf8")); }
 catch (error) { if (error.code !== "ENOENT") throw error; }
-if (existing && existing.input_revision !== imported.manifest.source_sha256 &&
+if (existing && (existing.input_revision !== imported.manifest.source_sha256 || existing.variant_revision !== variantData.manifest.variant_revision) &&
     existing.candidates.some((item) => item.first_review || item.second_review || item.adjudication)) {
-  throw new Error("旧修订已含人工审核，禁止用新数据静默覆盖");
+  throw new Error("旧数据或异文算法修订已含人工审核，禁止静默覆盖");
 }
-const existingById = new Map((existing?.candidates ?? []).map((item) => [item.alignment_id, item]));
+const preserveExisting = existing?.input_revision === imported.manifest.source_sha256 && existing?.variant_revision === variantData.manifest.variant_revision;
+const existingById = new Map((preserveExisting ? existing.candidates : []).map((item) => [item.alignment_id, item]));
 
 const ranked = imported.alignments.map((alignment) => {
   const variant = variantById.get(alignment.id);
@@ -69,6 +73,7 @@ await mkdir(dirname(resolve(outputPath)), { recursive: true });
 await writeFile(resolve(outputPath), `${JSON.stringify({
   schema_version: 1,
   input_revision: imported.manifest.source_sha256,
+  variant_revision: variantData.manifest.variant_revision,
   promotion_rule: "双审一致，或双审不一致后完成裁决，才可改为 golden",
   candidates
 }, null, 2)}\n`);
